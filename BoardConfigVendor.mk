@@ -657,81 +657,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/asrenhance/parameters_nuance_16k_NR.bsd:system/etc/asrenhance/parameters_nuance_16k_NR.bsd \
 	$(LOCAL_PATH)/proprietary/system/etc/tracklogconfig/soctracklog.config:system/etc/tracklogconfig/soctracklog.config \
 	$(LOCAL_PATH)/proprietary/system/etc/tracklogconfig/codectracklog.config:system/etc/tracklogconfig/codectracklog.config \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/am.odex:system/etc/oat/arm/am.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.google.android.media.effects.odex:system/etc/oat/arm/com.google.android.media.effects.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/ime.odex:system/etc/oat/arm/ime.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/content.odex:system/etc/oat/arm/content.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/sm.odex:system/etc/oat/arm/sm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/bu.odex:system/etc/oat/arm/bu.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.hisi.perfhub.odex:system/etc/oat/arm/com.hisi.perfhub.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/input.odex:system/etc/oat/arm/input.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/dpm.odex:system/etc/oat/arm/dpm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/javax.obex.odex:system/etc/oat/arm/javax.obex.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/wm.odex:system/etc/oat/arm/wm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/android.test.runner.odex:system/etc/oat/arm/android.test.runner.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/svc.odex:system/etc/oat/arm/svc.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/pm.odex:system/etc/oat/arm/pm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/hid.odex:system/etc/oat/arm/hid.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.android.nfc_extras.odex:system/etc/oat/arm/com.android.nfc_extras.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/appops.odex:system/etc/oat/arm/appops.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.google.android.maps.odex:system/etc/oat/arm/com.google.android.maps.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/telecom.odex:system/etc/oat/arm/telecom.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/uiautomator.odex:system/etc/oat/arm/uiautomator.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/hwtransition.odex:system/etc/oat/arm/hwtransition.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/settings.odex:system/etc/oat/arm/settings.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/requestsync.odex:system/etc/oat/arm/requestsync.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.android.media.remotedisplay.odex:system/etc/oat/arm/com.android.media.remotedisplay.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/hwpostcamera.odex:system/etc/oat/arm/hwpostcamera.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.google.widevine.software.drm.odex:system/etc/oat/arm/com.google.widevine.software.drm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.android.location.provider.odex:system/etc/oat/arm/com.android.location.provider.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.gsma.services.nfc.odex:system/etc/oat/arm/com.gsma.services.nfc.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.android.future.usb.accessory.odex:system/etc/oat/arm/com.android.future.usb.accessory.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/monkey.odex:system/etc/oat/arm/monkey.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/bmgr.odex:system/etc/oat/arm/bmgr.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/appwidget.odex:system/etc/oat/arm/appwidget.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/media_cmd.odex:system/etc/oat/arm/media_cmd.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm/com.android.mediadrm.signer.odex:system/etc/oat/arm/com.android.mediadrm.signer.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/am.odex:system/etc/oat/arm64/am.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.google.android.media.effects.odex:system/etc/oat/arm64/com.google.android.media.effects.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/ime.odex:system/etc/oat/arm64/ime.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/content.odex:system/etc/oat/arm64/content.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/sm.odex:system/etc/oat/arm64/sm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/bu.odex:system/etc/oat/arm64/bu.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.hisi.perfhub.odex:system/etc/oat/arm64/com.hisi.perfhub.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/input.odex:system/etc/oat/arm64/input.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/dpm.odex:system/etc/oat/arm64/dpm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/javax.obex.odex:system/etc/oat/arm64/javax.obex.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/hwcustwifi-service.odex:system/etc/oat/arm64/hwcustwifi-service.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/wm.odex:system/etc/oat/arm64/wm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/android.test.runner.odex:system/etc/oat/arm64/android.test.runner.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/svc.odex:system/etc/oat/arm64/svc.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/wifi-service.odex:system/etc/oat/arm64/wifi-service.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/pm.odex:system/etc/oat/arm64/pm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/hid.odex:system/etc/oat/arm64/hid.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/hwWifi-service.odex:system/etc/oat/arm64/hwWifi-service.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/services.odex:system/etc/oat/arm64/services.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.android.nfc_extras.odex:system/etc/oat/arm64/com.android.nfc_extras.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/appops.odex:system/etc/oat/arm64/appops.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.google.android.maps.odex:system/etc/oat/arm64/com.google.android.maps.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/telecom.odex:system/etc/oat/arm64/telecom.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/uiautomator.odex:system/etc/oat/arm64/uiautomator.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/hwtransition.odex:system/etc/oat/arm64/hwtransition.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/hwcustServices.odex:system/etc/oat/arm64/hwcustServices.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/hwServices.odex:system/etc/oat/arm64/hwServices.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/settings.odex:system/etc/oat/arm64/settings.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/requestsync.odex:system/etc/oat/arm64/requestsync.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/ethernet-service.odex:system/etc/oat/arm64/ethernet-service.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.android.media.remotedisplay.odex:system/etc/oat/arm64/com.android.media.remotedisplay.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/hwpostcamera.odex:system/etc/oat/arm64/hwpostcamera.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.google.widevine.software.drm.odex:system/etc/oat/arm64/com.google.widevine.software.drm.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.android.location.provider.odex:system/etc/oat/arm64/com.android.location.provider.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.gsma.services.nfc.odex:system/etc/oat/arm64/com.gsma.services.nfc.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.android.future.usb.accessory.odex:system/etc/oat/arm64/com.android.future.usb.accessory.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/monkey.odex:system/etc/oat/arm64/monkey.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/bmgr.odex:system/etc/oat/arm64/bmgr.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/appwidget.odex:system/etc/oat/arm64/appwidget.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/media_cmd.odex:system/etc/oat/arm64/media_cmd.odex \
-	$(LOCAL_PATH)/proprietary/system/etc/oat/arm64/com.android.mediadrm.signer.odex:system/etc/oat/arm64/com.android.mediadrm.signer.odex \
 	$(LOCAL_PATH)/proprietary/system/etc/algorithm/algorithm_KEPLER_normal.xml:system/etc/algorithm/algorithm_KEPLER_normal.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/algorithm/algorithm_hi3635_normal.xml:system/etc/algorithm/algorithm_hi3635_normal.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/algorithm/algorithm_GRACE_UL_normal.xml:system/etc/algorithm/algorithm_GRACE_UL_normal.xml \
@@ -1416,4 +1341,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/sbin/hdbd:root/sbin/hdbd
 
 
-# Total 1400 files added on 2016-10-19T23:49:35.075387 UTC
+# Total 1325 files added on 2016-10-20T00:56:47.529264 UTC
