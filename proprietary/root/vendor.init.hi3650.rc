@@ -15,6 +15,7 @@ on early-boot
 # custom
     mkdir /modem_log
     mkdir /modem_log/log
+
 on init
     verity_load_state
 
@@ -540,13 +541,13 @@ service kmsgcat_cp /sbin/kmsgcat -r 4096 -n 25 -i /dev/cshell_log -f /data/hwzd_
     disabled
     seclabel u:r:hisilogcat:s0
 
-service defragd /system/bin/defragd
-    class late_start
+#service defragd /system/bin/defragd
+#    class late_start
 
-service perfhub /system/bin/perfhub
-    class core
-    user system
-    group system
+#service perfhub /system/bin/perfhub
+#    class core
+#    user system
+#    group system
 
 on property:service.bootanim.exit=1
     write /sys/class/devfreq/ddrfreq/max_freq 1333000000
@@ -562,15 +563,16 @@ on property:service.bootanim.exit=1
 on property:persist.sys.huawei.debug.on=0
     chown system system /sys/class/sensors/sensorhub_dump
     chmod 0660 /sys/class/sensors/sensorhub_dump
+
 on property:persist.sys.huawei.debug.on=1
     chown system system /sys/class/sensors/sensorhub_dump
     chmod 0664 /sys/class/sensors/sensorhub_dump
 
-service bugreport /system/bin/dumpstate -d -p -B \
-        -o /data/data/com.android.shell/files/bugreports/bugreport
-    class main
-    disabled
-    oneshot
+#service bugreport /system/bin/dumpstate -d -p -B \
+#        -o /data/data/com.android.shell/files/bugreports/bugreport
+#    class main
+#    disabled
+#    oneshot
 
 on property:ro.runmode=factory
     chown system system /sys/bus/platform/drivers/huawei,ald2/test_ocram

@@ -88,6 +88,7 @@ on fs
     restorecon      /sys/class/graphics/fb0/lcd_cabc_mode
     restorecon      /sys/class/leds/torch/flash_thermal_protect
     restorecon    /sys/class/timed_output/vibrator/vibrator_calib
+
 on post-fs
 
 on post-fs-data
@@ -100,9 +101,9 @@ on boot
 
 
 
-service atcmdserver  /system/bin/atcmdserver
-    class main
-    disabled
+#service atcmdserver  /system/bin/atcmdserver
+#    class main
+#    disabled
 
 service oeminfo_nvm /sbin/oeminfo_nvm_server
     class core
@@ -110,44 +111,44 @@ service oeminfo_nvm /sbin/oeminfo_nvm_server
     ioprio rt 4
     #seclabel u:r:oeminfo_nvm:s0
 
-service diagserver /system/bin/diagserver
-    class main
-    user root
-    disabled
+#service diagserver /system/bin/diagserver
+#    class main
+#    user root
+#    disabled
 
-on charger
-    start atcmdserver
-    start diagserver
+#on charger
+#    start atcmdserver
+#    start diagserver
 
 service goldeneye /system/bin/goldeneye
     class main
     user root
 
-service check_root /sbin/check_root
-    class main
-    oneshot
-    seclabel u:r:check_root:s0
+#service check_root /sbin/check_root
+#    class main
+#    oneshot
+#    seclabel u:r:check_root:s0
 
 
-on property:sys.boot_completed=1
-    start check_root
+#on property:sys.boot_completed=1
+#    start check_root
 
-on property:ro.runmode=factory
-    chmod 0775 /data/media/0/Music
-    chmod 0775 /data/media/0/Pictures
-    chown media_rw media_rw /data/media/0
-    chown media_rw media_rw /data/media/0/Music
-    chown media_rw media_rw /data/media/0/Pictures
+#on property:ro.runmode=factory
+#    chmod 0775 /data/media/0/Music
+#    chmod 0775 /data/media/0/Pictures
+#    chown media_rw media_rw /data/media/0
+#    chown media_rw media_rw /data/media/0/Music
+#    chown media_rw media_rw /data/media/0/Pictures
 
-service hwnffserver  /system/bin/hwnffserver
-    class main
-    socket hwnff stream 0660 root mount
+#service hwnffserver  /system/bin/hwnffserver
+#    class main
+#    socket hwnff stream 0660 root mount
 
-service data_cleanner /system/bin/data_cleaner
-    class core
-    oneshot
+#service data_cleanner /system/bin/data_cleaner
+#    class core
+#    oneshot
 
-service check_hota /system/bin/sh /system/etc/check_hota.sh
-    class core
-    oneshot
-    seclabel u:r:check_hota:s0
+#service check_hota /system/bin/sh /system/etc/check_hota.sh
+#    class core
+#    oneshot
+#    seclabel u:r:check_hota:s0
