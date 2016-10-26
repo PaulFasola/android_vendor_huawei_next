@@ -460,6 +460,150 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/gralloc.hi3650.so:system/lib64/hw/gralloc.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/fingerprint.hi3650.so:system/lib64/hw/fingerprint.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/hwcomposer.default.so:system/lib64/hw/hwcomposer.default.so \
+	$(LOCAL_PATH)/proprietary/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwaps.jar:system/framework/hwaps.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/monkey.jar:system/framework/monkey.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/framework-res-hwext.apk:system/framework/framework-res-hwext.apk \
+	$(LOCAL_PATH)/proprietary/system/framework/ime.jar:system/framework/ime.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/core-junit.jar:system/framework/core-junit.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/android.test.runner.jar:system/framework/android.test.runner.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/HWJNIFLPLocation.jar:system/framework/HWJNIFLPLocation.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/content.jar:system/framework/content.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwEmui.jar:system/framework/hwEmui.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/media_cmd.jar:system/framework/media_cmd.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwWifi-service.jar:system/framework/hwWifi-service.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwtransition.jar:system/framework/hwtransition.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/telephony-common.jar:system/framework/telephony-common.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hid.jar:system/framework/hid.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/services.jar:system/framework/services.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/input.jar:system/framework/input.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/dpm.jar:system/framework/dpm.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/wm.jar:system/framework/wm.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwcustwifi-service.jar:system/framework/hwcustwifi-service.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/requestsync.jar:system/framework/requestsync.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.gsma.services.nfc.jar:system/framework/com.gsma.services.nfc.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwcustServices.jar:system/framework/hwcustServices.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/appops.jar:system/framework/appops.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/conscrypt.jar:system/framework/conscrypt.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/javax.obex.jar:system/framework/javax.obex.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/apache-xml.jar:system/framework/apache-xml.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/bmgr.jar:system/framework/bmgr.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwframework.jar:system/framework/hwframework.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/voip-common.jar:system/framework/voip-common.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/core-libart.jar:system/framework/core-libart.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwcustTelephony-common.jar:system/framework/hwcustTelephony-common.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/am.jar:system/framework/am.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/ethernet-service.jar:system/framework/ethernet-service.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.android.location.provider.jar:system/framework/com.android.location.provider.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/settings.jar:system/framework/settings.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/svc.jar:system/framework/svc.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwTelephony-common.jar:system/framework/hwTelephony-common.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/framework-res.apk:system/framework/framework-res.apk \
+	$(LOCAL_PATH)/proprietary/system/framework/ims-common.jar:system/framework/ims-common.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwpostcamera.jar:system/framework/hwpostcamera.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwServices.jar:system/framework/hwServices.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/bouncycastle.jar:system/framework/bouncycastle.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/appwidget.jar:system/framework/appwidget.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/jcifs-1.3.17-dex.jar:system/framework/jcifs-1.3.17-dex.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/telecom.jar:system/framework/telecom.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/sm.jar:system/framework/sm.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/uiautomator.jar:system/framework/uiautomator.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.android.media.remotedisplay.jar:system/framework/com.android.media.remotedisplay.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/bu.jar:system/framework/bu.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.android.mediadrm.signer.jar:system/framework/com.android.mediadrm.signer.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwcustframework.jar:system/framework/hwcustframework.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/hwcustEmui.jar:system/framework/hwcustEmui.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/pm.jar:system/framework/pm.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/framework.jar:system/framework/framework.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/wifi-service.jar:system/framework/wifi-service.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/com.android.future.usb.accessory.jar:system/framework/com.android.future.usb.accessory.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/okhttp.jar:system/framework/okhttp.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/ext.jar:system/framework/ext.jar \
+	$(LOCAL_PATH)/proprietary/system/framework/arm/boot.art:system/framework/arm/boot.art \
+	$(LOCAL_PATH)/proprietary/system/framework/arm/boot.oat:system/framework/arm/boot.oat \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/am.odex:system/framework/oat/arm/am.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.google.android.media.effects.odex:system/framework/oat/arm/com.google.android.media.effects.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/ime.odex:system/framework/oat/arm/ime.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/content.odex:system/framework/oat/arm/content.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/sm.odex:system/framework/oat/arm/sm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/bu.odex:system/framework/oat/arm/bu.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.hisi.perfhub.odex:system/framework/oat/arm/com.hisi.perfhub.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/input.odex:system/framework/oat/arm/input.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/dpm.odex:system/framework/oat/arm/dpm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/javax.obex.odex:system/framework/oat/arm/javax.obex.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/wm.odex:system/framework/oat/arm/wm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/android.test.runner.odex:system/framework/oat/arm/android.test.runner.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/svc.odex:system/framework/oat/arm/svc.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/pm.odex:system/framework/oat/arm/pm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/hid.odex:system/framework/oat/arm/hid.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.android.nfc_extras.odex:system/framework/oat/arm/com.android.nfc_extras.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/appops.odex:system/framework/oat/arm/appops.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.google.android.maps.odex:system/framework/oat/arm/com.google.android.maps.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/telecom.odex:system/framework/oat/arm/telecom.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/uiautomator.odex:system/framework/oat/arm/uiautomator.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/hwtransition.odex:system/framework/oat/arm/hwtransition.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/settings.odex:system/framework/oat/arm/settings.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/requestsync.odex:system/framework/oat/arm/requestsync.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.android.media.remotedisplay.odex:system/framework/oat/arm/com.android.media.remotedisplay.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/hwpostcamera.odex:system/framework/oat/arm/hwpostcamera.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.google.widevine.software.drm.odex:system/framework/oat/arm/com.google.widevine.software.drm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.android.location.provider.odex:system/framework/oat/arm/com.android.location.provider.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.gsma.services.nfc.odex:system/framework/oat/arm/com.gsma.services.nfc.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.android.future.usb.accessory.odex:system/framework/oat/arm/com.android.future.usb.accessory.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/monkey.odex:system/framework/oat/arm/monkey.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/bmgr.odex:system/framework/oat/arm/bmgr.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/appwidget.odex:system/framework/oat/arm/appwidget.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/media_cmd.odex:system/framework/oat/arm/media_cmd.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/com.android.mediadrm.signer.odex:system/framework/oat/arm/com.android.mediadrm.signer.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/am.odex:system/framework/oat/arm64/am.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.google.android.media.effects.odex:system/framework/oat/arm64/com.google.android.media.effects.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/ime.odex:system/framework/oat/arm64/ime.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/content.odex:system/framework/oat/arm64/content.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/sm.odex:system/framework/oat/arm64/sm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/bu.odex:system/framework/oat/arm64/bu.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.hisi.perfhub.odex:system/framework/oat/arm64/com.hisi.perfhub.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/input.odex:system/framework/oat/arm64/input.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/dpm.odex:system/framework/oat/arm64/dpm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/javax.obex.odex:system/framework/oat/arm64/javax.obex.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/hwcustwifi-service.odex:system/framework/oat/arm64/hwcustwifi-service.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/wm.odex:system/framework/oat/arm64/wm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/android.test.runner.odex:system/framework/oat/arm64/android.test.runner.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/svc.odex:system/framework/oat/arm64/svc.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/wifi-service.odex:system/framework/oat/arm64/wifi-service.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/pm.odex:system/framework/oat/arm64/pm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/hid.odex:system/framework/oat/arm64/hid.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/hwWifi-service.odex:system/framework/oat/arm64/hwWifi-service.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/services.odex:system/framework/oat/arm64/services.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.android.nfc_extras.odex:system/framework/oat/arm64/com.android.nfc_extras.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/appops.odex:system/framework/oat/arm64/appops.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.google.android.maps.odex:system/framework/oat/arm64/com.google.android.maps.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/telecom.odex:system/framework/oat/arm64/telecom.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/uiautomator.odex:system/framework/oat/arm64/uiautomator.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/hwtransition.odex:system/framework/oat/arm64/hwtransition.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/hwcustServices.odex:system/framework/oat/arm64/hwcustServices.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/hwServices.odex:system/framework/oat/arm64/hwServices.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/settings.odex:system/framework/oat/arm64/settings.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/requestsync.odex:system/framework/oat/arm64/requestsync.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/ethernet-service.odex:system/framework/oat/arm64/ethernet-service.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.android.media.remotedisplay.odex:system/framework/oat/arm64/com.android.media.remotedisplay.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/hwpostcamera.odex:system/framework/oat/arm64/hwpostcamera.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.google.widevine.software.drm.odex:system/framework/oat/arm64/com.google.widevine.software.drm.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.android.location.provider.odex:system/framework/oat/arm64/com.android.location.provider.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.gsma.services.nfc.odex:system/framework/oat/arm64/com.gsma.services.nfc.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.android.future.usb.accessory.odex:system/framework/oat/arm64/com.android.future.usb.accessory.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/monkey.odex:system/framework/oat/arm64/monkey.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/bmgr.odex:system/framework/oat/arm64/bmgr.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/appwidget.odex:system/framework/oat/arm64/appwidget.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/media_cmd.odex:system/framework/oat/arm64/media_cmd.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/oat/arm64/com.android.mediadrm.signer.odex:system/framework/oat/arm64/com.android.mediadrm.signer.odex \
+	$(LOCAL_PATH)/proprietary/system/framework/arm64/boot.art:system/framework/arm64/boot.art \
+	$(LOCAL_PATH)/proprietary/system/framework/arm64/boot.oat:system/framework/arm64/boot.oat \
 	$(LOCAL_PATH)/proprietary/system/etc/com.google.android.maps.jar:system/etc/com.google.android.maps.jar \
 	$(LOCAL_PATH)/proprietary/system/etc/hwaps.jar:system/etc/hwaps.jar \
 	$(LOCAL_PATH)/proprietary/system/etc/monkey.jar:system/etc/monkey.jar \
@@ -713,6 +857,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/modem/modem_EVA_telecomiot.xml:system/etc/modem/modem_EVA_telecomiot.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/modem/modem_VIENNA_gcf.xml:system/etc/modem/modem_VIENNA_gcf.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/modem/modem_FRD_cmcciot.xml:system/etc/modem/modem_FRD_cmcciot.xml \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib64/libOpenCL.so.1:system/vendor/lib64/libOpenCL.so.1 \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib64/libbt-vendor-hisi.so:system/vendor/lib64/libbt-vendor-hisi.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib64/libOpenCL.so.1.1:system/vendor/lib64/libOpenCL.so.1.1 \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/wifi_cfg:system/vendor/firmware/wifi_cfg \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/cr4_regmem.bin:system/vendor/firmware/cr4_regmem.bin \
@@ -1365,7 +1515,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/fstab.hi3650:root/fstab.hi3650 \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.rc:root/init.hi3650.rc \
 	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43xx.rc:root/init.connectivity.bcm43xx.rc \
-	$(LOCAL_PATH)/proprietary/root/vendor.init.rc:root/vendor.init.rc \
 	$(LOCAL_PATH)/proprietary/root/init.audio.rc:root/init.audio.rc \
 	$(LOCAL_PATH)/proprietary/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
 	$(LOCAL_PATH)/proprietary/root/vendor.init.hi3650.rc:root/vendor.init.hi3650.rc \
@@ -1388,8 +1537,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/init.usb.rc:root/init.usb.rc \
 	$(LOCAL_PATH)/proprietary/root/sbin/logctl_service:root/sbin/logctl_service \
 	$(LOCAL_PATH)/proprietary/root/sbin/teecd:root/sbin/teecd \
+	$(LOCAL_PATH)/proprietary/root/sbin/check_root:root/sbin/check_root \
 	$(LOCAL_PATH)/proprietary/root/sbin/oeminfo_nvm_server:root/sbin/oeminfo_nvm_server \
+	$(LOCAL_PATH)/proprietary/root/sbin/hw_ueventd:root/sbin/hw_ueventd \
 	$(LOCAL_PATH)/proprietary/root/sbin/ntfs-3gd:root/sbin/ntfs-3gd
 
 
-# Total 1376 files added on 2016-10-23T23:42:05.121263 UTC
+# Total 1527 files added on 2016-10-26T12:44:39.692191 UTC

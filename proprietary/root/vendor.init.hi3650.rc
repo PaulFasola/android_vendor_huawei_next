@@ -12,10 +12,6 @@ on early-boot
 
     mkdir /mnt/media_rw 0750 media_rw media_rw
     
-# custom
-    mkdir /modem_log
-    mkdir /modem_log/log
-
 on init
     verity_load_state
 

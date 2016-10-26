@@ -126,9 +126,9 @@ on property:vold.decrypt=trigger_restart_framework
     trigger start_other_action
     trigger data_ready
 
-#on property:vold.decrypt=trigger_default_encryption
-#    start surfaceflinger
-#    start defaultcrypto
+on property:vold.decrypt=trigger_default_encryption
+    start surfaceflinger
+    start defaultcrypto
 
 on property:vold.decrypt=trigger_shutdown_framework
     trigger data_not_ready

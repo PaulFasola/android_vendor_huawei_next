@@ -11,6 +11,4 @@ import /init.platform.rc
 import /init.protocol.rc
 import /init.41038.rc
 
-#import /vendor.init.rc
-
 import /init.post-fs-data.rc
