@@ -5,7 +5,7 @@ service zygote /system/bin/app_process64 -Xzygote /system/bin --zygote --start-s
     onrestart write /sys/power/state on
     onrestart restart media
     onrestart restart netd
-    onrestart restart installd
+#   onrestart restart installd
     critical
 
 service zygote_secondary /system/bin/app_process32 -Xzygote /system/bin --zygote --socket-name=zygote_secondary
