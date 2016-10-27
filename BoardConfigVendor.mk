@@ -188,6 +188,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libext2_uuid.so:system/lib64/libext2_uuid.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libserviceutility.so:system/lib64/libserviceutility.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libpng.so:system/lib64/libpng.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libshim_log.so:system/lib64/libshim_log.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libcutils.so:system/lib64/libcutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libpowerprofile.so:system/lib64/libpowerprofile.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudiotestalgo.so:system/lib64/libaudiotestalgo.so \
@@ -461,70 +462,20 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/fingerprint.hi3650.so:system/lib64/hw/fingerprint.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/hwcomposer.default.so:system/lib64/hw/hwcomposer.default.so \
 	$(LOCAL_PATH)/proprietary/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwaps.jar:system/framework/hwaps.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/monkey.jar:system/framework/monkey.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/framework-res-hwext.apk:system/framework/framework-res-hwext.apk \
-	$(LOCAL_PATH)/proprietary/system/framework/ime.jar:system/framework/ime.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/core-junit.jar:system/framework/core-junit.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/android.test.runner.jar:system/framework/android.test.runner.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/HWJNIFLPLocation.jar:system/framework/HWJNIFLPLocation.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/content.jar:system/framework/content.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwEmui.jar:system/framework/hwEmui.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/media_cmd.jar:system/framework/media_cmd.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwWifi-service.jar:system/framework/hwWifi-service.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwtransition.jar:system/framework/hwtransition.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/telephony-common.jar:system/framework/telephony-common.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hid.jar:system/framework/hid.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/services.jar:system/framework/services.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/input.jar:system/framework/input.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/dpm.jar:system/framework/dpm.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/wm.jar:system/framework/wm.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwcustwifi-service.jar:system/framework/hwcustwifi-service.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/requestsync.jar:system/framework/requestsync.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.gsma.services.nfc.jar:system/framework/com.gsma.services.nfc.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwcustServices.jar:system/framework/hwcustServices.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/appops.jar:system/framework/appops.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/conscrypt.jar:system/framework/conscrypt.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/javax.obex.jar:system/framework/javax.obex.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/apache-xml.jar:system/framework/apache-xml.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/bmgr.jar:system/framework/bmgr.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwframework.jar:system/framework/hwframework.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/voip-common.jar:system/framework/voip-common.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/core-libart.jar:system/framework/core-libart.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwcustTelephony-common.jar:system/framework/hwcustTelephony-common.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/am.jar:system/framework/am.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/ethernet-service.jar:system/framework/ethernet-service.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.location.provider.jar:system/framework/com.android.location.provider.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/settings.jar:system/framework/settings.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/svc.jar:system/framework/svc.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwTelephony-common.jar:system/framework/hwTelephony-common.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/framework-res.apk:system/framework/framework-res.apk \
-	$(LOCAL_PATH)/proprietary/system/framework/ims-common.jar:system/framework/ims-common.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwpostcamera.jar:system/framework/hwpostcamera.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwServices.jar:system/framework/hwServices.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/bouncycastle.jar:system/framework/bouncycastle.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/appwidget.jar:system/framework/appwidget.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/jcifs-1.3.17-dex.jar:system/framework/jcifs-1.3.17-dex.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/telecom.jar:system/framework/telecom.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/sm.jar:system/framework/sm.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/uiautomator.jar:system/framework/uiautomator.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.media.remotedisplay.jar:system/framework/com.android.media.remotedisplay.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/bu.jar:system/framework/bu.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.mediadrm.signer.jar:system/framework/com.android.mediadrm.signer.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwcustframework.jar:system/framework/hwcustframework.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/hwcustEmui.jar:system/framework/hwcustEmui.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/pm.jar:system/framework/pm.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/framework.jar:system/framework/framework.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/wifi-service.jar:system/framework/wifi-service.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.future.usb.accessory.jar:system/framework/com.android.future.usb.accessory.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/okhttp.jar:system/framework/okhttp.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/ext.jar:system/framework/ext.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/arm/boot.art:system/framework/arm/boot.art \
 	$(LOCAL_PATH)/proprietary/system/framework/arm/boot.oat:system/framework/arm/boot.oat \
 	$(LOCAL_PATH)/proprietary/system/framework/oat/arm/am.odex:system/framework/oat/arm/am.odex \
@@ -900,6 +851,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libclcore_debug.bc:system/lib/libclcore_debug.bc \
 	$(LOCAL_PATH)/proprietary/system/lib/libscanner.so:system/lib/libscanner.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libshim_audioroute.so:system/lib/libshim_audioroute.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtwocr32.so:system/lib/libtwocr32.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libFaceBeautyMeiwoJNI.so:system/lib/libFaceBeautyMeiwoJNI.so \
@@ -946,6 +898,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_service.so:system/lib/libperfhub_service.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhardware.so:system/lib/libhardware.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libshim_android.so:system/lib/libshim_android.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libsqlite_jni.so:system/lib/libsqlite_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libffvplayer.so:system/lib/libffvplayer.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioroute.so:system/lib/libaudioroute.so \
@@ -1090,6 +1043,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libserviceutility.so:system/lib/libserviceutility.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libpng.so:system/lib/libpng.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libJniVoiceCapture.so:system/lib/libJniVoiceCapture.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libshim_log.so:system/lib/libshim_log.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcutils.so:system/lib/libcutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libpowerprofile.so:system/lib/libpowerprofile.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiotestalgo.so:system/lib/libaudiotestalgo.so \
@@ -1507,34 +1461,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/radvd:system/bin/radvd \
 	$(LOCAL_PATH)/proprietary/system/bin/lmkd:system/bin/lmkd \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat \
-	$(LOCAL_PATH)/proprietary/root/init.balong_modem.rc:root/init.balong_modem.rc \
 	$(LOCAL_PATH)/proprietary/root/init.chip.usb.rc:root/init.chip.usb.rc \
-	$(LOCAL_PATH)/proprietary/root/init.recovery.hisi.rc:root/init.recovery.hisi.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.rc:root/init.connectivity.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43455.rc:root/init.connectivity.bcm43455.rc \
 	$(LOCAL_PATH)/proprietary/root/fstab.hi3650:root/fstab.hi3650 \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.rc:root/init.hi3650.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43xx.rc:root/init.connectivity.bcm43xx.rc \
-	$(LOCAL_PATH)/proprietary/root/init.audio.rc:root/init.audio.rc \
-	$(LOCAL_PATH)/proprietary/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
-	$(LOCAL_PATH)/proprietary/root/vendor.init.hi3650.rc:root/vendor.init.hi3650.rc \
-	$(LOCAL_PATH)/proprietary/root/init.41038.rc:root/init.41038.rc \
-	$(LOCAL_PATH)/proprietary/root/init.protocol.rc:root/init.protocol.rc \
-	$(LOCAL_PATH)/proprietary/root/init.post-fs-data.rc:root/init.post-fs-data.rc \
-	$(LOCAL_PATH)/proprietary/root/init.extmodem.rc:root/init.extmodem.rc \
-	$(LOCAL_PATH)/proprietary/root/init.performance.rc:root/init.performance.rc \
-	$(LOCAL_PATH)/proprietary/root/init.tee.rc:root/init.tee.rc \
+	$(LOCAL_PATH)/proprietary/root/init.hi3650.usb.rc:root/init.hi3650.usb.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.hi3650.rc:root/ueventd.hi3650.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.hisi.rc:root/init.connectivity.hisi.rc \
-	$(LOCAL_PATH)/proprietary/root/init.manufacture.rc:root/init.manufacture.rc \
-	$(LOCAL_PATH)/proprietary/root/init.device.rc:root/init.device.rc \
-	$(LOCAL_PATH)/proprietary/root/init.zygote32.rc:root/init.zygote32.rc \
-	$(LOCAL_PATH)/proprietary/root/init.platform.rc:root/init.platform.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.gps.rc:root/init.connectivity.gps.rc \
-	$(LOCAL_PATH)/proprietary/root/init.hisi.rc:root/init.hisi.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.41038.rc:root/ueventd.41038.rc \
-	$(LOCAL_PATH)/proprietary/root/init.recovery.huawei.rc:root/init.recovery.huawei.rc \
-	$(LOCAL_PATH)/proprietary/root/init.usb.rc:root/init.usb.rc \
+	$(LOCAL_PATH)/proprietary/root/init.hi3650.power.sh:root/init.hi3650.power.sh \
+	$(LOCAL_PATH)/proprietary/root/init.rc:root/init.rc \
+	$(LOCAL_PATH)/proprietary/root/init.hi3650.power.rc:root/init.hi3650.power.rc \
 	$(LOCAL_PATH)/proprietary/root/sbin/logctl_service:root/sbin/logctl_service \
 	$(LOCAL_PATH)/proprietary/root/sbin/teecd:root/sbin/teecd \
 	$(LOCAL_PATH)/proprietary/root/sbin/check_root:root/sbin/check_root \
@@ -1543,4 +1477,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/sbin/ntfs-3gd:root/sbin/ntfs-3gd
 
 
-# Total 1527 files added on 2016-10-26T12:44:39.692191 UTC
+# Total 1461 files added on 2016-10-28T00:08:23.969893 UTC
