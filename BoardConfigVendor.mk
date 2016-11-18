@@ -1046,6 +1046,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libshim_log.so:system/lib/libshim_log.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcutils.so:system/lib/libcutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libpowerprofile.so:system/lib/libpowerprofile.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libdcamera_effect.so:system/lib/libdcamera_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiotestalgo.so:system/lib/libaudiotestalgo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libblasV8.so:system/lib/libblasV8.so \
@@ -1070,6 +1071,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libjni_bardian_filter_effect.so:system/lib/libjni_bardian_filter_effect.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libdcamera_capture.so:system/lib/libdcamera_capture.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwTmr.so:system/lib/libHwTmr.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libddrscreen_test.so:system/lib/libddrscreen_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-2.so:system/lib/libbalong-ril-2.so \
@@ -1077,6 +1079,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libdcamera_visual_effect.so:system/lib/libdcamera_visual_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwedkmgr.so:system/lib/libHwedkmgr.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
@@ -1378,8 +1381,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.hi3650.so:system/lib/hw/gralloc.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/fingerprint.hi3650.so:system/lib/hw/fingerprint.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.default.so:system/lib/hw/hwcomposer.default.so \
-	$(LOCAL_PATH)/proprietary/system/bin/wpa_cli:system/bin/wpa_cli \
-	$(LOCAL_PATH)/proprietary/system/bin/inv_ipld:system/bin/inv_ipld \
 	$(LOCAL_PATH)/proprietary/system/bin/modemlogcat_lte:system/bin/modemlogcat_lte \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps47531cl:system/bin/glgps47531cl \
 	$(LOCAL_PATH)/proprietary/system/bin/diagserver:system/bin/diagserver \
@@ -1410,9 +1411,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/checkntfs:system/bin/checkntfs \
 	$(LOCAL_PATH)/proprietary/system/bin/watchprops:system/bin/watchprops \
 	$(LOCAL_PATH)/proprietary/system/bin/powerlogd:system/bin/powerlogd \
-	$(LOCAL_PATH)/proprietary/system/bin/vold:system/bin/vold \
 	$(LOCAL_PATH)/proprietary/system/bin/knuckle_gestures.bin:system/bin/knuckle_gestures.bin \
-	$(LOCAL_PATH)/proprietary/system/bin/e2fsck:system/bin/e2fsck \
 	$(LOCAL_PATH)/proprietary/system/bin/hw_touchscreen_test_debug:system/bin/hw_touchscreen_test_debug \
 	$(LOCAL_PATH)/proprietary/system/bin/gpsdaemon:system/bin/gpsdaemon \
 	$(LOCAL_PATH)/proprietary/system/bin/water_check:system/bin/water_check \
@@ -1431,16 +1430,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/shex:system/bin/shex \
 	$(LOCAL_PATH)/proprietary/system/bin/limit_current:system/bin/limit_current \
 	$(LOCAL_PATH)/proprietary/system/bin/chargelogcat:system/bin/chargelogcat \
-	$(LOCAL_PATH)/proprietary/system/bin/logd:system/bin/logd \
 	$(LOCAL_PATH)/proprietary/system/bin/shs:system/bin/shs \
 	$(LOCAL_PATH)/proprietary/system/bin/dhcp6s:system/bin/dhcp6s \
 	$(LOCAL_PATH)/proprietary/system/bin/hilogcat:system/bin/hilogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/sleeplogcat:system/bin/sleeplogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/chargemonitor:system/bin/chargemonitor \
-	$(LOCAL_PATH)/proprietary/system/bin/servicemanager:system/bin/servicemanager \
 	$(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
-	$(LOCAL_PATH)/proprietary/system/bin/sh:system/bin/sh \
-	$(LOCAL_PATH)/proprietary/system/bin/tzdatacheck:system/bin/tzdatacheck \
 	$(LOCAL_PATH)/proprietary/system/bin/hostapd:system/bin/hostapd \
 	$(LOCAL_PATH)/proprietary/system/bin/filebackup:system/bin/filebackup \
 	$(LOCAL_PATH)/proprietary/system/bin/factory_log_service:system/bin/factory_log_service \
@@ -1457,24 +1452,74 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/dexopt-wrapper:system/bin/dexopt-wrapper \
 	$(LOCAL_PATH)/proprietary/system/bin/flashlessd:system/bin/flashlessd \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
-	$(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	$(LOCAL_PATH)/proprietary/system/bin/radvd:system/bin/radvd \
 	$(LOCAL_PATH)/proprietary/system/bin/lmkd:system/bin/lmkd \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat \
+	$(LOCAL_PATH)/proprietary/root/init.balong_modem.rc:root/init.balong_modem.rc \
+	$(LOCAL_PATH)/proprietary/root/init.61276.rc:root/init.61276.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.61259.rc:root/ueventd.61259.rc \
+	$(LOCAL_PATH)/proprietary/root/init.environ.rc:root/init.environ.rc \
+	$(LOCAL_PATH)/proprietary/root/resetFactory.cfg:root/resetFactory.cfg \
 	$(LOCAL_PATH)/proprietary/root/init.chip.usb.rc:root/init.chip.usb.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.62010.rc:root/ueventd.62010.rc \
+	$(LOCAL_PATH)/proprietary/root/init.usb.rc.cm:root/init.usb.rc.cm \
+	$(LOCAL_PATH)/proprietary/root/ueventd.3741.rc:root/ueventd.3741.rc \
+	$(LOCAL_PATH)/proprietary/root/init.3583.rc:root/init.3583.rc \
+	$(LOCAL_PATH)/proprietary/root/init.recovery.hisi.rc:root/init.recovery.hisi.rc \
+	$(LOCAL_PATH)/proprietary/root/init.connectivity.rc:root/init.connectivity.rc \
+	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43455.rc:root/init.connectivity.bcm43455.rc \
 	$(LOCAL_PATH)/proprietary/root/fstab.hi3650:root/fstab.hi3650 \
+	$(LOCAL_PATH)/proprietary/root/ueventd.3583.rc:root/ueventd.3583.rc \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.rc:root/init.hi3650.rc \
+	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43xx.rc:root/init.connectivity.bcm43xx.rc \
+	$(LOCAL_PATH)/proprietary/root/init.3584.rc:root/init.3584.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.rc:root/ueventd.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.3584.rc:root/ueventd.3584.rc \
+	$(LOCAL_PATH)/proprietary/root/console-ramoops:root/console-ramoops \
+	$(LOCAL_PATH)/proprietary/root/init.audio.rc:root/init.audio.rc \
+	$(LOCAL_PATH)/proprietary/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
+	$(LOCAL_PATH)/proprietary/root/init.41038.rc:root/init.41038.rc \
+	$(LOCAL_PATH)/proprietary/root/init.62010.rc:root/init.62010.rc \
+	$(LOCAL_PATH)/proprietary/root/init.protocol.rc:root/init.protocol.rc \
+	$(LOCAL_PATH)/proprietary/root/init.post-fs-data.rc:root/init.post-fs-data.rc \
+	$(LOCAL_PATH)/proprietary/root/init.extmodem.rc:root/init.extmodem.rc \
+	$(LOCAL_PATH)/proprietary/root/init.61297.rc:root/init.61297.rc \
+	$(LOCAL_PATH)/proprietary/root/init.performance.rc:root/init.performance.rc \
+	$(LOCAL_PATH)/proprietary/root/init.71315.rc:root/init.71315.rc \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.usb.rc:root/init.hi3650.usb.rc \
+	$(LOCAL_PATH)/proprietary/root/init.tee.rc:root/init.tee.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.hi3650.rc:root/ueventd.hi3650.rc \
+	$(LOCAL_PATH)/proprietary/root/init.connectivity.hisi.rc:root/init.connectivity.hisi.rc \
+	$(LOCAL_PATH)/proprietary/root/init.61262.rc:root/init.61262.rc \
+	$(LOCAL_PATH)/proprietary/root/init.3741.rc:root/init.3741.rc \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.power.sh:root/init.hi3650.power.sh \
+	$(LOCAL_PATH)/proprietary/root/init.manufacture.rc:root/init.manufacture.rc \
 	$(LOCAL_PATH)/proprietary/root/init.rc:root/init.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.71315.rc:root/ueventd.71315.rc \
+	$(LOCAL_PATH)/proprietary/root/init.device.rc:root/init.device.rc \
+	$(LOCAL_PATH)/proprietary/root/init.zygote32.rc:root/init.zygote32.rc \
+	$(LOCAL_PATH)/proprietary/root/init.platform.rc:root/init.platform.rc \
+	$(LOCAL_PATH)/proprietary/root/init.connectivity.gps.rc:root/init.connectivity.gps.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.61262.rc:root/ueventd.61262.rc \
+	$(LOCAL_PATH)/proprietary/root/init.hisi.rc:root/init.hisi.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.61297.rc:root/ueventd.61297.rc \
+	$(LOCAL_PATH)/proprietary/root/init.trace.rc:root/init.trace.rc \
+	$(LOCAL_PATH)/proprietary/root/init.61259.rc:root/init.61259.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.61276.rc:root/ueventd.61276.rc \
+	$(LOCAL_PATH)/proprietary/root/ueventd.41038.rc:root/ueventd.41038.rc \
+	$(LOCAL_PATH)/proprietary/root/init.hi3650.rc.cm:root/init.hi3650.rc.cm \
+	$(LOCAL_PATH)/proprietary/root/init.recovery.huawei.rc:root/init.recovery.huawei.rc \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.power.rc:root/init.hi3650.power.rc \
 	$(LOCAL_PATH)/proprietary/root/sbin/logctl_service:root/sbin/logctl_service \
+	$(LOCAL_PATH)/proprietary/root/sbin/launch_daemonsu.sh:root/sbin/launch_daemonsu.sh \
 	$(LOCAL_PATH)/proprietary/root/sbin/teecd:root/sbin/teecd \
 	$(LOCAL_PATH)/proprietary/root/sbin/check_root:root/sbin/check_root \
 	$(LOCAL_PATH)/proprietary/root/sbin/oeminfo_nvm_server:root/sbin/oeminfo_nvm_server \
+	$(LOCAL_PATH)/proprietary/root/sbin/volisnotd:root/sbin/volisnotd \
+	$(LOCAL_PATH)/proprietary/root/sbin/kmsgcat:root/sbin/kmsgcat \
 	$(LOCAL_PATH)/proprietary/root/sbin/hw_ueventd:root/sbin/hw_ueventd \
-	$(LOCAL_PATH)/proprietary/root/sbin/ntfs-3gd:root/sbin/ntfs-3gd
+	$(LOCAL_PATH)/proprietary/root/sbin/ntfs-3gd:root/sbin/ntfs-3gd \
+	$(LOCAL_PATH)/proprietary/root/sbin/hdbd:root/sbin/hdbd
 
 
-# Total 1461 files added on 2016-10-28T00:08:23.969893 UTC
+# Total 1506 files added on 2016-11-18T10:21:36.465872 UTC
