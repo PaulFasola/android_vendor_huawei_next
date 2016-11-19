@@ -2901,16 +2901,12 @@ echo "===> Extracting root/init.61276.rc\n"
 adb pull /root/init.61276.rc ../../../proprietary/root
 echo "===> Extracting root/ueventd.61259.rc\n"
 adb pull /root/ueventd.61259.rc ../../../proprietary/root
-echo "===> Extracting root/init.environ.rc\n"
-adb pull /root/init.environ.rc ../../../proprietary/root
 echo "===> Extracting root/resetFactory.cfg\n"
 adb pull /root/resetFactory.cfg ../../../proprietary/root
 echo "===> Extracting root/init.chip.usb.rc\n"
 adb pull /root/init.chip.usb.rc ../../../proprietary/root
 echo "===> Extracting root/ueventd.62010.rc\n"
 adb pull /root/ueventd.62010.rc ../../../proprietary/root
-echo "===> Extracting root/init.usb.rc.cm\n"
-adb pull /root/init.usb.rc.cm ../../../proprietary/root
 echo "===> Extracting root/ueventd.3741.rc\n"
 adb pull /root/ueventd.3741.rc ../../../proprietary/root
 echo "===> Extracting root/init.3583.rc\n"
@@ -2931,16 +2927,10 @@ echo "===> Extracting root/init.connectivity.bcm43xx.rc\n"
 adb pull /root/init.connectivity.bcm43xx.rc ../../../proprietary/root
 echo "===> Extracting root/init.3584.rc\n"
 adb pull /root/init.3584.rc ../../../proprietary/root
-echo "===> Extracting root/ueventd.rc\n"
-adb pull /root/ueventd.rc ../../../proprietary/root
 echo "===> Extracting root/ueventd.3584.rc\n"
 adb pull /root/ueventd.3584.rc ../../../proprietary/root
-echo "===> Extracting root/console-ramoops\n"
-adb pull /root/console-ramoops ../../../proprietary/root
 echo "===> Extracting root/init.audio.rc\n"
 adb pull /root/init.audio.rc ../../../proprietary/root
-echo "===> Extracting root/init.zygote64_32.rc\n"
-adb pull /root/init.zygote64_32.rc ../../../proprietary/root
 echo "===> Extracting root/init.41038.rc\n"
 adb pull /root/init.41038.rc ../../../proprietary/root
 echo "===> Extracting root/init.62010.rc\n"
@@ -2979,8 +2969,6 @@ echo "===> Extracting root/ueventd.71315.rc\n"
 adb pull /root/ueventd.71315.rc ../../../proprietary/root
 echo "===> Extracting root/init.device.rc\n"
 adb pull /root/init.device.rc ../../../proprietary/root
-echo "===> Extracting root/init.zygote32.rc\n"
-adb pull /root/init.zygote32.rc ../../../proprietary/root
 echo "===> Extracting root/init.platform.rc\n"
 adb pull /root/init.platform.rc ../../../proprietary/root
 echo "===> Extracting root/init.connectivity.gps.rc\n"
@@ -2991,16 +2979,12 @@ echo "===> Extracting root/init.hisi.rc\n"
 adb pull /root/init.hisi.rc ../../../proprietary/root
 echo "===> Extracting root/ueventd.61297.rc\n"
 adb pull /root/ueventd.61297.rc ../../../proprietary/root
-echo "===> Extracting root/init.trace.rc\n"
-adb pull /root/init.trace.rc ../../../proprietary/root
 echo "===> Extracting root/init.61259.rc\n"
 adb pull /root/init.61259.rc ../../../proprietary/root
 echo "===> Extracting root/ueventd.61276.rc\n"
 adb pull /root/ueventd.61276.rc ../../../proprietary/root
 echo "===> Extracting root/ueventd.41038.rc\n"
 adb pull /root/ueventd.41038.rc ../../../proprietary/root
-echo "===> Extracting root/init.hi3650.rc.cm\n"
-adb pull /root/init.hi3650.rc.cm ../../../proprietary/root
 echo "===> Extracting root/init.recovery.huawei.rc\n"
 adb pull /root/init.recovery.huawei.rc ../../../proprietary/root
 echo "===> Extracting root/init.hi3650.power.rc\n"
@@ -3027,4 +3011,4 @@ echo "===> Extracting root/sbin/hdbd\n"
 adb pull /root/sbin/hdbd ../../../proprietary/root/sbin
 
 
-# Total 1506 files added on 2016-11-18T10:21:36.465891 UTC
+# Total 1498 files added on 2016-11-19T18:10:02.162313 UTC

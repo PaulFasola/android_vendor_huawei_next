@@ -1458,11 +1458,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/init.balong_modem.rc:root/init.balong_modem.rc \
 	$(LOCAL_PATH)/proprietary/root/init.61276.rc:root/init.61276.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.61259.rc:root/ueventd.61259.rc \
-	$(LOCAL_PATH)/proprietary/root/init.environ.rc:root/init.environ.rc \
 	$(LOCAL_PATH)/proprietary/root/resetFactory.cfg:root/resetFactory.cfg \
 	$(LOCAL_PATH)/proprietary/root/init.chip.usb.rc:root/init.chip.usb.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.62010.rc:root/ueventd.62010.rc \
-	$(LOCAL_PATH)/proprietary/root/init.usb.rc.cm:root/init.usb.rc.cm \
 	$(LOCAL_PATH)/proprietary/root/ueventd.3741.rc:root/ueventd.3741.rc \
 	$(LOCAL_PATH)/proprietary/root/init.3583.rc:root/init.3583.rc \
 	$(LOCAL_PATH)/proprietary/root/init.recovery.hisi.rc:root/init.recovery.hisi.rc \
@@ -1473,11 +1471,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.rc:root/init.hi3650.rc \
 	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43xx.rc:root/init.connectivity.bcm43xx.rc \
 	$(LOCAL_PATH)/proprietary/root/init.3584.rc:root/init.3584.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.rc:root/ueventd.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.3584.rc:root/ueventd.3584.rc \
-	$(LOCAL_PATH)/proprietary/root/console-ramoops:root/console-ramoops \
 	$(LOCAL_PATH)/proprietary/root/init.audio.rc:root/init.audio.rc \
-	$(LOCAL_PATH)/proprietary/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
 	$(LOCAL_PATH)/proprietary/root/init.41038.rc:root/init.41038.rc \
 	$(LOCAL_PATH)/proprietary/root/init.62010.rc:root/init.62010.rc \
 	$(LOCAL_PATH)/proprietary/root/init.protocol.rc:root/init.protocol.rc \
@@ -1497,17 +1492,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/init.rc:root/init.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.71315.rc:root/ueventd.71315.rc \
 	$(LOCAL_PATH)/proprietary/root/init.device.rc:root/init.device.rc \
-	$(LOCAL_PATH)/proprietary/root/init.zygote32.rc:root/init.zygote32.rc \
 	$(LOCAL_PATH)/proprietary/root/init.platform.rc:root/init.platform.rc \
 	$(LOCAL_PATH)/proprietary/root/init.connectivity.gps.rc:root/init.connectivity.gps.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.61262.rc:root/ueventd.61262.rc \
 	$(LOCAL_PATH)/proprietary/root/init.hisi.rc:root/init.hisi.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.61297.rc:root/ueventd.61297.rc \
-	$(LOCAL_PATH)/proprietary/root/init.trace.rc:root/init.trace.rc \
 	$(LOCAL_PATH)/proprietary/root/init.61259.rc:root/init.61259.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.61276.rc:root/ueventd.61276.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.41038.rc:root/ueventd.41038.rc \
-	$(LOCAL_PATH)/proprietary/root/init.hi3650.rc.cm:root/init.hi3650.rc.cm \
 	$(LOCAL_PATH)/proprietary/root/init.recovery.huawei.rc:root/init.recovery.huawei.rc \
 	$(LOCAL_PATH)/proprietary/root/init.hi3650.power.rc:root/init.hi3650.power.rc \
 	$(LOCAL_PATH)/proprietary/root/sbin/logctl_service:root/sbin/logctl_service \
@@ -1522,4 +1514,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/sbin/hdbd:root/sbin/hdbd
 
 
-# Total 1506 files added on 2016-11-18T10:21:36.465872 UTC
+# Total 1498 files added on 2016-11-19T18:10:02.162286 UTC

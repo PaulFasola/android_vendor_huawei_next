@@ -17,6 +17,7 @@ on early-boot
 	class main
 	user media
 	group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm
+        disabled
 
 on early-boot
 	service tui-daemon /system/bin/tui_daemon
