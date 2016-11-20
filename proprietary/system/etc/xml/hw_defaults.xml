@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!--******************************** 1.PROTOCOL TEAM BEGIN -->
+    <!--******************************** 1.PROTOCOL TEAM END -->
+    <!--******************************** 2.APP MANUFACTURE TEAM BEGIN -->
+
+    <!--******************************** 2.APP MANUFACTURE TEAM END -->
+    <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <fraction brightness_threshold="12%"/>
+    <fraction settings.global.convert_brightnesss_factor="320%"/>
+    <!-- DTS2015110304272    z00294345 begin-->
+    <!--integer settings.global.wifi_sleep_policy="1"/-->
+    <!-- DTS2015110304272    z00294345 end-->
+    <integer settings.system.glove_file_node="0" />
+    <integer settings.system.screen_brightness_mode="1"/>
+    <integer settings.system.screen_brightness="128"/>
+    <integer settings.system.screen_off_timeout="30000"/>
+    <integer settings.system.vibrate_when_ringing="1"/>
+    <integer show_mms_expired_status="1"/>
+    <integer hw_vibrate_on="1"/>
+    <integer vibrate_on_message="1"/>
+    <integer vibrate_when_ringing="1"/>
+    <integer dhf_switch="1"/>
+    <integer virtual_hd_voice="0" reset="true"/>
+    <string hw_def_theme="/system/themes/Default.hwt"/>
+    <string hw_theme_sort="Obsidian(magazine)##Gold(magazine)##Blush##Ink##Mocha##Spectrum" reset="true"/>
+    <string no_write_sms_package="com.huawei.android.ds,com.android.mediacenter,com.huawei.hwid,com.huawei.security,com.huawei.hisuite,com.android.phone,com.huawei.remoteassistant"/>
+    <!--******************************** 3.BASEAPP TEAM END -->
+    <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
+    <integer settings.secure.dts_mode="3"/>
+    <!--******************************** 4.MULTI-MEDIA TEAM END -->
+    <!--******************************** 5.FRAMEWORK TEAM BEGIN -->
+    <integer oomadj.com.android.externalstorage="5"/>
+    <string apps_set_oomadj="com.android.externalstorage"/>
+    <integer user_power_tip="1"/>
+    <!--******************************** 5.FRAMEWORK TEAM END -->
+    <!--******************************** 6.DATA SERVICE TEAM BEGIN -->
+
+    <!--******************************** 6.DATA SERVICE TEAM END -->
+    <!--******************************** 7.APPLET TEAM BEGIN -->
+
+    <!--******************************** 7.APPLET TEAM END -->
+    <!--******************************** 8.CUSTOM TEAM BEGIN -->
+
+    <!--******************************** 8.CUSTOM TEAM END -->
+    <!-- DTS2015102204922  wubing wx225396 20151026 begin-->
+    <integer settings.secure.persist.sys.easyflag = "1920"/>
+    <integer settings.secure.persist.sys.support.easyflag = "10112"/>
+    <string settings.secure.persist.sys.easywakeup.c="com.huawei.camera;com.huawei.camera"/>
+    <string settings.secure.persist.sys.easywakeup.e="com.android.browser;com.android.browser.BrowserActivity"/>
+    <string settings.secure.persist.sys.easywakeup.w="com.huawei.android.totemweather;com.huawei.android.totemweather.WeatherHome"/>
+    <string settings.secure.persist.sys.easywakeup.m="com.android.mediacenter;com.android.mediacenter.PageActivity"/>
+    <integer settings.secure.EasyWakeUp_Flick_ALL_index = "14"/>
+    <integer settings.secure.EasyWakeUp_Flick_Right_index = "1"/>
+    <integer settings.secure.EasyWakeUp_Flick_left_index = "2"/>
+    <integer settings.secure.EasyWakeUp_Flick_Down_index = "3"/>
+    <integer settings.secure.EasyWakeUp_Flick_Up_index = "4"/>
+    <integer settings.secure.EasyWakeUp_Letter_ALL_index = "13"/>
+    <integer settings.secure.EasyWakeUp_Letter_C_index = "7"/>
+    <integer settings.secure.EasyWakeUp_Letter_E_index = "8"/>
+    <integer settings.secure.EasyWakeUp_Letter_M_index = "9"/>
+    <integer settings.secure.EasyWakeUp_Letter_W_index = "10"/>
+    <integer settings.system.fingersense_multiwindow_enabled="1"/>
+    <!-- DTS2015102204922  wubing wx225396 20151026 end-->
+   <!-- DTS2015110700089  chenjiachang c00346897 20151107 begin-->
+   <string colors_themes="white,/system/themes/Default.hwt;gray,/system/themes/Default.hwt;gold,/system/themes/Golden.hwt;cafe,/system/themes/Golden.hwt"/>
+   <!-- DTS2015110700089  chenjiachang c00346897 20151107 end-->
+</resources>

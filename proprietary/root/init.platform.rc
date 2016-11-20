@@ -381,3 +381,4 @@ service bastetd /system/bin/bastetd
     class main
     user root
     group root
+    disabled

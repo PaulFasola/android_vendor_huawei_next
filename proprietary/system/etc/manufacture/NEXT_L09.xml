@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMITest>
+    <TestItem key="ro.mmi.camera_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.slave_camera_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.flash_CT_test" value="false"></TestItem>
+    <TestItem key="ro.mmi.smartpa_calibratet_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.smartPA_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.slave_main_mic_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.nfc_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.fingerprint_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.approach_calibrate_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.camera_focus_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.pressure_sensor_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.hvc_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.pdaf_verification_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.vibrator_calibrate_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.light_calibrate_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.tp_calibrate_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.gyroscope_calibrate_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.electric_test" value="false"></TestItem>
+
+    <Properties key="ro.mmi.support_card_slot_share" value="false"/>
+    <Properties key="ro.mmi.enable_gesture_detector" value="false"/>
+    <Properties key="ro.mmi.hall_sensor_poles" value="1"/>
+    <Properties key="ro.mmi.log_path" value="/data/hwzd_logs/MMI_Logs"/>
+    <Properties key="ro.mmi.support_slave_camera_otp" value="true"/>
+    <Properties key="ro.mmi.ro.mmi.support_camera_otp" value="false"/>
+    <Properties key="ro.mmi.ncwire_control_key_list" value="24,25,79"/>
+    <!--Factory version balack list.The items in the tag will not be tested in Factory version
+        Notes:the TestItem value should be set "false"-->
+    <Factory>
+    </Factory>
+
+    <!--Normal version balack list.The items in the tag will not be tested in Normal version
+        Notes:the TestItem value should be set "false"-->
+    <Normal>
+        <TestItem key="ro.mmi.smartpa_calibratet_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.gsensor_calibrate_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.approach_calibrate_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.vibrator_calibrate_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.flash_CT_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.light_calibrate_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.tp_calibrate_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.pdaf_verification_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.gyroscope_calibrate_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.camera_focus_test" value="false"></TestItem>
+
+        <Properties key="ro.mmi.support_camera_otp" value="false"/>
+        <Properties key="ro.mmi.support_slave_camera_otp" value="false"/>
+    </Normal>
+</MMITest>
