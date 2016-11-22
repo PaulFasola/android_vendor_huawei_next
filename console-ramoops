@@ -1,0 +1,525 @@
+[    0.000000s][pid:0,cpu0,swapper][E/sensorhub] light sensor read tp color is 120, 0x78
+[    0.000000s][pid:0,cpu0,swapper][early_parse_memdumpresevred_cmdline] p:0x0e000000, g_memdump_reserved_addr:0xe000000 
+[    0.000000s][pid:0,cpu0,swapper][socp_logbuffer_timeparse]:CurTimeout/overTime   0x0
+[    0.000000s][pid:0,cpu0,swapper][diag_BbpDrxDdrEnable] not enable!
+[    0.000000s][pid:0,cpu0,swapper]eMMC freq_sel cmdline, enable:0x1, value:0x0
+[    0.000000s][pid:0,cpu0,swapper]cma: CMA: reserved 32 MiB at de000000
+[    0.000000s][pid:0,cpu0,swapper]cma: size is 8 base 0x872415232 cma_name (null)
+[    0.000000s][pid:0,cpu0,swapper]early_pasr_setup
+[    0.000000s][pid:0,cpu0,swapper]PASR information coherent
+[    0.000000s][pid:0,cpu0,swapper]DDR Dies layout:
+[    0.000000s][pid:0,cpu0,swapper]	id - start address - end address
+[    0.000000s][pid:0,cpu0,swapper]	- 0 : 0x000000 - 0x5fffffff
+[    0.000000s][pid:0,cpu0,swapper]	- 1 : 0x80000000 - 0xdfffffff
+[    0.000000s][pid:0,cpu0,swapper]No interleaved areas declared
+[    0.000000s][pid:0,cpu0,swapper]PASR map:
+[    0.000000s][pid:0,cpu0,swapper]Die 0:
+[    0.000000s][pid:0,cpu0,swapper]	Section 0: @ = 0, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 1: @ = 10000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 2: @ = 20000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 3: @ = 30000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 4: @ = 40000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 5: @ = 50000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]Die 1:
+[    0.000000s][pid:0,cpu0,swapper]	Section 0: @ = 80000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 1: @ = 90000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 2: @ = a0000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 3: @ = b0000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 4: @ = c0000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]	Section 5: @ = d0000000, Pair = No
+[    0.000000s][pid:0,cpu0,swapper]PASR: First stage init done.
+[    0.000000s][pid:0,cpu0,swapper/0]PASR Second stage init done.
+[    0.000000s][pid:1,cpu0,swapper/0]mem_dump_init begin, 0xe000000,0xffffff8000022000!
+[   10.441650s][pid:1,cpu4,swapper/0]cma: cma base de000000  cma size 32
+[   10.441741s][pid:1,cpu4,swapper/0]cma: cma base 34000000  cma size 8
+[   10.442230s][pid:1,cpu5,swapper/0]cma: hisi_cma_dev_init:235 page addr 0x34000000 size 8
+[   10.453277s][pid:1,cpu5,swapper/0][rdr_show_base_info]: rdr_struct_s information is not initialized, no need to print it's content!
+[   10.471343s][pid:1,cpu5,swapper/0][rdr_show_base_info]: rdr_struct_s information is not initialized, no need to print it's content!
+[   10.471466s][pid:50,cpu4,bbox_bootcheck]need not save dump file when boot.
+[   10.471984s][pid:1,cpu6,swapper/0][sc]: <dt_sysctrl_init> ok
+[   10.472045s][pid:1,cpu6,swapper/0][s_mem]: <bsp_shared_mem_init> ok!
+[   10.472503s][pid:1,cpu6,swapper/0]timer: <bsp_slice_init> ok.
+[   10.493865s][pid:1,cpu6,swapper/0]timer: <set_adp_timer_isr_and_pm>  ok
+[   10.493865s][pid:1,cpu6,swapper/0]timer: <bsp_timer_probe> ok
+[   10.494201s][pid:1,cpu6,swapper/0]softtimer init success
+[   10.494506s][pid:1,cpu6,swapper/0]ipc probe success
+[   10.497375s][pid:1,cpu6,swapper/0]icc: bsp_icc_init ok
+[   10.497406s][pid:1,cpu6,swapper/0]<bsp_pm_om_dump_init> ok
+[   10.502136s][pid:1,cpu6,swapper/0]hisi_blk_freq_ctrl_init: hisi blk freq ctrl init: io_wait_time_threshold=100, remove_req_time=350ms
+[   10.505218s][pid:1,cpu6,swapper/0]ssp-pl022 ffd70000.spi: spi cannot get the autosuspend-delay value
+[   10.506500s][pid:1,cpu6,swapper/0]ssp-pl022 fdf08000.spi: spi cannot get the autosuspend-delay value
+[   10.507568s][pid:1,cpu6,swapper/0]hisi_ion_init,
+[   10.507598s][pid:1,cpu6,swapper/0]hisi_ion_probe,
+[   10.507629s][pid:1,cpu6,swapper/0]in hisi_ion_enable_iommu start 
+[   10.515655s][pid:1,cpu6,swapper/0]enter rdr_lpm3_init
+[   10.515655s][pid:1,cpu6,swapper/0]sctrl_base: ffffff8001794000
+[   10.515747s][pid:1,cpu6,swapper/0]list_add_tail coreid is [0x10]
+[   10.515747s][pid:1,cpu6,swapper/0]rdr_register_module_ops success.
+[   10.515869s][pid:1,cpu6,swapper/0]rdr_lpm3_init: (ap)->(lpm3) ipc send (0x80202 0x346c0000 0x0 0x40000)!
+[   10.515899s][pid:1,cpu6,swapper/0]rdr_lpm3_reset_off: (ap)->(lpm3) ipc send (0x80203 0x0)!
+[   10.515960s][pid:1,cpu6,swapper/0]list_add2 coreid is [0x40]
+[   10.515991s][pid:1,cpu6,swapper/0]rdr_register_module_ops success.
+[   10.516754s][pid:1,cpu6,swapper/0]Call trace:
+[   10.539306s][pid:1,cpu6,swapper/0][slimbus_hi6402_param_init:257] track type is invalid: 7
+[   10.560516s][pid:1,cpu6,swapper/0][E/coul_core] dts:get board type is 2 ,battery removable flag is 0 !
+[   10.560516s][pid:1,cpu6,swapper/0][E/coul_core] dts:can not get batt id adc channel,use default channel: 6!
+[   10.560546s][pid:1,cpu6,swapper/0][E/coul_core] dts:can not get batt temp adc channel,use default channel: 10!
+[   10.560546s][pid:1,cpu6,swapper/0][E/coul_core] get_ntc_table, ntc_table length is -22, use default array!
+[   10.560546s][pid:1,cpu6,swapper/0][E/coul_core] Use default ntc_table!
+[   10.560577s][pid:1,cpu6,swapper/0][E/coul_core] dts:can not get soc_at_term,use default : 100!
+[   10.561126s][pid:1,cpu6,swapper/0][hisi_hi6421v500_coul]hi6421v500_coul_clear_last_soc_flag clear last soc flag!!!
+[   10.561645s][pid:1,cpu6,swapper/0][HW_CONN] read_chip_type_from_dts:  chip_type :bcm43xx
+[   10.561859s][pid:1,cpu6,swapper/0][gps_bcm_common_init]  gps_ic_type: 47531
+[   10.561981s][pid:1,cpu6,swapper/0][E/sensorhub] sensorhub_io_driver_probe: sensorhub_io_driver_probe success!
+[   10.566223s][pid:1,cpu6,swapper/0]rpmb_agent_open_blkdev(1, swapper/0): open /dev/block/mmcblk0rpmb failed with -2 in stage-0
+[   10.566497s][pid:1,cpu6,swapper/0]list_add_tail2 coreid is [0x4]
+[   10.566528s][pid:1,cpu6,swapper/0]rdr_register_module_ops success.
+[   10.567565s][pid:1,cpu6,swapper/0]list_add2 coreid is [0x20]
+[   10.567565s][pid:1,cpu6,swapper/0]rdr_register_module_ops success.
+[   10.567657s][pid:1,cpu6,swapper/0][W/sensorhub] write_ramdump_info_to_sharemem dumpaddr low is 34700000, dumpaddr high is 0, dumplen is 40000, end!
+[   10.567810s][pid:103,cpu5,rdr_sh_thread][W/sensorhub] rdr_sh_thread start!
+[   10.567810s][pid:104,cpu5,rdr_exce_thread][W/sensorhub] rdr_exce_thread start!
+[   10.571166s][pid:1,cpu6,swapper/0]hi6402-codec hi6402-codec: hi6402_platform_probe : hac is not support.
+[   10.585083s][pid:0,cpu0,swapper/0][E/sensorhub] inputhub_route_recv_mcu_data MINI ready
+[   10.585113s][pid:6,cpu7,kworker/u16:0][E/sensorhub] sensor kernel get_lcd_module tplcd_manufacture=2
+[   10.586120s][pid:6,cpu7,kworker/u16:0][E/sensorhub] read_als_data_from_dts:rohm_bh1745 i2c_address suc,0 
+[   10.586181s][pid:6,cpu7,kworker/u16:0][E/sensorhub] als_para_tabel=24 ,bh1745 phone_color=0x78  tplcd_manufacture=2, phone_type=11,phone_version=12
+[   10.586486s][pid:6,cpu7,kworker/u16:0][E/sensorhub] read_ps_data_from_dts:txc_ps i2c_address suc,0 
+[   10.586791s][pid:6,cpu7,kworker/u16:0][E/sensorhub] acc:detect_i2c_device:i2c read fail
+[   10.587432s][pid:6,cpu7,kworker/u16:0][E/sensorhub] gyro:detect_i2c_device:i2c read fail
+[   10.588073s][pid:6,cpu7,kworker/u16:0][E/sensorhub] read_mag_data_from_dts:read mag softfilter fail; use default value:0
+[   10.588104s][pid:6,cpu7,kworker/u16:0][E/sensorhub] read_mag_data_from_dts:read mag akm_cal_algo fail
+[   10.592773s][pid:0,cpu0,swapper/0][E/sensorhub] inputhub_route_recv_mcu_data ALL ready
+[   10.592803s][pid:0,cpu0,swapper/0][E/sensorhub] mcu_reboot_callback
+[   10.656280s][pid:1,cpu6,swapper/0]hi6402-gpio gpio.132: init ok
+[   10.657409s][pid:1,cpu6,swapper/0]hi6402-gpio gpio.133: init ok
+[   10.658569s][pid:1,cpu6,swapper/0]hi6402-gpio gpio.134: init ok
+[   10.659729s][pid:1,cpu6,swapper/0]hi6402-gpio gpio.135: init ok
+[   10.660156s]g_efusec_data.buf_phy_addr=0x34a11800, g_efusec_data.buf_virt_addr=0xffffff80018ae800, efuse init success
+[   10.675567s][pid:6,cpu4,kworker/u16:0]enable_err_probe_by_name: NOC not init
+[   10.711547s][pid:1,cpu7,swapper/0]of_dma_request_slave_channel: dma-names property missing or empty
+[   10.711639s][pid:1,cpu7,swapper/0]of_dma_request_slave_channel: dma-names property missing or empty
+[   10.717559s][pid:1,cpu4,swapper/0]
+[   10.717559s]PMIC REGISTER DUMP
+[   10.717559s]  addr     data 
+[   10.717559s]  0x11a    0x0 
+[   10.717559s]  0x11b    0x0 
+[   10.717559s]  0x11c    0x0 
+[   10.717559s]  0x11d    0x0 
+[   10.717559s]  0x11e    0x0 
+[   10.717559s]  0x11f    0x0 
+[   10.717559s]  0x12a    0x20 
+[   10.717559s]  0x12b    0x6 
+[   10.717559s]  0x1b4    0x0 
+[   10.718017s][pid:1,cpu4,swapper/0]mtdoops: mtd device (mtddev=name/number) must be supplied
+[   11.091491s][pid:1,cpu4,swapper/0]of_dma_request_slave_channel: dma-names property missing or empty
+[   11.091522s][pid:1,cpu4,swapper/0]i2c_designware-hs ffd73000.i2c: no TX DMA channel!
+[   11.095397s][pid:1,cpu4,swapper/0]of_dma_request_slave_channel: dma-names property missing or empty
+[   11.095397s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: no TX DMA channel!
+[   11.132232s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x41.
+[   11.132324s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x41.
+[   11.132476s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x42.
+[   11.132568s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x42.
+[   11.132720s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x44.
+[   11.132812s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x44.
+[   11.132934s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x45.
+[   11.133026s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x45.
+[   11.133148s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x46.
+[   11.133270s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x46.
+[   11.133392s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x47.
+[   11.133483s][pid:1,cpu4,swapper/0]i2c_designware-hs fdf0d000.i2c: error info -121, slave addr 0x47.
+[   11.135772s][pid:1,cpu4,swapper/0]of_target_cpu: SUCCESS.OK.
+[   11.136474s][pid:1,cpu4,swapper/0]mmc trace init fail
+[   11.136779s][pid:1,cpu4,swapper/0]sdhci-arasan ff390000.sdhci: clk-ahb cannot get from dts, use the default value!
+[   11.136810s][pid:1,cpu4,swapper/0]sdhci-arasan ff390000.sdhci: clk-xin  cannot get from dts, use the default value!
+[   11.139923s][pid:1,cpu4,swapper/0]cmdq_init: done.
+[   11.183288s][pid:1,cpu6,swapper/0]$$$$$$$$$$$$$$$$$$$$ ffffffc0d9435000, 1 
+[   11.183990s][pid:1,cpu6,swapper/0]mmc_host mmc1: card is present
+[   11.188049s][pid:6,cpu6,kworker/u16:0]mmc_trace_init_begin: mmc_trace_fd is NULL 
+[   11.190277s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=52, intmask=0X10000.
+[   11.194519s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=52, intmask=0X10000.
+[   11.207611s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=8, intmask=0X10000.
+[   11.211975s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=5, intmask=0X10000.
+[   11.216308s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=5, intmask=0X10000.
+[   11.220642s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=5, intmask=0X10000.
+[   11.225006s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=5, intmask=0X10000.
+[   11.229339s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=55, intmask=0X10000.
+[   11.233703s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=55, intmask=0X10000.
+[   11.238037s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=55, intmask=0X10000.
+[   11.240844s][pid:1,cpu7,swapper/0]$$$$$$$$$$$$$$$$$$$$ ffffffc0dc2bc000, 2 
+[   11.240905s][pid:1,cpu7,swapper/0]mmc_host mmc2: card is not present
+[   11.241546s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-110, opcode=55, intmask=0X10000.
+[   11.278289s][pid:77,cpu6,kworker/u16:1]mmc_host mmc2: card is not present
+[   11.278320s][pid:1,cpu4,swapper/0]hisi_leds pmic_led.126: hisi leds init success.
+[   11.302429s][pid:1,cpu5,swapper/0]DDR_DEVFREQ: ddr_devfreq_probe 364, per_hz 16  utilization 60
+[   11.302551s][pid:1,cpu5,swapper/0]DDR_DEVFREQ: ddr_devfreq_probe 374, per_hz 16  utilization 60
+[   11.304229s][pid:1,cpu5,swapper/0]can not get enc_clk_rate
+[   11.304260s][pid:1,cpu5,swapper/0][ENC]Failed to clk_set_rate driver_probe: -22
+[   11.304534s][pid:1,cpu5,swapper/0][ddrflux.35] [ddrflux]probe !
+[   11.311370s][pid:1,cpu4,swapper/0]list_add_tail2 coreid is [0x1]
+[   11.311401s][pid:1,cpu4,swapper/0]rdr_register_module_ops success.
+[   11.311584s][rdr_hisiap_init], retinfo: log_addr [0x34000200][0xffffff8006831300]
+[   11.311584s][pid:1,cpu4,swapper/0][rdr_hisiap_dump_init], begin.
+[   11.312072s][pid:1,cpu4,swapper/0][rdr_hisiap_dump_init], io_resources_init start.
+[   11.312774s][pid:1,cpu4,swapper/0][rdr_hisiap_dump_init], ap_dump_buffer_init start.
+[   11.313354s][pid:1,cpu4,swapper/0][rdr_hisiap_dump_init], register_arch_timer_func_ptr start.
+[   11.313385s][pid:1,cpu4,swapper/0][rdr_hisiap_dump_init], end.
+[   11.313385s][pid:42,cpu4,kworker/4:1][get_product_version_work_fn], enter!
+[   11.313690s][pid:1,cpu4,swapper/0]printk_time is 11313690185, 32k_abs_timer_value is 370727.
+[   11.313842s][pid:215,cpu6,modemddrc_emit]modemddrc_happen start
+[   11.314178s][pid:1,cpu4,swapper/0]list_add2 coreid is [0x8]
+[   11.314178s][pid:1,cpu4,swapper/0]rdr_register_module_ops success.
+[   11.315521s][pid:1,cpu4,swapper/0]DRV_IPCIntInit begin.
+[   11.315521s][pid:1,cpu4,swapper/0]DRV_IPCIntInit line = 257
+[   11.315521s][pid:1,cpu4,swapper/0]BSP_DRV_IPCIntInit end.
+[   11.317077s][pid:1,cpu4,swapper/0]freqdump init!
+[   11.318328s][pid:1,cpu4,swapper/0]map_sysregs: not plat hi6250.
+[   11.322143s][pid:1,cpu4,swapper/0]map_io_regs: gpio28 not find.
+[   11.322265s][pid:1,cpu4,swapper/0]map_io_regs: gpio29 not find.
+[   11.323028s][pid:1,cpu4,swapper/0][bsp_reset_init] ok
+[   11.324645s][pid:1,cpu4,swapper/0]socp_init:of_property_read_u32_array get size 0x200000!
+[   11.326690s][pid:1,cpu4,swapper/0]bsp_socp_vote: id 0x4 vote 0x0
+[   11.326690s][pid:1,cpu4,swapper/0]************socp vote info************
+[   11.326690s][pid:1,cpu4,swapper/0]GU DSP      : WAKE   0x0
+[   11.326690s][pid:1,cpu4,swapper/0]DIAG APP    : WAKE   0x0
+[   11.326721s][pid:1,cpu4,swapper/0]DIAG COMM   : WAKE   0x0
+[   11.326721s][pid:1,cpu4,swapper/0]TL DSP      : WAKE   0x0
+[   11.326721s][pid:1,cpu4,swapper/0]SOCP REG    : SLEEP  0x5a9d0
+[   11.326721s][pid:1,cpu4,swapper/0]************socp flag info************
+[   11.326721s][pid:1,cpu4,swapper/0]SOCP ON DEMAND FEATUR: ON
+[   11.326721s][pid:1,cpu4,swapper/0]SOCP POWER ON STATE  : POWER ON
+[   11.326751s][pid:1,cpu4,swapper/0][socp_init]: succeed, base addr=0xffffff80070dc000, irq num:251 !
+[   11.328094s][pid:1,cpu4,swapper/0][tem]: temperature init is ok.
+[   11.328186s][pid:235,cpu7,modem_sysboot_s]modem_sysboot_start_init start
+[   11.328186s][pid:1,cpu4,swapper/0][version]: <bsp_version_productinfo_init>  product id(0x3c002c1a) is not defined in xml!
+[   11.328186s][version]: <bsp_version_acore_init> bsp_version_productinfo_init fail! 
+[   11.328643s][pid:1,cpu4,swapper/0]ipf e0472000.ipf1: ipf init success
+[   11.328857s][pid:1,cpu4,swapper/0][anten]: <setup_gpio_anten> <222> set up ant dect0,gpio 199,modem id 0
+[   11.328887s][pid:1,cpu4,swapper/0][anten]: <setup_gpio_anten> <222> set up ant dect1,gpio 200,modem id 1
+[   11.328918s][pid:1,cpu4,swapper/0][anten]:  anten init over.
+[   11.328918s][pid:1,cpu4,swapper/0][mem]: <bsp_mem_init> memory init OK!
+[   11.329223s][pid:1,cpu4,swapper/0][cshell logger]: init ok
+[   11.329315s][pid:1,cpu4,swapper/0][dump]: <dump_memmap_modem_ddr> mdm_ddr= 1,type=1
+[   11.330322s][pid:1,cpu4,swapper/0][dump]: <dump_memmap_modem_ddr> g_modem_ddr_map_addr = 0xffffff8007500000 
+[   11.330627s][dump]: <dump_modem_sysctrl_memmap> g_modem_sysctrl_cfg.mdm_ctrl_sys_phy_addr = 0xe0200000,g_modem_sysctrl_cfg.mdm_ctrl_sys_virt_addr = 0x1042000
+[   11.330627s][pid:1,cpu4,swapper/0][dump]: <dump_modem_sysctrl_memmap> g_modem_sysctrl_cfg.clk.offset = 0x2c,g_modem_sysctrl_cfg.clk.mcpu_dbg_clk_en = 5,g_modem_sysctrl_cfg.clk.mcpu_pd_clk_en=3
+[   11.330627s][pid:1,cpu4,swapper/0][dump]: <dump_modem_sysctrl_memmap> g_modem_sysctrl_cfg.rst.offset = 0x68,g_modem_sysctrl_cfg.rst.mdma9_pd_srst_en= 15,g_modem_sysctrl_cfg.rst.moda9_cpu_srst_en =6
+[   11.330657s][pid:1,cpu4,swapper/0][dump]: <dump_modem_sysctrl_memmap> g_modem_sysctrl_cfg.mtcmos.offset=0xe04,g_modem_sysctrl_cfg.mtcmos.cpu_mtcmos_strl_dis =1
+[   11.331298s][dump]: <dump_coresight_memmap> g_coresight_etb_mem_ctrl.cp_cs_virt_addr = 0x70f4000,g_coresight_etb_mem_ctrl.cp_cs_phy_addr = 0xec0bc000
+[   11.331329s][pid:1,cpu4,swapper/0][dump]: <dump_coresight_memmap> g_coresight_etm_mem_ctrl.cp_cs_virt_addr = 0x70f2000,g_coresight_etm_mem_ctrl.cp_cs_phy_addr = 0xec083000[   11.331970s][pid:1,cpu4,swapper/0]list_add2 coreid is [0x2]
+[   11.331970s][pid:1,cpu4,swapper/0]rdr_register_module_ops success.
+[   11.331970s][pid:1,cpu4,swapper/0][dump]: <dump_init_phase2> dump init success!
+[   11.332244s][pid:1,cpu4,swapper/0][dump]: <bsp_dump_parse_apr_dts_info> init apr dts success
+[   11.332244s][pid:1,cpu4,swapper/0][sc]: <bsp_sc_kernel_init> line = 197  modemnvm_factory name: /dev/block/mmcblk0p6
+[   11.332244s][pid:1,cpu4,swapper/0][sc]: <bsp_sc_kernel_init> line = 204  [SC]: init success.
+[   11.332336s][pid:1,cpu4,swapper/0]*******!get dump buffer failed!*******
+[   11.332366s][pid:1,cpu4,swapper/0]<bsp_pm_om_log_init> ok
+[   11.332366s][pid:1,cpu4,swapper/0][modem log]: init ok
+[   11.332550s][pid:1,cpu4,swapper/0][pmu]: <pmic_modem_ocp_init> pmic modem ocp init ok!
+[   11.334472s][pid:1,cpu4,swapper/0]generic_flp_probe 
+[   11.334594s][pid:1,cpu4,swapper/0]softtimer:hisi_softtimer_init enter,32768
+[   11.334625s][pid:1,cpu4,swapper/0]hisi_flp_register success
+[   11.335052s][pid:6,cpu6,kworker/u16:0]mmc0: EXT_CSD revision 0x07 pre_eol_info = 0x01 device_life_time_est_typ_a = 0x01 device_life_time_est_typ_b = 0x01.
+[   11.335784s][pid:1,cpu4,swapper/0]Initializing hilog device, buffer size: 64K.
+[   11.335845s][pid:1,cpu4,swapper/0]Succedded to initialize hilog device, name: log_hilog!
+[   11.335845s][pid:1,cpu4,swapper/0]: 1225 tlogcat:addr_start=0xffffff800d301440	addr_end=0xffffff800d33c400
+[   11.335845s]
+[   11.336822s][pid:25,cpu4,kworker/4:0][E/huawei_typec] typec_detect_port_mode: NULL pointer!!!
+[   11.336853s][pid:25,cpu4,kworker/4:0][E/hisi_bci] typec not ready -12!!!
+[   11.337066s][pid:1,cpu4,swapper/0][HW_CONN] hw_connectivity_init enter
+[   11.337554s][pid:1,cpu4,swapper/0][HW_CONN] read_chip_type_from_dts:  chip_type :bcm43xx
+[   11.337554s][pid:1,cpu4,swapper/0][HW_CONN] hw_connectivity_probe:  chip_type :bcm43xx
+[   11.337738s][pid:1,cpu4,swapper/0]Unable to find hisi_nfc, nfc chip type using default
+[   11.337768s][pid:1,cpu4,swapper/0][HW_CONN] hw_connectivity_probe:  nfc_chip_type :nxp_nfc
+[   11.338012s][pid:1,cpu4,swapper/0]bluetooth_power_probe: not udp board, set vio swtich.
+[   11.338226s][pid:1,cpu4,swapper/0]gps chip type is matched with Broadcom, and it is not 4752
+[   11.338928s][pid:1,cpu4,swapper/0][SSPBBD]: GPIO value not correct
+[   11.340148s][pid:1,cpu4,swapper/0][E/dev_wifi] wifi_power_probe: wifi_host->enable 1
+[   11.340148s][pid:1,cpu4,swapper/0][E/dev_wifi] wifi_power_probe: wifi_host->wifi_wakeup_irq 186
+[   11.340179s][pid:1,cpu4,swapper/0][E/dev_wifi] wifi_power_probe: not udp board, set vio.
+[   11.340209s][pid:1,cpu4,swapper/0][E/dev_wifi] wifi_power_probe: gpio_get_value, vio already on.
+[   11.340240s][pid:1,cpu4,swapper/0][E/dev_wifi] wifi_power_probe:  nvrame_name :/vendor/firmware/nvram43455_hw_vn1.txt.
+[   11.340759s][pid:1,cpu4,swapper/0][E/vio] vio gpio number 131.
+[   11.341278s][pid:1,cpu5,swapper/0]/amba/spi@ffd70000/fingerprint@2: could not get #gpio-cells for /clocks@0/crgctrl@0xfff35000/clkmux_ispfunc2
+[   11.362274s][pid:6,cpu6,kworker/u16:0]sdhci_of_arasan_init_tuning_para enter
+[   11.362304s][pid:6,cpu6,kworker/u16:0]sdhci_execute_tuning: now, start tuning soft...
+[   11.363433s][pid:0,cpu0,in irq]sdhci_data_irq: host->data->error=-84, intmask=0X200000.
+[   11.365783s][pid:0,cpu0,in irq]sdhci_cmd_irq: host->cmd->error=-84, opcode=21, intmask=0X20001.
+[   11.368133s][pid:6,cpu6,kworker/u16:0]kernel tuning OK: timing is 9, tuning sample = 13, tuning_flag = 0xafffffffafffffff
+[   11.370605s][pid:1,cpu7,swapper/0][E/ak8789] Failed to get auxiliary type; ret:-22
+[   11.374786s][pid:1,cpu5,swapper/0]get gpio type failed, set to SOC type
+[   11.386230s][pid:1,cpu7,swapper/0][E/nfc] get_ext_gpio_type: can't check_ext_gpio
+[   11.386962s][pid:1,cpu7,swapper/0][E/nfc] get_wake_lock_timeout: can't find wake_lock_timeout
+[   11.386993s][pid:1,cpu7,swapper/0][E/nfc] irq_gpio:208
+[   11.387023s][pid:1,cpu7,swapper/0][E/nfc] firm_gpio:121
+[   11.393737s][pid:6,cpu6,kworker/u16:0]apanic: Bound to mmc block device 'mmcblk0p9(179:9)'
+[   11.395721s][pid:6,cpu6,kworker/u16:0]mmc_trace_init_end: mmc_trace_fd is NULL 
+[   11.395751s][pid:6,cpu6,kworker/u16:0]mmc_host mmc1: card is present
+[   11.395782s][pid:6,cpu6,kworker/u16:0]mmc_trace_init_begin: mmc_trace_fd is NULL 
+[   11.396789s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.1: CMD 52(arg=0xc00) REP time out
+[   11.397735s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.1: CMD 52(arg=0x80000c08) REP time out
+[   11.402282s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.1: CMD 5(arg=0x0) REP time out
+[   11.403106s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.1: CMD 5(arg=0x0) REP time out
+[   11.403930s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.1: CMD 5(arg=0x0) REP time out
+[   11.404754s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.1: CMD 5(arg=0x0) REP time out
+[   11.408843s][pid:6,cpu6,kworker/u16:0]mmc1: this sd support SDHC or later 
+[   11.519470s][pid:1,cpu4,swapper/0][E/nfc] get_detect_se: can't get nfc detect_se
+[   11.525482s][pid:1,cpu4,swapper/0]#### wifi_tcp_module_init:  wifi_tcp_module_init begin init!####
+[   11.539825s]vpos : 0xf, vneg: 0xf
+[   11.548797s][pid:6,cpu7,kworker/u16:0]mmc1:send acmd41 with ocr:0x41010000,get rocr:0xc1ff8000
+[   11.548797s][pid:6,cpu7,kworker/u16:0]mmc1:support uhs-1,and accept 1.8V switching request
+[   11.561248s][pid:6,cpu7,kworker/u16:0]dwmmc_hs hi_mci.1:  cd 0x10404 in voltage_switch
+[   11.562866s][pid:1,cpu4,swapper/0][noc_get_bus_nod_info]: nodes_array addr: ffffffc0019fc160.
+[   11.562896s][pid:1,cpu4,swapper/0][register_module_dump_mem_func], module_name [NOC]
+[   11.563171s][pid:256,cpu6,modemnoc_happen]modemnoc_happen start
+[   11.566192s][pid:264,cpu6,ts_thread:0][E/TS] NO need to disable reset
+[   11.567260s][pid:6,cpu7,kworker/u16:0]mmc1:host and card voltage have changed into 1.8v success!
+[   11.574890s][pid:6,cpu7,kworker/u16:0]mmc1:card support SDR12 SDR25 SDR50 SDR104 DDR50
+[   11.574890s][pid:6,cpu7,kworker/u16:0]mmc1:card driver TYPE_B TYPE_A TYPE_C TYPE_D
+[   11.575531s][pid:6,cpu7,kworker/u16:0]mmc1:host support SDR12 SDR25 SDR50 SDR104 
+[   11.577728s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.1: CMD 19(arg=0x0) REP CRC error
+[   11.580963s][pid:6,cpu4,kworker/u16:0]mmc_trace_init_end: mmc_trace_fd is NULL 
+[   11.957702s][E/dev_wifi] dw_mci_sdio_card_detect 1
+[   11.957733s][pid:47,cpu5,kworker/5:1]mmc_host mmc2: card is present
+[   11.957733s][pid:47,cpu5,kworker/5:1]mmc_host mmc2: card is present
+[   11.957763s][pid:6,cpu4,kworker/u16:0]mmc_host mmc2: card is present
+[   11.957763s][pid:6,cpu4,kworker/u16:0]mmc_trace_init_begin: mmc_trace_fd is NULL 
+[   11.998870s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.2: CMD 52(arg=0xc00) REP time out
+[   12.000793s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.2: CMD 52(arg=0x80000c08) REP time out
+[   12.006958s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.2: CMD 8(arg=0x1aa) REP time out
+[   12.025512s][pid:0,cpu0,swapper/0]dwmmc_hs hi_mci.2: Start bit error (status=00002004)
+[   12.028747s][pid:6,cpu4,kworker/u16:0]mmc_trace_init_end: mmc_trace_fd is NULL 
+[   12.049713s][pid:1,cpu5,swapper/0][E/dev_wifi] wifi_mem_prealloc: is not prealloc(section:7), use dynamic memory.
+[   12.088562s][pid:1,cpu5,swapper/0][W/devcheck] Get the node's fflash value fail and the reason is -22
+[   12.088684s][pid:1,cpu5,swapper/0]Warning: unable to open an initial console.
+[   12.088806s][pid:1,cpu5,swapper/0]Kernel init end, jump to execute /init
+[   12.223541s][pid:1,cpu4,init]init: property_set("ro.boot.hardware", "hi3650") failed
+[   12.247009s][pid:1,cpu4,init]init: waitpid failed: No child processes
+[   12.247070s][pid:1,cpu4,init]init: property_set("ro.hardware", "hi3650") failed
+[   12.247467s][pid:1,cpu4,init]init: /init.rc: 234: invalid command 'load_all_props'
+[   12.248657s][pid:1,cpu4,init]init: /init.balong_modem.rc: 2: invalid command 'modem_fs_chk'
+[   12.248687s][pid:1,cpu4,init]init: /init.balong_modem.rc: 15: invalid command 'modem_fs_chk'
+[   12.248718s][pid:1,cpu4,init]init: /init.tee.rc: 7: ignored duplicate definition of service 'teecd'
+[   12.248809s][pid:1,cpu4,init]init: /init.hisi.rc: 100: ignored duplicate definition of service 'ril-daemon'
+[   12.248809s][pid:1,cpu4,init]init: /init.hisi.rc: 115: ignored duplicate definition of service 'ril-daemon1'
+[   12.248901s][pid:1,cpu4,init]init: property 'ro.connectivity.sub_chiptype' doesn't exist while expanding '/init.connectivity.${ro.connectivity.sub_chiptype}.rc'
+[   12.248901s][pid:1,cpu4,init]init: error while handling import on line '1' in '/init.connectivity.rc'
+[   12.248931s][pid:1,cpu4,init]init: /init.connectivity.rc: 15: ignored duplicate definition of service 'dhcpcd_wlan0'
+[   12.248931s][pid:1,cpu4,init]init: /init.connectivity.rc: 20: ignored duplicate definition of service 'dhcpcd_p2p'
+[   12.248962s][pid:1,cpu4,init]init: /init.connectivity.rc: 25: ignored duplicate definition of service 'dhcpcd_bnep0'
+[   12.248962s][pid:1,cpu4,init]init: /init.connectivity.rc: 30: ignored duplicate definition of service 'dhcpcd_bt-pan'
+[   12.248992s][pid:1,cpu4,init]init: /init.connectivity.rc: 35: ignored duplicate definition of service 'iprenew_wlan0'
+[   12.248992s][pid:1,cpu4,init]init: /init.connectivity.rc: 40: ignored duplicate definition of service 'iprenew_p2p'
+[   12.248992s][pid:1,cpu4,init]init: /init.connectivity.rc: 45: ignored duplicate definition of service 'iprenew_bnep0'
+[   12.249053s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 67: ignored duplicate definition of service 'gpsdaemon'
+[   12.249084s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 71: ignored duplicate definition of service 'gpsd_47531'
+[   12.249084s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 78: ignored duplicate definition of service 'gpsdcl_47531'
+[   12.249114s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 85: ignored duplicate definition of service 'gpsd_4752'
+[   12.249114s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 92: ignored duplicate definition of service 'ipld'
+[   12.249145s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 98: ignored duplicate definition of service 'lhd_4774'
+[   12.249145s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 105: ignored duplicate definition of service 'lhdcl_4774'
+[   12.249145s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 112: ignored duplicate definition of service 'gpsd_4774'
+[   12.249176s][pid:1,cpu4,init]init: /init.connectivity.gps.rc: 119: ignored duplicate definition of service 'gpsdcl_4774'
+[   12.249267s][pid:1,cpu4,init]init: /init.device.rc: 113: ignored duplicate definition of service 'device-monitor'
+[   12.249359s][pid:1,cpu4,init]init: /init.extmodem.rc: 82: ignored duplicate definition of service 'modemlogcat_VIA'
+[   12.249420s][pid:1,cpu4,init]init: /init.manufacture.rc: 103: ignored duplicate definition of service 'atcmdserver'
+[   12.249420s][pid:1,cpu4,init]init: /init.manufacture.rc: 107: ignored duplicate definition of service 'oeminfo_nvm'
+[   12.249450s][pid:1,cpu4,init]init: /init.manufacture.rc: 113: ignored duplicate definition of service 'diagserver'
+[   12.249481s][pid:1,cpu4,init]init: /init.manufacture.rc: 142: ignored duplicate definition of service 'hwnffserver'
+[   12.249481s][pid:1,cpu4,init]init: /init.manufacture.rc: 146: ignored duplicate definition of service 'data_cleanner'
+[   12.249572s][pid:1,cpu4,init]init: /init.platform.rc: 32: invalid command 'sys_wp_init_action'
+[   12.249603s][pid:1,cpu4,init]init: /init.platform.rc: 106: invalid command 'printservice'
+[   12.249633s][pid:1,cpu4,init]init: /init.platform.rc: 150: invalid command 'verify_cust_oeminfo'
+[   12.249633s][pid:1,cpu4,init]init: /init.platform.rc: 153: invalid command 'verify_cust_oeminfo'
+[   12.249664s][pid:1,cpu4,init]init: /init.platform.rc: 168: ignored duplicate definition of service 'jankservice'
+[   12.249664s][pid:1,cpu4,init]init: /init.platform.rc: 179: ignored duplicate definition of service 'fuse_sdcard1rw'
+[   12.249694s][pid:1,cpu4,init]init: /init.platform.rc: 183: ignored duplicate definition of service 'fuse_sdcard1'
+[   12.249694s][pid:1,cpu4,init]init: /init.platform.rc: 187: ignored duplicate definition of service 'fuse_usbotg'
+[   12.249694s][pid:1,cpu4,init]init: /init.platform.rc: 191: ignored duplicate definition of service 'preparesdservice'
+[   12.249725s][pid:1,cpu4,init]init: /init.platform.rc: 199: ignored duplicate definition of service 'hiscoutmanager'
+[   12.249725s][pid:1,cpu4,init]init: /init.platform.rc: 206: ignored duplicate definition of service 'logserver'
+[   12.249755s][pid:1,cpu4,init]init: /init.platform.rc: 242: ignored duplicate definition of service 'hilogcat'
+[   12.249786s][pid:1,cpu4,init]init: /init.platform.rc: 298: ignored duplicate definition of service 'modemlogcat'
+[   12.249816s][pid:1,cpu4,init]init: /init.platform.rc: 305: ignored duplicate definition of service 'modematserver'
+[   12.249816s][pid:1,cpu4,init]init: /init.platform.rc: 312: ignored duplicate definition of service 'dumptool'
+[   12.249816s][pid:1,cpu4,init]init: /init.platform.rc: 316: ignored duplicate definition of service 'hw_cdma_service'
+[   12.249847s][pid:1,cpu4,init]init: /init.platform.rc: 331: ignored duplicate definition of service 'thermal-daemon'
+[   12.249847s][pid:1,cpu4,init]init: /init.platform.rc: 336: ignored duplicate definition of service 'limit_current'
+[   12.249877s][pid:1,cpu4,init]init: /init.platform.rc: 341: ignored duplicate definition of service 'hwpged'
+[   12.249877s][pid:1,cpu4,init]init: /init.platform.rc: 352: ignored duplicate definition of service 'chargemonitor'
+[   12.249908s][pid:1,cpu4,init]init: /init.platform.rc: 380: ignored duplicate definition of service 'bastetd'
+[   12.250000s][pid:1,cpu4,init]init: /init.41038.rc: 23: ignored duplicate definition of service 'tui-daemon'
+[   12.250030s][pid:1,cpu4,init]init: /init.41038.rc: 29: ignored duplicate definition of service 'vr_daemon'
+[   12.250885s][pid:1,cpu4,init]init: SELinux: Could not get canonical path /adb_keys restorecon: No such file or directory.
+[   12.389343s][pid:1,cpu5,init]init: /dev/hw_random not found
+[   12.389373s][pid:1,cpu5,init]init: could not open /dev/keychord: No such file or directory
+[   12.391235s][pid:1,cpu5,init]proc_dohung_task_timeout_secs 0.
+[   12.397186s][pid:1,cpu5,init]proc_dohung_task_timeout_secs 120.
+[   12.397216s][pid:1,cpu5,init]hung_task:set to whitelist.
+[   12.397216s][pid:1,cpu5,init]
+[   12.397216s]hung_task: name_table: 0, system_server,name_len: 13
+[   12.397216s][pid:1,cpu5,init]
+[   12.397216s]hung_task: name_table: 1, surfaceflinger,name_len: 14
+[   12.397247s][pid:1,cpu5,init]hung_task:tmp=on, count 2
+[   12.397247s][pid:1,cpu5,init]hung_task: hungtask_enable is set to enable.
+[   12.397521s][pid:1,cpu5,init]block2mtd: error: cannot open device /dev/block/mmcblk0p7
+[   12.398437s][pid:1,cpu5,init]init: /dev/hw_random not found
+[   12.398681s][pid:1,cpu5,init]init: cannot find '/system/bin/oeminfo_nvm_server', disabling 'oeminfo_nvm'
+[   12.398712s][pid:1,cpu5,init]init: cannot find '/system/bin/oeminfo_nvm_server', disabling 'oeminfo_nvm'
+[   21.338378s][2016:11:21 23:48:37][pid:241,cpu4,kworker/4:3][E/huawei_typec] typec_detect_port_mode: NULL pointer!!!
+[   21.338378s][pid:241,cpu4,kworker/4:3][E/hisi_bci] typec not ready -12!!!
+[   31.356994s][pid:241,cpu4,kworker/4:3][E/huawei_typec] typec_detect_port_mode: NULL pointer!!!
+[   31.356994s][pid:241,cpu4,kworker/4:3][E/hisi_bci] typec not ready -12!!!
+[   31.565765s][pid:257,cpu4,om_task_name][om]: <om_create_dir> path = /modem_log/log/
+[   31.565765s][pid:257,cpu4,om_task_name] rfile_init_done g_stRfileMain.eInitFlag 0!
+[   31.565795s][pid:257,cpu4,om_task_name]Call trace:
+[   31.565856s][pid:257,cpu4,om_task_name] rfile_init_done g_stRfileMain.eInitFlag 0!
+[   31.565887s][pid:257,cpu4,om_task_name]Call trace:
+[   31.565917s][pid:257,cpu4,om_task_name]create om dir failed! ret = -1
+[   31.565948s][pid:257,cpu4,om_task_name][om]: <om_save_task_name> create dir</modem_log/log/> fail
+[   32.264221s][pid:274,cpu7,init]fs_mgr: fs_mgr_mount_all(): possibly an encryptable blkdev userdata for mount /data type f2fs )
+[   32.408599s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/leds/torch_front/brightness restorecon: No such file or directory.
+[   32.408905s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_0/ina231_debug restorecon: No such file or directory.
+[   32.408905s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_0/ina231_set restorecon: No such file or directory.
+[   32.408935s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_0/ina231_value restorecon: No such file or directory.
+[   32.408966s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_1/ina231_debug restorecon: No such file or directory.
+[   32.408996s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_1/ina231_set restorecon: No such file or directory.
+[   32.408996s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_1/ina231_value restorecon: No such file or directory.
+[   32.410430s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/leds/torch_front/brightness restorecon: No such file or directory.
+[   32.410675s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_0/ina231_debug restorecon: No such file or directory.
+[   32.410705s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_0/ina231_set restorecon: No such file or directory.
+[   32.410736s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_0/ina231_value restorecon: No such file or directory.
+[   32.410766s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_1/ina231_debug restorecon: No such file or directory.
+[   32.410766s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_1/ina231_set restorecon: No such file or directory.
+[   32.410797s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /sys/class/ina231/ina231_1/ina231_value restorecon: No such file or directory.
+[   32.416961s][pid:1,cpu5,init]init: property_set("ro.build.version.sdk", "23") failed
+[   32.416992s][pid:1,cpu5,init]init: property_set("ro.build.version.preview_sdk", "0") failed
+[   32.416992s][pid:1,cpu5,init]init: property_set("ro.build.version.codename", "REL") failed
+[   32.417022s][pid:1,cpu5,init]init: property_set("ro.build.version.all_codenames", "REL") failed
+[   32.417022s][pid:1,cpu5,init]init: property_set("ro.build.version.release", "6.0") failed
+[   32.417022s][pid:1,cpu5,init]init: property_set("ro.build.version.security_patch", "2016-02-01") failed
+[   32.417053s][pid:1,cpu5,init]init: property_set("ro.build.version.base_os", "") failed
+[   32.417053s][pid:1,cpu5,init]init: property_set("ro.build.date", "Tue Feb  2 03:04:18 CST 2016") failed
+[   32.417053s][pid:1,cpu5,init]init: property_set("ro.build.date.utc", "1454353458") failed
+[   32.417053s][pid:1,cpu5,init]init: property_set("ro.build.type", "user") failed
+[   32.417083s][pid:1,cpu5,init]init: property_set("ro.build.user", "jenkins") failed
+[   32.417083s][pid:1,cpu5,init]init: property_set("ro.build.host", "WUH1000016698") failed
+[   32.417083s][pid:1,cpu5,init]init: property_set("ro.build.flavor", "NEXT-user") failed
+[   32.417114s][pid:1,cpu5,init]init: property_set("ro.product.model", "NEXT") failed
+[   32.417114s][pid:1,cpu5,init]init: property_set("ro.product.cpu.abi", "arm64-v8a") failed
+[   32.417114s][pid:1,cpu5,init]init: property_set("ro.product.cpu.abilist", "arm64-v8a,armeabi-v7a,armeabi") failed
+[   32.417144s][pid:1,cpu5,init]init: property_set("ro.product.cpu.abilist32", "armeabi-v7a,armeabiA") failed
+[   32.417144s][pid:1,cpu5,init]init: property_set("ro.product.cpu.abilist64", "arm64-v8a") failed
+[   32.417144s][pid:1,cpu5,init]init: property_set("ro.product.manufacturer", "HUAWEI") failed
+[   32.417144s][pid:1,cpu5,init]init: property_set("ro.product.locale", "en-US") failed
+[   32.417175s][pid:1,cpu5,init]init: property_set("ro.wifi.channels", "") failed
+[   32.417175s][pid:1,cpu5,init]init: property_set("ro.board.platform", "hi3650") failed
+[   32.417175s][pid:1,cpu5,init]init: property_set("ro.build.product", "hi3650") failed
+[   32.417205s][pid:1,cpu5,init]init: property_set("ro.build.characteristics", "default") failed
+[   32.420623s][pid:1,cpu5,init]init: property_set("ro.product.brand", "HUAWEI") failed
+[   32.420623s][pid:1,cpu5,init]init: property_set("ro.product.device", "next") failed
+[   32.420623s][pid:1,cpu5,init]init: property_set("ro.build.tags", "release-keys") failed
+[   32.420623s][pid:1,cpu5,init]init: property_set("ro.build.display.id", "NXT-C900B162") failed
+[   32.420654s][pid:1,cpu5,init]init: property_set("ro.build.version.incremental", "C900B162") failed
+[   32.420654s][pid:1,cpu5,init]init: property_set("ro.product.board", "NXT") failed
+[   32.420654s][pid:1,cpu5,init]init: property_set("ro.product.name", "NXT") failed
+[   32.420684s][pid:1,cpu5,init]init: property_set("ro.build.id", "HUAWEINXT") failed
+[   32.420837s][pid:1,cpu5,init]init: property_set("ro.adb.secure", "0") failed
+[   32.420837s][pid:1,cpu5,init]init: property_set("ro.secure", "0") failed
+[   32.420898s][pid:1,cpu5,init]init: property_set("ro.com.google.clientidbase", "android-google") failed
+[   32.421203s][pid:1,cpu5,init]init: property_set("ro.config.notification_sound", "Argon.ogg") failed
+[   32.421203s][pid:1,cpu5,init]init: property_set("ro.config.alarm_alert", "Helium.ogg") failed
+[   32.421630s][pid:1,cpu5,init]init: property_set("ro.config.ringtone", "Orion.ogg") failed
+[   32.421630s][pid:1,cpu5,init]init: property_set("ro.carrier", "unknown") failed
+[   32.422210s][pid:1,cpu5,init]init: property_set("ro.expect.recovery_id", "0x8c12636ea0a214eb570b5a5e2bf6aeb34a8b43aa000000000000000000000000") failed
+[   32.429992s][pid:1,cpu5,init]init: SELinux: Could not get canonical path /data/user/0 restorecon: No such file or directory.
+[   32.440399s][pid:1,cpu5,init]init: cannot find '/system/bin/pmom_cat', disabling 'pmom'
+[   32.448486s][pid:1,cpu5,init]init: Warning!  Service data_cleanner needs a SELinux domain defined; please fix!
+[   32.448699s][pid:1,cpu5,init]init: cannot find '/system/bin/teecd', disabling 'teecd'
+[   32.448974s][pid:1,cpu5,init]init: Warning!  Service powerlogd needs a SELinux domain defined; please fix!
+[   32.450134s][pid:1,cpu5,init]init: property 'ro.product.locale.region' doesn't exist while expanding '${ro.product.locale.region}'
+[   32.450134s][pid:1,cpu5,init]init: cannot expand '${ro.product.locale.region}' while writing to '/sys/module/bcmdhd/parameters/region'
+[   32.455841s][pid:330,cpu2,init]init: cannot setexeccon('u:r:check_hota:s0'): Invalid argument
+[   32.464599s][pid:1,cpu4,init]init: SELinux: Could not get canonical path /sys/block/sda/queue/scheduler restorecon: No such file or directory.
+[   32.464660s][pid:1,cpu4,init]init: SELinux: Could not get canonical path /sys/block/sde/queue/scheduler restorecon: No such file or directory.
+[   32.464691s][pid:1,cpu4,init]init: SELinux: Could not get canonical path /sys/block/dm-0/queue/scheduler restorecon: No such file or directory.
+[   32.465301s][pid:1,cpu4,init]init: service 'console' requires console
+[   32.483154s][pid:1,cpu4,init]android_usb: already disabled
+[   32.499786s][pid:1,cpu6,init]init: Warning!  Service vr_daemon needs a SELinux domain defined; please fix!
+[   32.500091s][pid:1,cpu6,init]init: Warning!  Service tui-daemon needs a SELinux domain defined; please fix!
+[   32.500427s][pid:1,cpu6,init]init: Warning!  Service device-monitor needs a SELinux domain defined; please fix!
+[   32.500762s][pid:1,cpu6,init]init: Warning!  Service hwnffserver needs a SELinux domain defined; please fix!
+[   32.501068s][pid:1,cpu6,init]init: Warning!  Service thermal-daemon needs a SELinux domain defined; please fix!
+[   32.501373s][pid:1,cpu6,init]init: Warning!  Service hwpged needs a SELinux domain defined; please fix!
+[   32.501647s][pid:1,cpu6,init]init: Warning!  Service bastetd needs a SELinux domain defined; please fix!
+[   32.501861s][pid:1,cpu6,init]init: cannot find '/system/bin/goldeneye', disabling 'goldeneye'
+[   32.502166s][pid:1,cpu6,init]init: Warning!  Service hw_ueventd needs a SELinux domain defined; please fix!
+[   32.504119s][pid:371,cpu7,init]init: cannot setexeccon('u:r:check_root:s0'): Invalid argument
+[   32.504180s][pid:375,cpu5,pkgld]sdcardfs: missing packages.list; retrying
+[   32.504241s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   32.511138s][pid:372,cpu6,hw_ueventd]hw_ueventd: the recovery_flag value in app_info is: 0.
+[   32.658966s][pid:328,cpu7,surfaceflinger]audit: rate limit exceeded
+[   34.505554s][2016:11:21 23:48:50][pid:375,cpu6,pkgld]sdcardfs: missing packages.list_end; retrying
+[   34.505615s][pid:375,cpu6,pkgld]sdcardfs: missing packages.list; retrying
+[   34.505645s][pid:377,cpu5,pkgld]sdcardfs: missing packages.list_end; retrying
+[   34.505676s][pid:377,cpu5,pkgld]sdcardfs: missing packages.list; retrying
+[   36.515197s][pid:375,cpu4,pkgld]sdcardfs: missing packages.list_end; retrying
+[   36.515228s][pid:375,cpu4,pkgld]sdcardfs: missing packages.list; retrying
+[   36.515350s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list_end; retrying
+[   36.515350s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list; retrying
+[   38.524871s][pid:375,cpu4,pkgld]sdcardfs: missing packages.list_end; retrying
+[   38.524902s][pid:375,cpu4,pkgld]sdcardfs: missing packages.list; retrying
+[   38.534881s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list_end; retrying
+[   38.534881s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list; retrying
+[   40.534759s][2016:11:21 23:48:56][pid:375,cpu5,pkgld]sdcardfs: missing packages.list_end; retrying
+[   40.534790s][pid:375,cpu5,pkgld]sdcardfs: missing packages.list; retrying
+[   40.544921s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list_end; retrying
+[   40.544921s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list; retrying
+[   41.385131s][pid:241,cpu4,kworker/4:3][E/huawei_typec] typec_detect_port_mode: NULL pointer!!!
+[   41.385131s][pid:241,cpu4,kworker/4:3][E/hisi_bci] typec not ready -12!!!
+[   42.544708s][pid:375,cpu7,pkgld]sdcardfs: missing packages.list_end; retrying
+[   42.544738s][pid:375,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   42.564453s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list_end; retrying
+[   42.564453s][pid:377,cpu6,pkgld]sdcardfs: missing packages.list; retrying
+[   44.554351s][pid:375,cpu4,pkgld]sdcardfs: missing packages.list_end; retrying
+[   44.554382s][pid:375,cpu4,pkgld]sdcardfs: missing packages.list; retrying
+[   44.574371s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list_end; retrying
+[   44.574401s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list; retrying
+[   46.564178s][pid:375,cpu5,pkgld]sdcardfs: missing packages.list_end; retrying
+[   46.564208s][pid:375,cpu5,pkgld]sdcardfs: missing packages.list; retrying
+[   46.584045s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list_end; retrying
+[   46.584045s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list; retrying
+[   48.583801s][2016:11:21 23:49:04][pid:375,cpu5,pkgld]sdcardfs: missing packages.list_end; retrying
+[   48.583831s][pid:375,cpu5,pkgld]sdcardfs: missing packages.list; retrying
+[   48.603942s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list_end; retrying
+[   48.603973s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list; retrying
+[   50.593597s][2016:11:21 23:49:06][pid:375,cpu5,pkgld]sdcardfs: missing packages.list_end; retrying
+[   50.593627s][pid:375,cpu5,pkgld]sdcardfs: missing packages.list; retrying
+[   50.623596s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list_end; retrying
+[   50.623596s][pid:377,cpu4,pkgld]sdcardfs: missing packages.list; retrying
+[   51.413909s][pid:241,cpu4,kworker/4:3][E/huawei_typec] typec_detect_port_mode: NULL pointer!!!
+[   51.413909s][pid:241,cpu4,kworker/4:3][E/hisi_bci] typec not ready -12!!!
+[   52.603485s][2016:11:21 23:49:08][pid:375,cpu6,pkgld]sdcardfs: missing packages.list_end; retrying
+[   52.603515s][pid:375,cpu6,pkgld]sdcardfs: missing packages.list; retrying
+[   52.633636s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list_end; retrying
+[   52.633666s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   54.613281s][pid:375,cpu7,pkgld]sdcardfs: missing packages.list_end; retrying
+[   54.613311s][pid:375,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   54.643157s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list_end; retrying
+[   54.643188s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   56.633514s][pid:375,cpu7,pkgld]sdcardfs: missing packages.list_end; retrying
+[   56.633544s][pid:375,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   56.653106s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list_end; retrying
+[   56.653106s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   58.642913s][pid:375,cpu1,pkgld]sdcardfs: missing packages.list_end; retrying
+[   58.642974s][pid:375,cpu1,pkgld]sdcardfs: missing packages.list; retrying
+[   58.662750s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list_end; retrying
+[   58.662780s][pid:377,cpu7,pkgld]sdcardfs: missing packages.list; retrying
+[   58.913604s][pid:1,cpu4,init]init: critical process 'zygote' exited 4 times in 4 minutes; rebooting into recovery mode
+[   58.914001s]SysRq : Emergency Remount R/O
+[   59.070343s][pid:1,cpu6,init]mmc1: [SDLOCK] sdcard is unlocked on suspend and set auto_unlock = true. 
+[   59.563049s][pid:1,cpu6,init][E/coul_core] hisi_coul_shutdown start!
+[   59.563079s][pid:1,cpu6,init][E/coul_core] hisi_coul_shutdown end!
+[   59.563232s][pid:1,cpu0,init]Restarting system with command 'recovery'.
+[   59.563415s][pid:1,cpu0,init]hisi_pm_system_reset cmd is recovery
+[   59.563446s][pid:1,cpu0,init]ap send nmi to lpm3, then goto dead loop.

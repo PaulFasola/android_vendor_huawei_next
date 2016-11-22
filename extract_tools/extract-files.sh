@@ -71,8 +71,6 @@ echo "===> Extracting system/framework/com.android.nfc_extras.jar\n"
 adb pull /system/framework/com.android.nfc_extras.jar ../../../proprietary/system/framework
 echo "===> Extracting system/framework/com.android.location.provider.jar\n"
 adb pull /system/framework/com.android.location.provider.jar ../../../proprietary/system/framework
-echo "===> Extracting system/framework/framework-res.apk\n"
-adb pull /system/framework/framework-res.apk ../../../proprietary/system/framework
 echo "===> Extracting system/framework/com.hisi.perfhub.jar\n"
 adb pull /system/framework/com.hisi.perfhub.jar ../../../proprietary/system/framework
 echo "===> Extracting system/framework/com.google.widevine.software.drm.jar\n"
@@ -339,14 +337,10 @@ echo "===> Extracting system/etc/inv_ipld.prop\n"
 adb pull /system/etc/inv_ipld.prop ../../../proprietary/system/etc
 echo "===> Extracting system/etc/topazhp.cfg\n"
 adb pull /system/etc/topazhp.cfg ../../../proprietary/system/etc
-echo "===> Extracting system/etc/normal_cpu_policy.xml\n"
-adb pull /system/etc/normal_cpu_policy.xml ../../../proprietary/system/etc
 echo "===> Extracting system/etc/gps47531config.xml\n"
 adb pull /system/etc/gps47531config.xml ../../../proprietary/system/etc
 echo "===> Extracting system/etc/pwrprof.xml\n"
 adb pull /system/etc/pwrprof.xml ../../../proprietary/system/etc
-echo "===> Extracting system/etc/performance_cpu_policy.xml\n"
-adb pull /system/etc/performance_cpu_policy.xml ../../../proprietary/system/etc
 echo "===> Extracting system/etc/fonts.xml\n"
 adb pull /system/etc/fonts.xml ../../../proprietary/system/etc
 echo "===> Extracting system/etc/chargemonitor_config.xml\n"
@@ -367,8 +361,6 @@ echo "===> Extracting system/etc/libnfc_nxp_next_L09.conf\n"
 adb pull /system/etc/libnfc_nxp_next_L09.conf ../../../proprietary/system/etc
 echo "===> Extracting system/etc/hosts\n"
 adb pull /system/etc/hosts ../../../proprietary/system/etc
-echo "===> Extracting system/etc/super_cpu_policy.xml\n"
-adb pull /system/etc/super_cpu_policy.xml ../../../proprietary/system/etc
 echo "===> Extracting system/etc/device_state_monitor.conf\n"
 adb pull /system/etc/device_state_monitor.conf ../../../proprietary/system/etc
 echo "===> Extracting system/etc/benchmar_app.xml\n"
@@ -377,12 +369,6 @@ echo "===> Extracting system/etc/audio_effects.conf\n"
 adb pull /system/etc/audio_effects.conf ../../../proprietary/system/etc
 echo "===> Extracting system/etc/product_map.cfg\n"
 adb pull /system/etc/product_map.cfg ../../../proprietary/system/etc
-echo "===> Extracting system/etc/gallery/display_engine/NEXT-JDI_NT35695_6__CMD_TFT.xml\n"
-adb pull /system/etc/gallery/display_engine/NEXT-JDI_NT35695_6__CMD_TFT.xml ../../../proprietary/system/etc/gallery/display_engine
-echo "===> Extracting system/etc/gallery/display_engine/display.xml\n"
-adb pull /system/etc/gallery/display_engine/display.xml ../../../proprietary/system/etc/gallery/display_engine
-echo "===> Extracting system/etc/gallery/display_engine/NEXT-LG_eR69006A_6__CMD_TFT.xml\n"
-adb pull /system/etc/gallery/display_engine/NEXT-LG_eR69006A_6__CMD_TFT.xml ../../../proprietary/system/etc/gallery/display_engine
 echo "===> Extracting system/etc/camera/ppconfig.xml\n"
 adb pull /system/etc/camera/ppconfig.xml ../../../proprietary/system/etc/camera
 echo "===> Extracting system/etc/camera/dcvalidation.xml\n"
@@ -3217,6 +3203,8 @@ echo "===> Extracting root/ueventd.3584.rc\n"
 adb pull /root/ueventd.3584.rc ../../../proprietary/root
 echo "===> Extracting root/init.audio.rc\n"
 adb pull /root/init.audio.rc ../../../proprietary/root
+echo "===> Extracting root/init.zygote64_32.rc\n"
+adb pull /root/init.zygote64_32.rc ../../../proprietary/root
 echo "===> Extracting root/init.41038.rc\n"
 adb pull /root/init.41038.rc ../../../proprietary/root
 echo "===> Extracting root/init.62010.rc\n"
@@ -3297,4 +3285,4 @@ echo "===> Extracting root/sbin/hdbd\n"
 adb pull /root/sbin/hdbd ../../../proprietary/root/sbin
 
 
-# Total 1641 files added on 2016-11-20T22:44:12.260659 UTC
+# Total 1635 files added on 2016-11-21T23:26:38.738118 UTC

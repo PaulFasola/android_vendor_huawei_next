@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/framework/com.gsma.services.nfc.jar:system/framework/com.gsma.services.nfc.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.location.provider.jar:system/framework/com.android.location.provider.jar \
-	$(LOCAL_PATH)/proprietary/system/framework/framework-res.apk:system/framework/framework-res.apk \
 	$(LOCAL_PATH)/proprietary/system/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/com.android.media.remotedisplay.jar:system/framework/com.android.media.remotedisplay.jar \
@@ -177,10 +176,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/thermald_performance.xml:system/etc/thermald_performance.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/inv_ipld.prop:system/etc/inv_ipld.prop \
 	$(LOCAL_PATH)/proprietary/system/etc/topazhp.cfg:system/etc/topazhp.cfg \
-	$(LOCAL_PATH)/proprietary/system/etc/normal_cpu_policy.xml:system/etc/normal_cpu_policy.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/gps47531config.xml:system/etc/gps47531config.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/pwrprof.xml:system/etc/pwrprof.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/performance_cpu_policy.xml:system/etc/performance_cpu_policy.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/fonts.xml:system/etc/fonts.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/chargemonitor_config.xml:system/etc/chargemonitor_config.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
@@ -191,14 +188,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/pwrlog.cfg:system/etc/pwrlog.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/libnfc_nxp_next_L09.conf:system/etc/libnfc_nxp_next_L09.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/hosts:system/etc/hosts \
-	$(LOCAL_PATH)/proprietary/system/etc/super_cpu_policy.xml:system/etc/super_cpu_policy.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/device_state_monitor.conf:system/etc/device_state_monitor.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/benchmar_app.xml:system/etc/benchmar_app.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/audio_effects.conf:system/etc/audio_effects.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/product_map.cfg:system/etc/product_map.cfg \
-	$(LOCAL_PATH)/proprietary/system/etc/gallery/display_engine/NEXT-JDI_NT35695_6__CMD_TFT.xml:system/etc/gallery/display_engine/NEXT-JDI_NT35695_6__CMD_TFT.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/gallery/display_engine/display.xml:system/etc/gallery/display_engine/display.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/gallery/display_engine/NEXT-LG_eR69006A_6__CMD_TFT.xml:system/etc/gallery/display_engine/NEXT-LG_eR69006A_6__CMD_TFT.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/camera/ppconfig.xml:system/etc/camera/ppconfig.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/camera/dcvalidation.xml:system/etc/camera/dcvalidation.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/camera/pdafvalidation.xml:system/etc/camera/pdafvalidation.xml \
@@ -1616,6 +1609,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/init.3584.rc:root/init.3584.rc \
 	$(LOCAL_PATH)/proprietary/root/ueventd.3584.rc:root/ueventd.3584.rc \
 	$(LOCAL_PATH)/proprietary/root/init.audio.rc:root/init.audio.rc \
+	$(LOCAL_PATH)/proprietary/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
 	$(LOCAL_PATH)/proprietary/root/init.41038.rc:root/init.41038.rc \
 	$(LOCAL_PATH)/proprietary/root/init.62010.rc:root/init.62010.rc \
 	$(LOCAL_PATH)/proprietary/root/init.protocol.rc:root/init.protocol.rc \
@@ -1657,4 +1651,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/root/sbin/hdbd:root/sbin/hdbd
 
 
-# Total 1641 files added on 2016-11-20T22:44:12.260643 UTC
+# Total 1635 files added on 2016-11-21T23:26:38.738082 UTC
