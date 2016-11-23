@@ -1590,65 +1590,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
 	$(LOCAL_PATH)/proprietary/system/bin/radvd:system/bin/radvd \
 	$(LOCAL_PATH)/proprietary/system/bin/lmkd:system/bin/lmkd \
-	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat \
-	$(LOCAL_PATH)/proprietary/root/init.balong_modem.rc:root/init.balong_modem.rc \
-	$(LOCAL_PATH)/proprietary/root/init.61276.rc:root/init.61276.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.61259.rc:root/ueventd.61259.rc \
-	$(LOCAL_PATH)/proprietary/root/resetFactory.cfg:root/resetFactory.cfg \
-	$(LOCAL_PATH)/proprietary/root/init.chip.usb.rc:root/init.chip.usb.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.62010.rc:root/ueventd.62010.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.3741.rc:root/ueventd.3741.rc \
-	$(LOCAL_PATH)/proprietary/root/init.3583.rc:root/init.3583.rc \
-	$(LOCAL_PATH)/proprietary/root/init.recovery.hisi.rc:root/init.recovery.hisi.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.rc:root/init.connectivity.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43455.rc:root/init.connectivity.bcm43455.rc \
-	$(LOCAL_PATH)/proprietary/root/fstab.hi3650:root/fstab.hi3650 \
-	$(LOCAL_PATH)/proprietary/root/ueventd.3583.rc:root/ueventd.3583.rc \
-	$(LOCAL_PATH)/proprietary/root/init.hi3650.rc:root/init.hi3650.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.bcm43xx.rc:root/init.connectivity.bcm43xx.rc \
-	$(LOCAL_PATH)/proprietary/root/init.3584.rc:root/init.3584.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.3584.rc:root/ueventd.3584.rc \
-	$(LOCAL_PATH)/proprietary/root/init.audio.rc:root/init.audio.rc \
-	$(LOCAL_PATH)/proprietary/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
-	$(LOCAL_PATH)/proprietary/root/init.41038.rc:root/init.41038.rc \
-	$(LOCAL_PATH)/proprietary/root/init.62010.rc:root/init.62010.rc \
-	$(LOCAL_PATH)/proprietary/root/init.protocol.rc:root/init.protocol.rc \
-	$(LOCAL_PATH)/proprietary/root/init.post-fs-data.rc:root/init.post-fs-data.rc \
-	$(LOCAL_PATH)/proprietary/root/init.extmodem.rc:root/init.extmodem.rc \
-	$(LOCAL_PATH)/proprietary/root/init.61297.rc:root/init.61297.rc \
-	$(LOCAL_PATH)/proprietary/root/init.performance.rc:root/init.performance.rc \
-	$(LOCAL_PATH)/proprietary/root/init.71315.rc:root/init.71315.rc \
-	$(LOCAL_PATH)/proprietary/root/init.hi3650.usb.rc:root/init.hi3650.usb.rc \
-	$(LOCAL_PATH)/proprietary/root/init.tee.rc:root/init.tee.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.hi3650.rc:root/ueventd.hi3650.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.hisi.rc:root/init.connectivity.hisi.rc \
-	$(LOCAL_PATH)/proprietary/root/init.61262.rc:root/init.61262.rc \
-	$(LOCAL_PATH)/proprietary/root/init.3741.rc:root/init.3741.rc \
-	$(LOCAL_PATH)/proprietary/root/init.hi3650.power.sh:root/init.hi3650.power.sh \
-	$(LOCAL_PATH)/proprietary/root/init.manufacture.rc:root/init.manufacture.rc \
-	$(LOCAL_PATH)/proprietary/root/init.rc:root/init.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.71315.rc:root/ueventd.71315.rc \
-	$(LOCAL_PATH)/proprietary/root/init.device.rc:root/init.device.rc \
-	$(LOCAL_PATH)/proprietary/root/init.platform.rc:root/init.platform.rc \
-	$(LOCAL_PATH)/proprietary/root/init.connectivity.gps.rc:root/init.connectivity.gps.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.61262.rc:root/ueventd.61262.rc \
-	$(LOCAL_PATH)/proprietary/root/init.hisi.rc:root/init.hisi.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.61297.rc:root/ueventd.61297.rc \
-	$(LOCAL_PATH)/proprietary/root/init.61259.rc:root/init.61259.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.61276.rc:root/ueventd.61276.rc \
-	$(LOCAL_PATH)/proprietary/root/ueventd.41038.rc:root/ueventd.41038.rc \
-	$(LOCAL_PATH)/proprietary/root/init.recovery.huawei.rc:root/init.recovery.huawei.rc \
-	$(LOCAL_PATH)/proprietary/root/init.hi3650.power.rc:root/init.hi3650.power.rc \
-	$(LOCAL_PATH)/proprietary/root/sbin/logctl_service:root/sbin/logctl_service \
-	$(LOCAL_PATH)/proprietary/root/sbin/launch_daemonsu.sh:root/sbin/launch_daemonsu.sh \
-	$(LOCAL_PATH)/proprietary/root/sbin/teecd:root/sbin/teecd \
-	$(LOCAL_PATH)/proprietary/root/sbin/check_root:root/sbin/check_root \
-	$(LOCAL_PATH)/proprietary/root/sbin/oeminfo_nvm_server:root/sbin/oeminfo_nvm_server \
-	$(LOCAL_PATH)/proprietary/root/sbin/volisnotd:root/sbin/volisnotd \
-	$(LOCAL_PATH)/proprietary/root/sbin/kmsgcat:root/sbin/kmsgcat \
-	$(LOCAL_PATH)/proprietary/root/sbin/hw_ueventd:root/sbin/hw_ueventd \
-	$(LOCAL_PATH)/proprietary/root/sbin/ntfs-3gd:root/sbin/ntfs-3gd \
-	$(LOCAL_PATH)/proprietary/root/sbin/hdbd:root/sbin/hdbd
+	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1635 files added on 2016-11-21T23:26:38.738082 UTC
+# Total 1577 files added on 2016-11-22T01:19:58.393719 UTC
