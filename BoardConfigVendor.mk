@@ -14,21 +14,63 @@ LOCAL_PATH := vendor/huawei/next
 
 
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/system/lib64/libdrmbitmap.huawei.so:system/lib64/libdrmbitmap.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libmtp.huawei.so:system/lib64/libmtp.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libdisplay_ext.so:system/lib64/libdisplay_ext.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaes.so:system/lib64/libaes.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libnvme.so:system/lib64/libnvme.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegaudiodec.so:system/lib64/libstagefright_soft_ffmpegaudiodec.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/liboeminfo_jni.so:system/lib64/liboeminfo_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libwifi_factory_test.so:system/lib64/libwifi_factory_test.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libomx_vxd.so:system/lib64/libomx_vxd.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub_service.so:system/lib64/libperfhub_service.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libvio.so:system/lib64/libvio.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright.huawei.so:system/lib64/libstagefright.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libril.so:system/lib64/libril.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libwifi_factory_test_hisi.so:system/lib64/libwifi_factory_test_hisi.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libprojectmenu.so:system/lib64/libprojectmenu.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libwifipro.so:system/lib64/libwifipro.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwuibp.so:system/lib64/libhwuibp.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/librilutils.so:system/lib64/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libdmd.so:system/lib64/libdmd.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegvideodec.so:system/lib64/libstagefright_soft_ffmpegvideodec.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libssl2.so:system/lib64/libssl2.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libhwcalibrationtest_jni.so:system/lib64/libhwcalibrationtest_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub_client.so:system/lib64/libperfhub_client.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libbalong-ril.so:system/lib64/libbalong-ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libchrlog.so:system/lib64/libchrlog.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libpowerprofile.so:system/lib64/libpowerprofile.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libhwsign.so:system/lib64/libhwsign.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libbastet.so:system/lib64/libbastet.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libbalong-ril-2.so:system/lib64/libbalong-ril-2.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libwifi_wapi_hisi.so:system/lib64/libwifi_wapi_hisi.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libbalong-ril-1.so:system/lib64/libbalong-ril-1.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub.so:system/lib64/libperfhub.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libomx_vxe.so:system/lib64/libomx_vxe.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libvia-ril.so:system/lib64/libvia-ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwaps.so:system/lib64/libhwaps.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhuaweigpsrpc.so:system/lib64/libhuaweigpsrpc.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libbastetmanager.so:system/lib64/libbastetmanager.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libgralloc_ext.default.so:system/lib64/libgralloc_ext.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright.hisi.so:system/lib64/libstagefright.hisi.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libwifichrstat.so:system/lib64/libwifichrstat.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libbalong_audio_ril.so:system/lib64/libbalong_audio_ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/lib_oeminfo_interface.so:system/lib64/lib_oeminfo_interface.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegvideodec_hw.so:system/lib64/libstagefright_soft_ffmpegvideodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libion.so:system/lib64/libion.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libmedia_jni.huawei.so:system/lib64/libmedia_jni.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so:system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/lib_vibrator.so:system/lib64/lib_vibrator.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libbluetoothex_jni.so:system/lib64/libbluetoothex_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_ffmpeg.so:system/lib64/lib_k3_ffmpeg.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libwpa_client_hisi.so:system/lib64/libwpa_client_hisi.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libswsprocessing.so:system/lib64/libswsprocessing.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/hwcomposer.hi3650.so:system/lib64/hw/hwcomposer.hi3650.so \
@@ -128,6 +170,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/jankcfg.json:system/etc/jankcfg.json \
 	$(LOCAL_PATH)/proprietary/system/etc/pwrlog.cfg:system/etc/pwrlog.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/libnfc_nxp_next_L09.conf:system/etc/libnfc_nxp_next_L09.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/logcat:system/etc/logcat \
 	$(LOCAL_PATH)/proprietary/system/etc/hosts:system/etc/hosts \
 	$(LOCAL_PATH)/proprietary/system/etc/device_state_monitor.conf:system/etc/device_state_monitor.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/benchmar_app.xml:system/etc/benchmar_app.xml \
@@ -1433,23 +1476,67 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmtp.huawei.so:system/lib/libmtp.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdisplay_ext.so:system/lib/libdisplay_ext.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaes.so:system/lib/libaes.so \
+	$(LOCAL_PATH)/proprietary/system/lib/librpc.so:system/lib/librpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libnvme.so:system/lib/libnvme.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegaudiodec.so:system/lib/libstagefright_soft_ffmpegaudiodec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/liboeminfo_jni.so:system/lib/liboeminfo_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgoservice.so:system/lib/libhuaweiaudioalgoservice.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libomx_vxd.so:system/lib/libomx_vxd.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_service.so:system/lib/libperfhub_service.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libprojectmenu.so:system/lib/libprojectmenu.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libwifipro.so:system/lib/libwifipro.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcgroup.so:system/lib/libcgroup.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwuibp.so:system/lib/libhwuibp.so \
+	$(LOCAL_PATH)/proprietary/system/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdmd.so:system/lib/libdmd.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegvideodec.so:system/lib/libstagefright_soft_ffmpegvideodec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_client.so:system/lib/libperfhub_client.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libchrlog.so:system/lib/libchrlog.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libpowerprofile.so:system/lib/libpowerprofile.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwsign.so:system/lib/libhwsign.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-2.so:system/lib/libbalong-ril-2.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-1.so:system/lib/libbalong-ril-1.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmini_md5.so:system/lib/libmini_md5.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub.so:system/lib/libperfhub.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libomx_vxe.so:system/lib/libomx_vxe.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libvia-ril.so:system/lib/libvia-ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmusicsniffer.so:system/lib/libmusicsniffer.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libcrypto2.so:system/lib/libcrypto2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libtrack.so:system/lib/libtrack.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbastetmanager.so:system/lib/libbastetmanager.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libgralloc_ext.default.so:system/lib/libgralloc_ext.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.hisi.so:system/lib/libstagefright.hisi.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libjnihw_display_engine.so:system/lib/libjnihw_display_engine.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmediamonitor_jni.so:system/lib/libmediamonitor_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libwifichrstat.so:system/lib/libwifichrstat.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegvideodec_hw.so:system/lib/libstagefright_soft_ffmpegvideodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_hwChargeMonitor_interface.so:system/lib/lib_hwChargeMonitor_interface.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegaudiodec_hw.so:system/lib/libstagefright_soft_ffmpegaudiodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_vibrator.so:system/lib/lib_vibrator.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libbluetoothex_jni.so:system/lib/libbluetoothex_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.hi3650.so:system/lib/hw/hwcomposer.hi3650.so \
@@ -1464,7 +1551,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/mount.cifs:system/bin/mount.cifs \
 	$(LOCAL_PATH)/proprietary/system/bin/dmesgcat:system/bin/dmesgcat \
 	$(LOCAL_PATH)/proprietary/system/bin/eventcat:system/bin/eventcat \
-	$(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant_hisi:system/bin/wpa_supplicant_hisi \
 	$(LOCAL_PATH)/proprietary/system/bin/vr_daemon:system/bin/vr_daemon \
 	$(LOCAL_PATH)/proprietary/system/bin/gps4752logd:system/bin/gps4752logd \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps47531:system/bin/glgps47531 \
@@ -1508,6 +1594,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/limit_current:system/bin/limit_current \
 	$(LOCAL_PATH)/proprietary/system/bin/chargelogcat:system/bin/chargelogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/shs:system/bin/shs \
+	$(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant_cm:system/bin/wpa_supplicant_cm \
 	$(LOCAL_PATH)/proprietary/system/bin/dhcp6s:system/bin/dhcp6s \
 	$(LOCAL_PATH)/proprietary/system/bin/hilogcat:system/bin/hilogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/sleeplogcat:system/bin/sleeplogcat \
@@ -1529,9 +1616,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/dexopt-wrapper:system/bin/dexopt-wrapper \
 	$(LOCAL_PATH)/proprietary/system/bin/flashlessd:system/bin/flashlessd \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
+	$(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	$(LOCAL_PATH)/proprietary/system/bin/radvd:system/bin/radvd \
 	$(LOCAL_PATH)/proprietary/system/bin/lmkd:system/bin/lmkd \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1518 files added on 2016-11-26T17:58:29.119094 UTC
+# Total 1606 files added on 2016-12-01T01:16:47.655257 UTC
