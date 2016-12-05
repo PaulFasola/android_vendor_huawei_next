@@ -17,12 +17,10 @@ system/lib64/libomx_vxd.so
 system/lib64/libperfhub_service.so
 system/lib64/libvio.so
 system/lib64/libstagefright.huawei.so
-system/lib64/libril.so
 system/lib64/libwifi_factory_test_hisi.so
 system/lib64/libprojectmenu.so
 system/lib64/libwifipro.so
 system/lib64/libhwuibp.so
-system/lib64/librilutils.so
 system/lib64/libdmd.so
 system/lib64/libstagefright_soft_ffmpegvideodec.so
 system/lib64/libssl2.so
@@ -1332,9 +1330,11 @@ system/etc/ppp/ip-up-vpn
 system/etc/wifi/wpa_supplicant.conf
 system/etc/wifi/p2p_supplicant_hisi.conf
 system/etc/wifi/hostapd_hisi.conf
+system/etc/wifi/ipconfig.txt
 system/etc/wifi/wpa_supplicant_hisi.conf
 system/etc/wifi/wpa_supplicant_overlay.conf
 system/etc/wifi/p2p_supplicant_overlay.conf
+system/etc/wifi/networkHistory.txt
 system/etc/manufacture/NEXT_L09.xml
 system/etc/manufacture/NEXT_L29.xml
 system/etc/manufacture/NEXT_TUCL.xml
@@ -1479,12 +1479,10 @@ system/lib/libomx_vxd.so
 system/lib/libperfhub_service.so
 system/lib/libvio.so
 system/lib/libstagefright.huawei.so
-system/lib/libril.so
 system/lib/libprojectmenu.so
 system/lib/libwifipro.so
 system/lib/libcgroup.so
 system/lib/libhwuibp.so
-system/lib/librilutils.so
 system/lib/libdmd.so
 system/lib/libstagefright_soft_ffmpegvideodec.so
 system/lib/libperfhub_client.so
@@ -1585,7 +1583,6 @@ system/bin/shex
 system/bin/limit_current
 system/bin/chargelogcat
 system/bin/shs
-system/bin/wpa_supplicant_cm
 system/bin/dhcp6s
 system/bin/hilogcat
 system/bin/sleeplogcat
@@ -1613,4 +1610,4 @@ system/bin/lmkd
 system/bin/isplogcat
 
 
-# Total 1606 files added on 2016-12-01T01:16:47.655292 UTC
+# Total 1603 files added on 2016-12-04T15:50:09.699225 UTC

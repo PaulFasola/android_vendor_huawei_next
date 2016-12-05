@@ -26,12 +26,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub_service.so:system/lib64/libperfhub_service.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libvio.so:system/lib64/libvio.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright.huawei.so:system/lib64/libstagefright.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libril.so:system/lib64/libril.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifi_factory_test_hisi.so:system/lib64/libwifi_factory_test_hisi.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libprojectmenu.so:system/lib64/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifipro.so:system/lib64/libwifipro.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwuibp.so:system/lib64/libhwuibp.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/librilutils.so:system/lib64/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libdmd.so:system/lib64/libdmd.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegvideodec.so:system/lib64/libstagefright_soft_ffmpegvideodec.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libssl2.so:system/lib64/libssl2.so \
@@ -1341,9 +1339,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/p2p_supplicant_hisi.conf:system/etc/wifi/p2p_supplicant_hisi.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/hostapd_hisi.conf:system/etc/wifi/hostapd_hisi.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/wifi/ipconfig.txt:system/etc/wifi/ipconfig.txt \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant_hisi.conf:system/etc/wifi/wpa_supplicant_hisi.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+	$(LOCAL_PATH)/proprietary/system/etc/wifi/networkHistory.txt:system/etc/wifi/networkHistory.txt \
 	$(LOCAL_PATH)/proprietary/system/etc/manufacture/NEXT_L09.xml:system/etc/manufacture/NEXT_L09.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/manufacture/NEXT_L29.xml:system/etc/manufacture/NEXT_L29.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/manufacture/NEXT_TUCL.xml:system/etc/manufacture/NEXT_TUCL.xml \
@@ -1488,12 +1488,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_service.so:system/lib/libperfhub_service.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libprojectmenu.so:system/lib/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libwifipro.so:system/lib/libwifipro.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcgroup.so:system/lib/libcgroup.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwuibp.so:system/lib/libhwuibp.so \
-	$(LOCAL_PATH)/proprietary/system/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdmd.so:system/lib/libdmd.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegvideodec.so:system/lib/libstagefright_soft_ffmpegvideodec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_client.so:system/lib/libperfhub_client.so \
@@ -1594,7 +1592,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/limit_current:system/bin/limit_current \
 	$(LOCAL_PATH)/proprietary/system/bin/chargelogcat:system/bin/chargelogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/shs:system/bin/shs \
-	$(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant_cm:system/bin/wpa_supplicant_cm \
 	$(LOCAL_PATH)/proprietary/system/bin/dhcp6s:system/bin/dhcp6s \
 	$(LOCAL_PATH)/proprietary/system/bin/hilogcat:system/bin/hilogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/sleeplogcat:system/bin/sleeplogcat \
@@ -1622,4 +1619,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1606 files added on 2016-12-01T01:16:47.655257 UTC
+# Total 1603 files added on 2016-12-04T15:50:09.699166 UTC

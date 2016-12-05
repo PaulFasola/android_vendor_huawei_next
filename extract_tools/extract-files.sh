@@ -37,8 +37,6 @@ echo "===> Extracting system/lib64/libvio.so\n"
 adb pull /system/lib64/libvio.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libstagefright.huawei.so\n"
 adb pull /system/lib64/libstagefright.huawei.so ../../../proprietary/system/lib64
-echo "===> Extracting system/lib64/libril.so\n"
-adb pull /system/lib64/libril.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libwifi_factory_test_hisi.so\n"
 adb pull /system/lib64/libwifi_factory_test_hisi.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libprojectmenu.so\n"
@@ -47,8 +45,6 @@ echo "===> Extracting system/lib64/libwifipro.so\n"
 adb pull /system/lib64/libwifipro.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhwuibp.so\n"
 adb pull /system/lib64/libhwuibp.so ../../../proprietary/system/lib64
-echo "===> Extracting system/lib64/librilutils.so\n"
-adb pull /system/lib64/librilutils.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libdmd.so\n"
 adb pull /system/lib64/libdmd.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libstagefright_soft_ffmpegvideodec.so\n"
@@ -2667,12 +2663,16 @@ echo "===> Extracting system/etc/wifi/p2p_supplicant_hisi.conf\n"
 adb pull /system/etc/wifi/p2p_supplicant_hisi.conf ../../../proprietary/system/etc/wifi
 echo "===> Extracting system/etc/wifi/hostapd_hisi.conf\n"
 adb pull /system/etc/wifi/hostapd_hisi.conf ../../../proprietary/system/etc/wifi
+echo "===> Extracting system/etc/wifi/ipconfig.txt\n"
+adb pull /system/etc/wifi/ipconfig.txt ../../../proprietary/system/etc/wifi
 echo "===> Extracting system/etc/wifi/wpa_supplicant_hisi.conf\n"
 adb pull /system/etc/wifi/wpa_supplicant_hisi.conf ../../../proprietary/system/etc/wifi
 echo "===> Extracting system/etc/wifi/wpa_supplicant_overlay.conf\n"
 adb pull /system/etc/wifi/wpa_supplicant_overlay.conf ../../../proprietary/system/etc/wifi
 echo "===> Extracting system/etc/wifi/p2p_supplicant_overlay.conf\n"
 adb pull /system/etc/wifi/p2p_supplicant_overlay.conf ../../../proprietary/system/etc/wifi
+echo "===> Extracting system/etc/wifi/networkHistory.txt\n"
+adb pull /system/etc/wifi/networkHistory.txt ../../../proprietary/system/etc/wifi
 echo "===> Extracting system/etc/manufacture/NEXT_L09.xml\n"
 adb pull /system/etc/manufacture/NEXT_L09.xml ../../../proprietary/system/etc/manufacture
 echo "===> Extracting system/etc/manufacture/NEXT_L29.xml\n"
@@ -2961,8 +2961,6 @@ echo "===> Extracting system/lib/libvio.so\n"
 adb pull /system/lib/libvio.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libstagefright.huawei.so\n"
 adb pull /system/lib/libstagefright.huawei.so ../../../proprietary/system/lib
-echo "===> Extracting system/lib/libril.so\n"
-adb pull /system/lib/libril.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libprojectmenu.so\n"
 adb pull /system/lib/libprojectmenu.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libwifipro.so\n"
@@ -2971,8 +2969,6 @@ echo "===> Extracting system/lib/libcgroup.so\n"
 adb pull /system/lib/libcgroup.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhwuibp.so\n"
 adb pull /system/lib/libhwuibp.so ../../../proprietary/system/lib
-echo "===> Extracting system/lib/librilutils.so\n"
-adb pull /system/lib/librilutils.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libdmd.so\n"
 adb pull /system/lib/libdmd.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libstagefright_soft_ffmpegvideodec.so\n"
@@ -3173,8 +3169,6 @@ echo "===> Extracting system/bin/chargelogcat\n"
 adb pull /system/bin/chargelogcat ../../../proprietary/system/bin
 echo "===> Extracting system/bin/shs\n"
 adb pull /system/bin/shs ../../../proprietary/system/bin
-echo "===> Extracting system/bin/wpa_supplicant_cm\n"
-adb pull /system/bin/wpa_supplicant_cm ../../../proprietary/system/bin
 echo "===> Extracting system/bin/dhcp6s\n"
 adb pull /system/bin/dhcp6s ../../../proprietary/system/bin
 echo "===> Extracting system/bin/hilogcat\n"
@@ -3227,4 +3221,4 @@ echo "===> Extracting system/bin/isplogcat\n"
 adb pull /system/bin/isplogcat ../../../proprietary/system/bin
 
 
-# Total 1606 files added on 2016-12-01T01:16:47.655286 UTC
+# Total 1603 files added on 2016-12-04T15:50:09.699219 UTC
