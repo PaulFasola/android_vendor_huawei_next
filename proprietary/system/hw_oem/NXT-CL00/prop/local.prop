@@ -1,0 +1,137 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION BEGIN     "############
+
+
+########"                                                       "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION END       "############
+#############################################################################
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+ro.config.support_ca=false
+ro.config.cdma.ecclist=110,112,911,999,119,120,122
+ro.config.cdma_call_retry=true
+ro.config.hw_ecclist_nocard=+120,+122
+ro.config.hw_ecclist_withcard=+112
+ro.config.hw_fake_ecc_list=110,120,122,999,119
+ro.config.hw_globalEcc=false
+ro.sys.ping_bf_dorecovery=true
+ro.lte.rssnrpoorstd=-5
+ro.lte.rssnrmodstd=-3
+ro.lte.rssnrgoodstd=1
+ro.lte.rssnrgreatstd=9
+ro.lte.goodstd = -114
+ro.lte.greatstd = -105
+ro.lte.modstd = -118
+ro.lte.poorstd = -123
+ro.sys.support_cdma_chr=true
+ro.config.mmc=true
+hw.dct.psrecovery=true
+persist.sys.vqm_algorithm=7
+ro.radio.vsim_support=true
+ro.config.get_cdma_mcc_by_sid=true
+ro.config.hw_dsds_emergencycall=true
+ro.config.hwft_simrefresh=true
+ro.config.rise_cutoff_freq=true
+ro.config.hw_device_mode=clg_mode
+ro.isDisplay.NetworkName=false
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+
+
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#####################################################################################
+######## 1.APP MANUFACTURE TEAM BEGIN
+###########1.1.MMI BEGIN
+
+###########1.1.MMI END
+
+###########1.2.PROJECT MENU BEGIN
+
+###########1.2.PROJECT MENU END
+
+###########1.3.RUN IN TEST BEGIN
+
+###########1.3.RUN IN TEST END
+######## 1.APP MANUFACTURE TEAM END
+#####################################################################################
+######## 2.BASEAPP TEAM BEGIN
+ro.config.hw_nfc_on=true
+ro.config.nfc_cardreader=true
+ro.config.hw_nfc_msimce=true
+ro.config.huawei_navi_extend=true
+ro.config.callwait_vibrator=true
+ro.config.hw_allow_rs_mms=true
+ro.config.hw_incall_report_on=true
+ro.config.hw_pop_unsupport_lte=true
+ro.config.hw_support_ipcall=true
+ro.config.hw_voicerecord=true
+ro.product.member.level=10011
+ro.config.browser_def_hw_nav=true
+ro.config.hw_RemindWifiToPdp=true
+ro.config.ds_verbose_log_on=true
+ro.config.gpstype=cdma
+ro.config.pppoe_enable=1
+#DTS2016021701777 pengkelin/pwx307511 20160302 delete
+ro.config.linkplus.roaming=true
+######## 2.BASEAPP TEAM END
+#####################################################################################
+######## 3.MULTI-MEDIA TEAM BEGIN
+ro.product.playreq.range=true
+ro.product.cucc.rtsplive=true
+######## 3.MULTI-MEDIA TEAM END
+#####################################################################################
+######## 4.FRAMEWORK TEAM BEGIN
+ro.config.hw_nlp=com.amap.android.ams
+######## 4.FRAMEWORK TEAM END
+#####################################################################################
+######## 5.DATA SERVICE TEAM BEGIN
+ro.config.hw_show_4G_Plus_icon=true
+######## 5.DATA SERVICE TEAM END
+#####################################################################################
+######## 6.APPLET TEAM BEGIN
+
+######## 6.APPLET TEAM END
+#####################################################################################
+######## 7.PRODUCT INFO BEGIN
+ro.product.hardwareversion=HL1NEXTM
+ro.product.varprofile=false
+ro.product.varprofile.high=CL10
+ro.product.varprofile.highhigh=CL10
+ro.product.varprofile.base=CL00
+ro.config.telecom_roam_mode=true
+ro.config.hw_lteonly=false
+ro.config.hw_nocard_notify=true
+######## 7.PRODUCT INFO END
+#####################################################################################
+########"                                                       "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+

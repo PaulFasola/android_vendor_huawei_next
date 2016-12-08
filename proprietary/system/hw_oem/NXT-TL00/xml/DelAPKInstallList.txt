@@ -1,0 +1,8 @@
+/data/dataapp/HwIntelligent/HwIntelligent.apk,priv
+/data/dataapp/WPS/WPS.apk
+/data/dataapp/HwVmall/HwVmall.apk
+/data/dataapp/HwRemoteAssistant/HwRemoteAssistant.apk
+/data/dataapp/HwHealthPlatform/HwHealthPlatform.apk
+/data/dataapp/AresRT_Mini/AresRT_Mini.apk
+/data/dataapp/HwLives/HwLives.apk
+/data/dataapp/GameBox/GameBox.apk

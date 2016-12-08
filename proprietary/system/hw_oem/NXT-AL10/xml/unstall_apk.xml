@@ -1,0 +1,16 @@
+<?xml	version="1.0"	encoding="utf-8"	?>	
+	<tag>
+		<apk>
+			/system/delapp/HwProfileSwitcher.apk
+			/system/app/ims.apk
+			/system/app/HwFileManager.apk;
+			/system/app/HwAllBackup_Local.apk;
+			/system/delapp/HwAllBackup_CMCC.apk;
+			/system/app/StreamingProvider.apk;
+			/system/delapp/HwSohuNewsUnit.apk;
+			/system/delapp/MyTime.apk;
+			/system/app/HwShake.apk;
+			/system/app/AresRT.apk;
+			/system/app/UEInfoCheck.apk;
+		</apk>
+	</tag>

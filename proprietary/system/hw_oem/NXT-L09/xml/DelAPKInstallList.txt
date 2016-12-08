@@ -1,0 +1,4 @@
+/data/dataapp/WPS/WPS.apk
+/data/dataapp/Facebook/Facebook.apk
+/data/dataapp/Twitter/Twitter.apk
+/data/dataapp/CleanMaster/CleanMaster.apk

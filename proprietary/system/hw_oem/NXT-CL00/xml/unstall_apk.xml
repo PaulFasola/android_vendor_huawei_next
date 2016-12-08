@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+    <tag>
+        <apk>
+            /system/app/HwGPMS.apk;
+            /system/app/HwMessage.apk;
+            /system/app/HwIME.apk;
+            /system/app/HwUserFeedback.apk;
+            /system/app/ChnUnicomAutoReg.apk;
+            /system/app/CellBroadcastReceiver.apk;
+            /system/delapp/Opera.apk;
+            /system/app/SystemHelper.apk;
+            /system/delapp/LingXi.apk;
+	        /system/app/Payment_offhost.apk;
+	        /system/app/HwAllBackup.apk;
+	        /system/app/HwShake.apk;
+	        /system/delapp/HwSohuNewsUnit.apk;
+			/system/app/HwIms.apk;
+			/system/app/HwCloudDrive.apk;
+			/system/delapp/HwAllBackup_CMCC.apk;
+			/system/app/SkyTone.apk;
+			/system/delapp/HiSkyTone.apk;
+        </apk>
+    </tag>

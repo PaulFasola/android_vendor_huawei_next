@@ -75,6 +75,16 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/audio.primary.default.so:system/lib64/hw/audio.primary.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/gralloc.hi3650.so:system/lib64/hw/gralloc.hi3650.so \
+	$(LOCAL_PATH)/proprietary/system/global/virtualNets-conf.xml:system/global/virtualNets-conf.xml \
+	$(LOCAL_PATH)/proprietary/system/global/version.txt:system/global/version.txt \
+	$(LOCAL_PATH)/proprietary/system/global/voicemail-conf.xml:system/global/voicemail-conf.xml \
+	$(LOCAL_PATH)/proprietary/system/global/apns-conf.xml:system/global/apns-conf.xml \
+	$(LOCAL_PATH)/proprietary/system/global/globalMatchs-conf.xml:system/global/globalMatchs-conf.xml \
+	$(LOCAL_PATH)/proprietary/system/global/globalAutoAdapt-conf.xml:system/global/globalAutoAdapt-conf.xml \
+	$(LOCAL_PATH)/proprietary/system/global/apns-conf-nolte.xml:system/global/apns-conf-nolte.xml \
+	$(LOCAL_PATH)/proprietary/system/global/ons/ons.bin:system/global/ons/ons.bin \
+	$(LOCAL_PATH)/proprietary/system/global/xml/hw_defaults.xml:system/global/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/global/xml/mccTable_V2.xml:system/global/xml/mccTable_V2.xml \
 	$(LOCAL_PATH)/proprietary/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/framework-res-hwext.apk:system/framework/framework-res-hwext.apk \
 	$(LOCAL_PATH)/proprietary/system/framework/HWJNIFLPLocation.jar:system/framework/HWJNIFLPLocation.jar \
@@ -147,7 +157,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/media_profiles.xml:system/etc/media_profiles.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/reader.conf:system/etc/reader.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/NOTICE.html.gz:system/etc/NOTICE.html.gz \
 	$(LOCAL_PATH)/proprietary/system/etc/factory_modem.cfg:system/etc/factory_modem.cfg \
 	$(LOCAL_PATH)/proprietary/system/etc/jankbdcfg.json:system/etc/jankbdcfg.json \
 	$(LOCAL_PATH)/proprietary/system/etc/libnfc_nxp_next.conf:system/etc/libnfc_nxp_next.conf \
@@ -1442,6 +1451,177 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_Weight_old.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_Weight_old.dat \
 	$(LOCAL_PATH)/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/Resource.irf:system/asr/splitdict/Resource.irf \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/ListWord_DB.txt:system/asr/splitdict/ListWord_DB.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/tables/namexp_family.tbl:system/asr/splitdict/tables/namexp_family.tbl \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/tables/namexp_en_name_to_ch_name.tbl:system/asr/splitdict/tables/namexp_en_name_to_ch_name.tbl \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/tables/namexp_title.tbl:system/asr/splitdict/tables/namexp_title.tbl \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/tables/namexp_ch_compname.tbl:system/asr/splitdict/tables/namexp_ch_compname.tbl \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/tables/namexp_ch_familyname.tbl:system/asr/splitdict/tables/namexp_ch_familyname.tbl \
+	$(LOCAL_PATH)/proprietary/system/asr/splitdict/tables/namexp_en_name_pre.tbl:system/asr/splitdict/tables/namexp_en_name_pre.tbl \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_spm/clc_spm_cfg3_v6_0_6.dat:system/asr/nuance/vocon_spm/clc_spm_cfg3_v6_0_6.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_spm/dial_grammar.fcf:system/asr/nuance/vocon_spm/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_spm/acmod5_4000_spm_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_spm/acmod5_4000_spm_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_mnc/dial_grammar.bnf:system/asr/nuance/vocon_mnc/dial_grammar.bnf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_mnc/build_grammar.bat:system/asr/nuance/vocon_mnc/build_grammar.bat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_mnc/dial_grmcpl.txt:system/asr/nuance/vocon_mnc/dial_grmcpl.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_mnc/clc_mnc_mpthreevadml_v6_0_0.dat:system/asr/nuance/vocon_mnc/clc_mnc_mpthreevadml_v6_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_mnc/contact.txt:system/asr/nuance/vocon_mnc/contact.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_mnc/acmod5_4000_mnc_gen_car_f16_v2_0_0.dat:system/asr/nuance/vocon_mnc/acmod5_4000_mnc_gen_car_f16_v2_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_mnc/dial_grammar.fcf:system/asr/nuance/vocon_mnc/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_rur/acmod5_4000_rur_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_rur/acmod5_4000_rur_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_rur/clc_rur_cfg3_v6_0_2.dat:system/asr/nuance/vocon_rur/clc_rur_cfg3_v6_0_2.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_rur/dial_grammar.fcf:system/asr/nuance/vocon_rur/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_iti/clc_iti_cfg3_v6_0_5.dat:system/asr/nuance/vocon_iti/clc_iti_cfg3_v6_0_5.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_iti/acmod5_4000_iti_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_iti/acmod5_4000_iti_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_iti/dial_grammar.fcf:system/asr/nuance/vocon_iti/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ged/clc_ged_cfg3_v6_0_5.dat:system/asr/nuance/vocon_ged/clc_ged_cfg3_v6_0_5.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ged/dial_grammar.fcf:system/asr/nuance/vocon_ged/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ged/acmod5_4000_ged_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_ged/acmod5_4000_ged_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_spe/clc_spe_cfg3_v6_0_2.dat:system/asr/nuance/vocon_spe/clc_spe_cfg3_v6_0_2.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_spe/dial_grammar.fcf:system/asr/nuance/vocon_spe/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_spe/acmod5_4000_spe_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_spe/acmod5_4000_spe_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_eng/clc_eng_cfg3_v6_0_8.dat:system/asr/nuance/vocon_eng/clc_eng_cfg3_v6_0_8.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_eng/acmod5_4000_eng_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_eng/acmod5_4000_eng_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_eng/dial_grammar.fcf:system/asr/nuance/vocon_eng/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_enu/acmod5_4000_enu_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_enu/acmod5_4000_enu_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_enu/clc_enu_cfg3_v6_0_2.dat:system/asr/nuance/vocon_enu/clc_enu_cfg3_v6_0_2.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_enu/dial_grammar.fcf:system/asr/nuance/vocon_enu/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptb/dial_grammar.bnf:system/asr/nuance/vocon_ptb/dial_grammar.bnf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptb/build_grammar.bat:system/asr/nuance/vocon_ptb/build_grammar.bat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptb/dial_grmcpl.txt:system/asr/nuance/vocon_ptb/dial_grmcpl.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptb/clc_ptb_cfg3_v6_0_4.dat:system/asr/nuance/vocon_ptb/clc_ptb_cfg3_v6_0_4.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptb/acmod5_4000_ptb_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_ptb/acmod5_4000_ptb_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptb/dial_grammar.fcf:system/asr/nuance/vocon_ptb/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_frf/dial_grammar.bnf:system/asr/nuance/vocon_frf/dial_grammar.bnf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_frf/build_grammar.bat:system/asr/nuance/vocon_frf/build_grammar.bat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_frf/dial_grmcpl.txt:system/asr/nuance/vocon_frf/dial_grmcpl.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_frf/acmod5_4000_frf_gen_car_f16_v1_0_0.dat:system/asr/nuance/vocon_frf/acmod5_4000_frf_gen_car_f16_v1_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_frf/clc_frf_cfg3_v6_1_5.dat:system/asr/nuance/vocon_frf/clc_frf_cfg3_v6_1_5.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_frf/dial_grammar.fcf:system/asr/nuance/vocon_frf/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ena/clc_ena_cfg3_v6_0_6.dat:system/asr/nuance/vocon_ena/clc_ena_cfg3_v6_0_6.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ena/acmod4_2500_ena_gen_car_f16_v2_0_0.dat:system/asr/nuance/vocon_ena/acmod4_2500_ena_gen_car_f16_v2_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ena/dial_grammar.fcf:system/asr/nuance/vocon_ena/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptp/acmod4_2500_ptp_gen_car_f16_v2_0_0.dat:system/asr/nuance/vocon_ptp/acmod4_2500_ptp_gen_car_f16_v2_0_0.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptp/dial_grammar.fcf:system/asr/nuance/vocon_ptp/dial_grammar.fcf \
+	$(LOCAL_PATH)/proprietary/system/asr/nuance/vocon_ptp/clc_ptp_cfg3_v6_0_2.dat:system/asr/nuance/vocon_ptp/clc_ptp_cfg3_v6_0_2.dat \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/en_wru_gram.bin:system/asr/sensory/default/en_wru_gram.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/en_emy_gram.bin:system/asr/sensory/default/en_emy_gram.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/en_emy_net.bin:system/asr/sensory/default/en_emy_net.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/en_wru_net.bin:system/asr/sensory/default/en_wru_net.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/cn_emy_gram.bin:system/asr/sensory/default/cn_emy_gram.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/cn_wru_net.bin:system/asr/sensory/default/cn_wru_net.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/cn_emy_net.bin:system/asr/sensory/default/cn_emy_net.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/default/cn_wru_gram.bin:system/asr/sensory/default/cn_wru_gram.bin \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/ok_emy_en_US_sfs14_delivery01_am.raw:system/asr/sensory/vocab/ok_emy_en_US_sfs14_delivery01_am.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/config.txt:system/asr/sensory/vocab/config.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/ok_emy_en_US_sfs14_delivery01_search_17.raw:system/asr/sensory/vocab/ok_emy_en_US_sfs14_delivery01_search_17.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/svsid_triggerOkEmy_enUS_1_0.raw:system/asr/sensory/vocab/svsid_triggerOkEmy_enUS_1_0.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/cn/helloemy_zh_sfs14_delivery03_am.raw:system/asr/sensory/vocab/cn/helloemy_zh_sfs14_delivery03_am.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/cn/svsid_triggerHelloEmy_zhCN_1_0.raw:system/asr/sensory/vocab/cn/svsid_triggerHelloEmy_zhCN_1_0.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/cn/helloemy_zh_sfs14_delivery03_search_19.raw:system/asr/sensory/vocab/cn/helloemy_zh_sfs14_delivery03_search_19.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/vocab/cn/config.txt:system/asr/sensory/vocab/cn/config.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/lang/phonemeSearch_enUS_2_0.raw:system/asr/sensory/lang/phonemeSearch_enUS_2_0.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/lang/nn_en_us_mfcc_16k_15_big_250_v5.1.1.raw:system/asr/sensory/lang/nn_en_us_mfcc_16k_15_big_250_v5.1.1.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/lang/svsid_enUS_2_0.raw:system/asr/sensory/lang/svsid_enUS_2_0.raw \
+	$(LOCAL_PATH)/proprietary/system/asr/sensory/lang/config.txt:system/asr/sensory/lang/config.txt \
+	$(LOCAL_PATH)/proprietary/system/asr/iflytek/grammar.zip:system/asr/iflytek/grammar.zip \
+	$(LOCAL_PATH)/proprietary/system/asr/iflytek/grammar2.zip:system/asr/iflytek/grammar2.zip \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/etc/permissions/android.hardware.telephony.cdma.xml:system/hw_oem/NXT-AL10/etc/permissions/android.hardware.telephony.cdma.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/xml/DelAPKInstallList.txt:system/hw_oem/NXT-AL10/xml/DelAPKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/xml/uc_config.xml:system/hw_oem/NXT-AL10/xml/uc_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/xml/unstall_apk.xml:system/hw_oem/NXT-AL10/xml/unstall_apk.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/xml/hw_ims_config.xml:system/hw_oem/NXT-AL10/xml/hw_ims_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/xml/hw_defaults.xml:system/hw_oem/NXT-AL10/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/xml/hw_launcher_default_config.xml:system/hw_oem/NXT-AL10/xml/hw_launcher_default_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/xml/5x5/hw_launcher_default_workspace_all.xml:system/hw_oem/NXT-AL10/xml/5x5/hw_launcher_default_workspace_all.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-AL10/prop/local.prop:system/hw_oem/NXT-AL10/prop/local.prop \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/etc/permissions/android.hardware.telephony.cdma.xml:system/hw_oem/NXT-CL00/etc/permissions/android.hardware.telephony.cdma.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/xml/DelAPKInstallList.txt:system/hw_oem/NXT-CL00/xml/DelAPKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/xml/uc_config.xml:system/hw_oem/NXT-CL00/xml/uc_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/xml/unstall_apk.xml:system/hw_oem/NXT-CL00/xml/unstall_apk.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/xml/hw_defaults.xml:system/hw_oem/NXT-CL00/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/xml/hw_launcher_default_config.xml:system/hw_oem/NXT-CL00/xml/hw_launcher_default_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/xml/mms_config.xml:system/hw_oem/NXT-CL00/xml/mms_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/xml/5x5/hw_launcher_default_workspace_all.xml:system/hw_oem/NXT-CL00/xml/5x5/hw_launcher_default_workspace_all.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-CL00/prop/local.prop:system/hw_oem/NXT-CL00/prop/local.prop \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/xml/DelAPKInstallList.txt:system/hw_oem/NXT-DL00/xml/DelAPKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/xml/uc_config.xml:system/hw_oem/NXT-DL00/xml/uc_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/xml/unstall_apk.xml:system/hw_oem/NXT-DL00/xml/unstall_apk.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/xml/hw_ims_config.xml:system/hw_oem/NXT-DL00/xml/hw_ims_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/xml/hw_defaults.xml:system/hw_oem/NXT-DL00/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/xml/hw_launcher_default_config.xml:system/hw_oem/NXT-DL00/xml/hw_launcher_default_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/xml/5x5/hw_launcher_default_workspace_all.xml:system/hw_oem/NXT-DL00/xml/5x5/hw_launcher_default_workspace_all.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-DL00/prop/local.prop:system/hw_oem/NXT-DL00/prop/local.prop \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/DelAPKInstallList.txt:system/hw_oem/NXT-TL00/xml/DelAPKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/uc_config.xml:system/hw_oem/NXT-TL00/xml/uc_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/hw_launcher_load_icon.xml:system/hw_oem/NXT-TL00/xml/hw_launcher_load_icon.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/unstall_apk.xml:system/hw_oem/NXT-TL00/xml/unstall_apk.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/hw_ims_config.xml:system/hw_oem/NXT-TL00/xml/hw_ims_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/hw_defaults.xml:system/hw_oem/NXT-TL00/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/hw_launcher_default_config.xml:system/hw_oem/NXT-TL00/xml/hw_launcher_default_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/xml/5x5/hw_launcher_default_workspace_all.xml:system/hw_oem/NXT-TL00/xml/5x5/hw_launcher_default_workspace_all.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-TL00/prop/local.prop:system/hw_oem/NXT-TL00/prop/local.prop \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L09/xml/DelAPKInstallList.txt:system/hw_oem/NXT-L09/xml/DelAPKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L09/xml/unstall_apk.xml:system/hw_oem/NXT-L09/xml/unstall_apk.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L09/xml/hw_defaults.xml:system/hw_oem/NXT-L09/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L09/xml/hw_launcher_default_config.xml:system/hw_oem/NXT-L09/xml/hw_launcher_default_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L09/xml/APKInstallList.txt:system/hw_oem/NXT-L09/xml/APKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L09/xml/5x5/hw_launcher_default_workspace.xml:system/hw_oem/NXT-L09/xml/5x5/hw_launcher_default_workspace.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L09/prop/local.prop:system/hw_oem/NXT-L09/prop/local.prop \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L29/xml/DelAPKInstallList.txt:system/hw_oem/NXT-L29/xml/DelAPKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L29/xml/unstall_apk.xml:system/hw_oem/NXT-L29/xml/unstall_apk.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L29/xml/hw_defaults.xml:system/hw_oem/NXT-L29/xml/hw_defaults.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L29/xml/hw_launcher_default_config.xml:system/hw_oem/NXT-L29/xml/hw_launcher_default_config.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L29/xml/APKInstallList.txt:system/hw_oem/NXT-L29/xml/APKInstallList.txt \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L29/xml/5x5/hw_launcher_default_workspace.xml:system/hw_oem/NXT-L29/xml/5x5/hw_launcher_default_workspace.xml \
+	$(LOCAL_PATH)/proprietary/system/hw_oem/NXT-L29/prop/local.prop:system/hw_oem/NXT-L29/prop/local.prop \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V1.bin:system/fpgaice40/GRACE-CLG-V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V1.txt:system/fpgaice40/CARRERA-TULG-V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-TL00H-VA.txt:system/fpgaice40/PLK-TL00H-VA.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/FRD-L04-V3.bin:system/fpgaice40/FRD-L04-V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V4.bin:system/fpgaice40/GRACE-CLG-V4.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V1.bin:system/fpgaice40/GRACE-TUGL-V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V1.txt:system/fpgaice40/CARRERA_CLG_V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/VIENNA-TUGL-VN1.txt:system/fpgaice40/VIENNA-TUGL-VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V1.txt:system/fpgaice40/LB_ALL_V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V3.txt:system/fpgaice40/CARRERA-TULG-V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V1.bin:system/fpgaice40/CARRERA_CLG_V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4.txt:system/fpgaice40/GRACE-TUGL-V4.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/VIENNA-TUCL-VN1.txt:system/fpgaice40/VIENNA-TUCL-VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V0.bin:system/fpgaice40/GRACE-TUGL-V0.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/VIENNA-TUCL-V1.txt:system/fpgaice40/VIENNA-TUCL-V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-VN1.bin:system/fpgaice40/GRACE-TUGL-VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V3.txt:system/fpgaice40/CARRERA_CLG_V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V0.txt:system/fpgaice40/GRACE-CLG-V0.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-VN1.txt:system/fpgaice40/GRACE-CLG-VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V3.txt:system/fpgaice40/GRACE-CLG-V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/PLK-TL00H-VA.bin:system/fpgaice40/PLK-TL00H-VA.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V3.bin:system/fpgaice40/GRACE-CLG-V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/FRD-L04-V2.bin:system/fpgaice40/FRD-L04-V2.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V3.bin:system/fpgaice40/GRACE-TUGL-V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/FRD-L04-V3.txt:system/fpgaice40/FRD-L04-V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V0.bin:system/fpgaice40/GRACE-CLG-V0.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/FRD-L04-V2.txt:system/fpgaice40/FRD-L04-V2.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/VIENNA-TUGL-VN1.bin:system/fpgaice40/VIENNA-TUGL-VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/LB_ALL_V1.bin:system/fpgaice40/LB_ALL_V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-VN1.bin:system/fpgaice40/GRACE-CLG-VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/FRD-L09-V2.txt:system/fpgaice40/FRD-L09-V2.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/VIENNA-TUCL-VN1.bin:system/fpgaice40/VIENNA-TUCL-VN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4ANDVN1.txt:system/fpgaice40/GRACE-TUGL-V4ANDVN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-VN1.txt:system/fpgaice40/GRACE-TUGL-VN1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V3.txt:system/fpgaice40/GRACE-TUGL-V3.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V1.txt:system/fpgaice40/GRACE-CLG-V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V1.txt:system/fpgaice40/GRACE-TUGL-V1.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V0.txt:system/fpgaice40/GRACE-TUGL-V0.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V1.bin:system/fpgaice40/CARRERA-TULG-V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4.bin:system/fpgaice40/GRACE-TUGL-V4.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-CLG-V4.txt:system/fpgaice40/GRACE-CLG-V4.txt \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/GRACE-TUGL-V4ANDVN1.bin:system/fpgaice40/GRACE-TUGL-V4ANDVN1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA-TULG-V3.bin:system/fpgaice40/CARRERA-TULG-V3.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/FRD-L09-V2.bin:system/fpgaice40/FRD-L09-V2.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/VIENNA-TUCL-V1.bin:system/fpgaice40/VIENNA-TUCL-V1.bin \
+	$(LOCAL_PATH)/proprietary/system/fpgaice40/CARRERA_CLG_V3.bin:system/fpgaice40/CARRERA_CLG_V3.bin \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib64/libOpenCL.so.1:system/vendor/lib64/libOpenCL.so.1 \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib64/libbt-vendor-hisi.so:system/vendor/lib64/libbt-vendor-hisi.so \
@@ -1474,8 +1654,20 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm43455_hw.bin:system/vendor/firmware/fw_bcm43455_hw.bin \
 	$(LOCAL_PATH)/proprietary/system/vendor/firmware/CPU_RAM_WBS.bin:system/vendor/firmware/CPU_RAM_WBS.bin \
 	$(LOCAL_PATH)/proprietary/system/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+	$(LOCAL_PATH)/proprietary/system/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+	$(LOCAL_PATH)/proprietary/system/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libOpenCL.so.1:system/vendor/lib/libOpenCL.so.1 \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libbt-vendor-hisi.so:system/vendor/lib/libbt-vendor-hisi.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libOpenCL.so.1.1:system/vendor/lib/libOpenCL.so.1.1 \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	$(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmtp.huawei.so:system/lib/libmtp.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdisplay_ext.so:system/lib/libdisplay_ext.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaes.so:system/lib/libaes.so \
@@ -1619,4 +1811,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1603 files added on 2016-12-04T15:50:09.699166 UTC
+# Total 1795 files added on 2016-12-08T16:44:20.172448 UTC

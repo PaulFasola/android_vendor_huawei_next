@@ -1,0 +1,16 @@
+/data/dataapp/HwIntelligent/HwIntelligent.apk,priv
+/data/dataapp/Amap/Amap.apk
+/data/dataapp/WPS/WPS.apk
+/data/dataapp/Newsreader/Newsreader.apk
+/data/dataapp/Taobao/Taobao.apk
+/data/dataapp/BaiduSearch/BaiduSearch.apk
+/data/dataapp/HwVmall/HwVmall.apk
+/data/dataapp/HwWallet/HwWallet.apk
+/data/dataapp/GameBox/GameBox.apk
+/data/dataapp/HwRemoteAssistant/HwRemoteAssistant.apk
+/data/dataapp/HwHealthPlatform/HwHealthPlatform.apk
+/data/dataapp/AresRT_Mini/AresRT_Mini.apk
+/data/dataapp/HwLives/HwLives.apk
+/data/dataapp/HwHiSync/HwHiSync.apk
+/data/dataapp/Ctrip/Ctrip.apk
+/data/dataapp/BaiduMap/BaiduMap.apk

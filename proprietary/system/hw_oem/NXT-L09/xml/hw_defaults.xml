@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!--******************************** 1.PROTOCOL TEAM BEGIN -->
+    <integer ca_settings_on="1"/>
+    <string white_languages="en_US,ar_EG,de_DE,bs_BA,es_ES,uk_UA,fr_FR,pt_PT,ru_RU,zh_CN,zh_TW,zh_HK,es_US,ca_ES,cs_CZ,da_DK,el_GR,hu_HU,pt_BR,it_IT,ja_JP,lt_LT,lv_LV,bg_BG,nb_NO,pl_PL,ro_RO,et_EE,sk_SK,sr_RS,sv_SE,tr_TR,th_TH,fi_FI,in_ID,mk_MK,sl_SI,ms_MY,vi_VN,hr_HR,nl_NL,hi_IN,ko_KR,en_GB,iw_IL,my_MM,my_ZG,eu_ES,gl_ES,ka_GE,az_AZ,uz_UZ,km_KH,si_LK,ur_PK"/>
+    <integer hw_displayafterfirstring="0"/>
+    <integer hw_global_networkmode_settings_enable="1"/>
+    <string enable_sdn="true"/>
+    <integer show_mms_expired_status="1"/>
+    <!--******************************** 1.PROTOCOL TEAM END -->
+    <!--******************************** 2.APP MANUFACTURE TEAM BEGIN -->
+    <integer settings.system.androidBeam="1"/>
+    <!--******************************** 2.APP MANUFACTURE TEAM END -->
+    <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <string custom_certify_picture="/system/media/Oversea_L09.png" reset="true" />
+    <!--******************************** 3.BASEAPP TEAM END -->
+    <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
+
+    <!--******************************** 4.MULTI-MEDIA TEAM END -->
+    <!--******************************** 5.FRAMEWORK TEAM BEGIN -->
+
+    <!--******************************** 5.FRAMEWORK TEAM END -->
+    <!--******************************** 6.DATA SERVICE TEAM BEGIN -->
+
+    <!--******************************** 6.DATA SERVICE TEAM END -->
+    <!--******************************** 7.APPLET TEAM BEGIN -->
+
+    <!--******************************** 7.APPLET TEAM END -->
+    <!--******************************** 8.CUSTOM TEAM BEGIN -->
+
+    <!--******************************** 8.CUSTOM TEAM END -->
+    <string theme_no_online = "true"/>
+    <string hw_def_theme="/data/hw_init/system/themes/Default.hwt"/>
+    <string colors_themes="white,/data/hw_init/system/themes/Default.hwt;gray,/data/hw_init/system/themes/Default.hwt;gold,/data/hw_init/system/themes/Golden.hwt;cafe,/data/hw_init/system/themes/Golden.hwt"/>
+    <string settings.secure.persist.sys.easywakeup.e="com.android.chrome;com.google.android.apps.chrome.Main"/>
+</resources>
