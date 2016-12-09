@@ -15,13 +15,17 @@ system/lib64/liboeminfo_jni.so
 system/lib64/libwifi_factory_test.so
 system/lib64/libomx_vxd.so
 system/lib64/libperfhub_service.so
+system/lib64/libhisi_efuse.so
 system/lib64/libvio.so
 system/lib64/libstagefright.huawei.so
 system/lib64/libwifi_factory_test_hisi.so
 system/lib64/libprojectmenu.so
 system/lib64/libwifipro.so
 system/lib64/libhwuibp.so
+system/lib64/libhsa_msgprocess.so
+system/lib64/libhsa_configprocess.so
 system/lib64/libdmd.so
+system/lib64/libconn_factory_test.so
 system/lib64/libstagefright_soft_ffmpegvideodec.so
 system/lib64/libssl2.so
 system/lib64/libhwcalibrationtest_jni.so
@@ -35,11 +39,15 @@ system/lib64/libbastet.so
 system/lib64/libbalong-ril-2.so
 system/lib64/libwifi_wapi_hisi.so
 system/lib64/libbalong-ril-1.so
+system/lib64/lib_atprotocolsw.so
 system/lib64/libperfhub.so
 system/lib64/libomx_vxe.so
 system/lib64/libvia-ril.so
 system/lib64/lib_fpc_tac_shared.so
+system/lib64/libteec.so
+system/lib64/libgps_factory_test.so
 system/lib64/libhwaps.so
+system/lib64/libhsa_common.so
 system/lib64/libhuaweigpsrpc.so
 system/lib64/libbastetmanager.so
 system/lib64/libstagefrighthw.so
@@ -47,11 +55,14 @@ system/lib64/libtinyalsa.so
 system/lib64/libgralloc_ext.default.so
 system/lib64/libstagefright.hisi.so
 system/lib64/libwifichrstat.so
+system/lib64/libfaclog.so
+system/lib64/libreference-ril.so
 system/lib64/libbalong_audio_ril.so
 system/lib64/lib_oeminfo_interface.so
 system/lib64/libstagefright_soft_ffmpegvideodec_hw.so
 system/lib64/libion.so
 system/lib64/libpowergenie_native3.so
+system/lib64/libhsa_hdlc.so
 system/lib64/libmedia_jni.huawei.so
 system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so
 system/lib64/liboeminfo.so
@@ -110,6 +121,7 @@ system/framework/oat/arm64/com.google.widevine.software.drm.odex
 system/framework/oat/arm64/com.gsma.services.nfc.odex
 system/framework/oat/arm64/com.android.future.usb.accessory.odex
 system/framework/oat/arm64/com.android.mediadrm.signer.odex
+system/delapp/HwCompass/HwCompass.apk
 system/etc/criticalpro.xml
 system/etc/audio_policy.conf
 system/etc/gps.conf
@@ -1669,13 +1681,17 @@ system/lib/liboeminfo_jni.so
 system/lib/libhuaweiaudioalgoservice.so
 system/lib/libomx_vxd.so
 system/lib/libperfhub_service.so
+system/lib/libhisi_efuse.so
 system/lib/libvio.so
 system/lib/libstagefright.huawei.so
+system/lib/libril.so
 system/lib/libprojectmenu.so
 system/lib/libwifipro.so
 system/lib/libcgroup.so
 system/lib/libhwuibp.so
+system/lib/librilutils.so
 system/lib/libdmd.so
+system/lib/libconn_factory_test.so
 system/lib/libstagefright_soft_ffmpegvideodec.so
 system/lib/libperfhub_client.so
 system/lib/libbalong-ril.so
@@ -1685,6 +1701,7 @@ system/lib/libhwsign.so
 system/lib/libviagpsrpc.so
 system/lib/libbalong-ril-2.so
 system/lib/libbalong-ril-1.so
+system/lib/lib_atprotocolsw.so
 system/lib/libmini_md5.so
 system/lib/libperfhub.so
 system/lib/libomx_vxe.so
@@ -1692,6 +1709,7 @@ system/lib/libvia-ril.so
 system/lib/lib_fpc_tac_shared.so
 system/lib/libmusicsniffer.so
 system/lib/libteec.so
+system/lib/libgps_factory_test.so
 system/lib/libcrypto2.so
 system/lib/libhuaweiprocessing.so
 system/lib/libhwaps.so
@@ -1706,6 +1724,8 @@ system/lib/libmediamonitor_jni.so
 system/lib/libwifichrstat.so
 system/lib/libhuaweiaudioeffectutil.so
 system/lib/libhwsmartdisplay_jni.so
+system/lib/libfaclog.so
+system/lib/libreference-ril.so
 system/lib/libbalong_audio_ril.so
 system/lib/lib_oeminfo_interface.so
 system/lib/libstagefright_soft_ffmpegvideodec_hw.so
@@ -1739,6 +1759,7 @@ system/bin/wpa_cli_hisi
 system/bin/perfhub
 system/bin/HwCamCfgSvr
 system/bin/dumptool
+system/bin/rild
 system/bin/exfatfsck
 system/bin/pcscd
 system/bin/tlogcat
@@ -1802,4 +1823,4 @@ system/bin/lmkd
 system/bin/isplogcat
 
 
-# Total 1795 files added on 2016-12-08T16:44:20.172469 UTC
+# Total 1816 files added on 2016-12-09T04:02:33.390110 UTC

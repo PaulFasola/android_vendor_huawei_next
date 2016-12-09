@@ -33,6 +33,8 @@ echo "===> Extracting system/lib64/libomx_vxd.so\n"
 adb pull /system/lib64/libomx_vxd.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libperfhub_service.so\n"
 adb pull /system/lib64/libperfhub_service.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libhisi_efuse.so\n"
+adb pull /system/lib64/libhisi_efuse.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libvio.so\n"
 adb pull /system/lib64/libvio.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libstagefright.huawei.so\n"
@@ -45,8 +47,14 @@ echo "===> Extracting system/lib64/libwifipro.so\n"
 adb pull /system/lib64/libwifipro.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhwuibp.so\n"
 adb pull /system/lib64/libhwuibp.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libhsa_msgprocess.so\n"
+adb pull /system/lib64/libhsa_msgprocess.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libhsa_configprocess.so\n"
+adb pull /system/lib64/libhsa_configprocess.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libdmd.so\n"
 adb pull /system/lib64/libdmd.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libconn_factory_test.so\n"
+adb pull /system/lib64/libconn_factory_test.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libstagefright_soft_ffmpegvideodec.so\n"
 adb pull /system/lib64/libstagefright_soft_ffmpegvideodec.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libssl2.so\n"
@@ -73,6 +81,8 @@ echo "===> Extracting system/lib64/libwifi_wapi_hisi.so\n"
 adb pull /system/lib64/libwifi_wapi_hisi.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libbalong-ril-1.so\n"
 adb pull /system/lib64/libbalong-ril-1.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/lib_atprotocolsw.so\n"
+adb pull /system/lib64/lib_atprotocolsw.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libperfhub.so\n"
 adb pull /system/lib64/libperfhub.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libomx_vxe.so\n"
@@ -81,8 +91,14 @@ echo "===> Extracting system/lib64/libvia-ril.so\n"
 adb pull /system/lib64/libvia-ril.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/lib_fpc_tac_shared.so\n"
 adb pull /system/lib64/lib_fpc_tac_shared.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libteec.so\n"
+adb pull /system/lib64/libteec.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libgps_factory_test.so\n"
+adb pull /system/lib64/libgps_factory_test.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhwaps.so\n"
 adb pull /system/lib64/libhwaps.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libhsa_common.so\n"
+adb pull /system/lib64/libhsa_common.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhuaweigpsrpc.so\n"
 adb pull /system/lib64/libhuaweigpsrpc.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libbastetmanager.so\n"
@@ -97,6 +113,10 @@ echo "===> Extracting system/lib64/libstagefright.hisi.so\n"
 adb pull /system/lib64/libstagefright.hisi.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libwifichrstat.so\n"
 adb pull /system/lib64/libwifichrstat.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libfaclog.so\n"
+adb pull /system/lib64/libfaclog.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libreference-ril.so\n"
+adb pull /system/lib64/libreference-ril.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libbalong_audio_ril.so\n"
 adb pull /system/lib64/libbalong_audio_ril.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/lib_oeminfo_interface.so\n"
@@ -107,6 +127,8 @@ echo "===> Extracting system/lib64/libion.so\n"
 adb pull /system/lib64/libion.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libpowergenie_native3.so\n"
 adb pull /system/lib64/libpowergenie_native3.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libhsa_hdlc.so\n"
+adb pull /system/lib64/libhsa_hdlc.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libmedia_jni.huawei.so\n"
 adb pull /system/lib64/libmedia_jni.huawei.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so\n"
@@ -223,6 +245,8 @@ echo "===> Extracting system/framework/oat/arm64/com.android.future.usb.accessor
 adb pull /system/framework/oat/arm64/com.android.future.usb.accessory.odex ../../../proprietary/system/framework/oat/arm64
 echo "===> Extracting system/framework/oat/arm64/com.android.mediadrm.signer.odex\n"
 adb pull /system/framework/oat/arm64/com.android.mediadrm.signer.odex ../../../proprietary/system/framework/oat/arm64
+echo "===> Extracting system/delapp/HwCompass/HwCompass.apk\n"
+adb pull /system/delapp/HwCompass/HwCompass.apk ../../../proprietary/system/delapp/HwCompass
 echo "===> Extracting system/etc/criticalpro.xml\n"
 adb pull /system/etc/criticalpro.xml ../../../proprietary/system/etc
 echo "===> Extracting system/etc/audio_policy.conf\n"
@@ -3341,10 +3365,14 @@ echo "===> Extracting system/lib/libomx_vxd.so\n"
 adb pull /system/lib/libomx_vxd.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libperfhub_service.so\n"
 adb pull /system/lib/libperfhub_service.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libhisi_efuse.so\n"
+adb pull /system/lib/libhisi_efuse.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libvio.so\n"
 adb pull /system/lib/libvio.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libstagefright.huawei.so\n"
 adb pull /system/lib/libstagefright.huawei.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libril.so\n"
+adb pull /system/lib/libril.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libprojectmenu.so\n"
 adb pull /system/lib/libprojectmenu.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libwifipro.so\n"
@@ -3353,8 +3381,12 @@ echo "===> Extracting system/lib/libcgroup.so\n"
 adb pull /system/lib/libcgroup.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhwuibp.so\n"
 adb pull /system/lib/libhwuibp.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/librilutils.so\n"
+adb pull /system/lib/librilutils.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libdmd.so\n"
 adb pull /system/lib/libdmd.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libconn_factory_test.so\n"
+adb pull /system/lib/libconn_factory_test.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libstagefright_soft_ffmpegvideodec.so\n"
 adb pull /system/lib/libstagefright_soft_ffmpegvideodec.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libperfhub_client.so\n"
@@ -3373,6 +3405,8 @@ echo "===> Extracting system/lib/libbalong-ril-2.so\n"
 adb pull /system/lib/libbalong-ril-2.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libbalong-ril-1.so\n"
 adb pull /system/lib/libbalong-ril-1.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/lib_atprotocolsw.so\n"
+adb pull /system/lib/lib_atprotocolsw.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libmini_md5.so\n"
 adb pull /system/lib/libmini_md5.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libperfhub.so\n"
@@ -3387,6 +3421,8 @@ echo "===> Extracting system/lib/libmusicsniffer.so\n"
 adb pull /system/lib/libmusicsniffer.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libteec.so\n"
 adb pull /system/lib/libteec.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libgps_factory_test.so\n"
+adb pull /system/lib/libgps_factory_test.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libcrypto2.so\n"
 adb pull /system/lib/libcrypto2.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhuaweiprocessing.so\n"
@@ -3415,6 +3451,10 @@ echo "===> Extracting system/lib/libhuaweiaudioeffectutil.so\n"
 adb pull /system/lib/libhuaweiaudioeffectutil.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhwsmartdisplay_jni.so\n"
 adb pull /system/lib/libhwsmartdisplay_jni.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libfaclog.so\n"
+adb pull /system/lib/libfaclog.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libreference-ril.so\n"
+adb pull /system/lib/libreference-ril.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libbalong_audio_ril.so\n"
 adb pull /system/lib/libbalong_audio_ril.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/lib_oeminfo_interface.so\n"
@@ -3481,6 +3521,8 @@ echo "===> Extracting system/bin/HwCamCfgSvr\n"
 adb pull /system/bin/HwCamCfgSvr ../../../proprietary/system/bin
 echo "===> Extracting system/bin/dumptool\n"
 adb pull /system/bin/dumptool ../../../proprietary/system/bin
+echo "===> Extracting system/bin/rild\n"
+adb pull /system/bin/rild ../../../proprietary/system/bin
 echo "===> Extracting system/bin/exfatfsck\n"
 adb pull /system/bin/exfatfsck ../../../proprietary/system/bin
 echo "===> Extracting system/bin/pcscd\n"
@@ -3605,4 +3647,4 @@ echo "===> Extracting system/bin/isplogcat\n"
 adb pull /system/bin/isplogcat ../../../proprietary/system/bin
 
 
-# Total 1795 files added on 2016-12-08T16:44:20.172465 UTC
+# Total 1816 files added on 2016-12-09T04:02:33.390106 UTC
