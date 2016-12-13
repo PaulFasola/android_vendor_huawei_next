@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifi_factory_test_hisi.so:system/lib64/libwifi_factory_test_hisi.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libprojectmenu.so:system/lib64/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifipro.so:system/lib64/libwifipro.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libhwuibp.so:system/lib64/libhwuibp.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/librilutils.so:system/lib64/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_msgprocess.so:system/lib64/libhsa_msgprocess.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_configprocess.so:system/lib64/libhsa_configprocess.so \
@@ -44,14 +43,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libconn_factory_test.so:system/lib64/libconn_factory_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegvideodec.so:system/lib64/libstagefright_soft_ffmpegvideodec.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libssl2.so:system/lib64/libssl2.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libhwcalibrationtest_jni.so:system/lib64/libhwcalibrationtest_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libBootloaderOeminfo.so:system/lib64/libBootloaderOeminfo.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub_client.so:system/lib64/libperfhub_client.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libbalong-ril.so:system/lib64/libbalong-ril.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libchrlog.so:system/lib64/libchrlog.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libpowerprofile.so:system/lib64/libpowerprofile.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudiotestalgo.so:system/lib64/libaudiotestalgo.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libhwsign.so:system/lib64/libhwsign.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libFusedGpsPdr.so:system/lib64/libFusedGpsPdr.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libbastet.so:system/lib64/libbastet.so \
@@ -68,8 +65,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libteec.so:system/lib64/libteec.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libgps_factory_test.so:system/lib64/libgps_factory_test.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libcrypto2.so:system/lib64/libcrypto2.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libmax98925.so:system/lib64/libmax98925.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libhwaps.so:system/lib64/libhwaps.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libtrack.so:system/lib64/libtrack.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_common.so:system/lib64/libhsa_common.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhuaweigpsrpc.so:system/lib64/libhuaweigpsrpc.so \
@@ -86,6 +83,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegvideodec_hw.so:system/lib64/libstagefright_soft_ffmpegvideodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libion.so:system/lib64/libion.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libpowergenie_native3.so:system/lib64/libpowergenie_native3.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libFingerprintMMITest.so:system/lib64/libFingerprintMMITest.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_hdlc.so:system/lib64/libhsa_hdlc.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libmedia_jni.huawei.so:system/lib64/libmedia_jni.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so:system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so \
@@ -406,166 +404,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/K3V5/beta_p8/temperaturemonitor_setting.xml:system/etc/K3V5/beta_p8/temperaturemonitor_setting.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/K3V5/next/temperaturemonitor_setting.xml:system/etc/K3V5/next/temperaturemonitor_setting.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/K3V5/beta_eva/temperaturemonitor_setting.xml:system/etc/K3V5/beta_eva/temperaturemonitor_setting.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/security/otacerts.zip:system/etc/security/otacerts.zip \
-	$(LOCAL_PATH)/proprietary/system/etc/security/mac_permissions.xml:system/etc/security/mac_permissions.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/bdacca6f.0:system/etc/security/cacerts/bdacca6f.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3c9a4d3b.0:system/etc/security/cacerts/3c9a4d3b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/a3896b44.0:system/etc/security/cacerts/a3896b44.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1eb37bdf.0:system/etc/security/cacerts/1eb37bdf.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1e1eab7c.0:system/etc/security/cacerts/1e1eab7c.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/cf701eeb.0:system/etc/security/cacerts/cf701eeb.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/5f47b495.0:system/etc/security/cacerts/5f47b495.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9685a493.0:system/etc/security/cacerts/9685a493.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d7746a63.0:system/etc/security/cacerts/d7746a63.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/75680d2e.0:system/etc/security/cacerts/75680d2e.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/e60bf0c0.0:system/etc/security/cacerts/e60bf0c0.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d64f06f3.0:system/etc/security/cacerts/d64f06f3.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d6e6eab9.0:system/etc/security/cacerts/d6e6eab9.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/e442e424.0:system/etc/security/cacerts/e442e424.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/6e8bf996.0:system/etc/security/cacerts/6e8bf996.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/c527e4ab.0:system/etc/security/cacerts/c527e4ab.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/895cad1a.0:system/etc/security/cacerts/895cad1a.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/02b73561.0:system/etc/security/cacerts/02b73561.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/6fcc125d.0:system/etc/security/cacerts/6fcc125d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/add67345.0:system/etc/security/cacerts/add67345.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/72f369af.0:system/etc/security/cacerts/72f369af.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ee90b008.0:system/etc/security/cacerts/ee90b008.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d18e9066.0:system/etc/security/cacerts/d18e9066.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9576d26b.0:system/etc/security/cacerts/9576d26b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/c51c224c.0:system/etc/security/cacerts/c51c224c.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/b7db1890.0:system/etc/security/cacerts/b7db1890.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9d6523ce.0:system/etc/security/cacerts/9d6523ce.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/418595b9.0:system/etc/security/cacerts/418595b9.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/21855f49.0:system/etc/security/cacerts/21855f49.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/33815e15.1:system/etc/security/cacerts/33815e15.1 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/33815e15.0:system/etc/security/cacerts/33815e15.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/4e18c148.0:system/etc/security/cacerts/4e18c148.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/594f1775.0:system/etc/security/cacerts/594f1775.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/882de061.0:system/etc/security/cacerts/882de061.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/e775ed2d.0:system/etc/security/cacerts/e775ed2d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ed524cf5.0:system/etc/security/cacerts/ed524cf5.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d4c339cb.0:system/etc/security/cacerts/d4c339cb.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/bf64f35b.0:system/etc/security/cacerts/bf64f35b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/aeb67534.0:system/etc/security/cacerts/aeb67534.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/7d3cd826.0:system/etc/security/cacerts/7d3cd826.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3d441de8.0:system/etc/security/cacerts/3d441de8.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/a0bc6fbb.0:system/etc/security/cacerts/a0bc6fbb.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/bc3f2570.0:system/etc/security/cacerts/bc3f2570.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/7d453d8f.0:system/etc/security/cacerts/7d453d8f.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/7672ac4b.0:system/etc/security/cacerts/7672ac4b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3a3b02ce.0:system/etc/security/cacerts/3a3b02ce.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/6645de82.0:system/etc/security/cacerts/6645de82.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/450c6e38.0:system/etc/security/cacerts/450c6e38.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/04f60c28.0:system/etc/security/cacerts/04f60c28.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ccc52f49.0:system/etc/security/cacerts/ccc52f49.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/343eb6cb.0:system/etc/security/cacerts/343eb6cb.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/57692373.0:system/etc/security/cacerts/57692373.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/8d6437c3.0:system/etc/security/cacerts/8d6437c3.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/399e7759.0:system/etc/security/cacerts/399e7759.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/fde84897.0:system/etc/security/cacerts/fde84897.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/4d654d1d.0:system/etc/security/cacerts/4d654d1d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/2fa87019.0:system/etc/security/cacerts/2fa87019.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ff783690.0:system/etc/security/cacerts/ff783690.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/5046c355.0:system/etc/security/cacerts/5046c355.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/119afc2e.0:system/etc/security/cacerts/119afc2e.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/12d55845.0:system/etc/security/cacerts/12d55845.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3c6676aa.0:system/etc/security/cacerts/3c6676aa.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/cb156124.0:system/etc/security/cacerts/cb156124.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/b0f3e76e.0:system/etc/security/cacerts/b0f3e76e.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/111e6273.0:system/etc/security/cacerts/111e6273.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/0d5a4e1c.0:system/etc/security/cacerts/0d5a4e1c.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/c3a6a9ad.0:system/etc/security/cacerts/c3a6a9ad.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/58a44af1.0:system/etc/security/cacerts/58a44af1.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/a2c66da8.0:system/etc/security/cacerts/a2c66da8.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ea169617.0:system/etc/security/cacerts/ea169617.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1676090a.0:system/etc/security/cacerts/1676090a.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/f80cc7f6.0:system/etc/security/cacerts/f80cc7f6.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/fac084d7.0:system/etc/security/cacerts/fac084d7.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d59297b8.0:system/etc/security/cacerts/d59297b8.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/0d69c7e1.0:system/etc/security/cacerts/0d69c7e1.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3ad48a91.0:system/etc/security/cacerts/3ad48a91.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/fb126c6d.0:system/etc/security/cacerts/fb126c6d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/124bbd54.0:system/etc/security/cacerts/124bbd54.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/7651b327.0:system/etc/security/cacerts/7651b327.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/52b525c7.0:system/etc/security/cacerts/52b525c7.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/a7d2cf64.0:system/etc/security/cacerts/a7d2cf64.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/524d9b43.0:system/etc/security/cacerts/524d9b43.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/5e4e69e7.0:system/etc/security/cacerts/5e4e69e7.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/76579174.0:system/etc/security/cacerts/76579174.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/cdaebb72.0:system/etc/security/cacerts/cdaebb72.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9339512a.0:system/etc/security/cacerts/9339512a.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1dcd6f4c.0:system/etc/security/cacerts/1dcd6f4c.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/a7605362.0:system/etc/security/cacerts/a7605362.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d16a5865.0:system/etc/security/cacerts/d16a5865.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/86212b19.0:system/etc/security/cacerts/86212b19.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ee7cd6fb.0:system/etc/security/cacerts/ee7cd6fb.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/2add47b6.0:system/etc/security/cacerts/2add47b6.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/03f2b8cf.0:system/etc/security/cacerts/03f2b8cf.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/c90bc37d.0:system/etc/security/cacerts/c90bc37d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/5a3f0ff8.0:system/etc/security/cacerts/5a3f0ff8.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/89c02a45.0:system/etc/security/cacerts/89c02a45.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/63a2c897.0:system/etc/security/cacerts/63a2c897.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/23f4c490.0:system/etc/security/cacerts/23f4c490.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/48a195d8.0:system/etc/security/cacerts/48a195d8.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9f533518.0:system/etc/security/cacerts/9f533518.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/91739615.0:system/etc/security/cacerts/91739615.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3c860d51.0:system/etc/security/cacerts/3c860d51.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/e48193cf.0:system/etc/security/cacerts/e48193cf.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/81b9768f.0:system/etc/security/cacerts/81b9768f.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/961f5451.0:system/etc/security/cacerts/961f5451.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/60afe812.0:system/etc/security/cacerts/60afe812.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/f61bff45.0:system/etc/security/cacerts/f61bff45.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/69105f4f.0:system/etc/security/cacerts/69105f4f.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ab5346f4.0:system/etc/security/cacerts/ab5346f4.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1e8e7201.0:system/etc/security/cacerts/1e8e7201.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d06393bb.0:system/etc/security/cacerts/d06393bb.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/5cf9d536.0:system/etc/security/cacerts/5cf9d536.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/7999be0d.0:system/etc/security/cacerts/7999be0d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/b0ed035a.0:system/etc/security/cacerts/b0ed035a.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3c58f906.0:system/etc/security/cacerts/3c58f906.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/a2df7ad7.0:system/etc/security/cacerts/a2df7ad7.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/dbc54cab.0:system/etc/security/cacerts/dbc54cab.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/b872f2b4.0:system/etc/security/cacerts/b872f2b4.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9772ca32.0:system/etc/security/cacerts/9772ca32.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/5a250ea7.0:system/etc/security/cacerts/5a250ea7.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/e268a4c5.0:system/etc/security/cacerts/e268a4c5.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/facacbc6.0:system/etc/security/cacerts/facacbc6.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/85cde254.0:system/etc/security/cacerts/85cde254.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/8470719d.0:system/etc/security/cacerts/8470719d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/219d9499.0:system/etc/security/cacerts/219d9499.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/4fbd6bfa.0:system/etc/security/cacerts/4fbd6bfa.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/c491639e.0:system/etc/security/cacerts/c491639e.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/40dc992e.0:system/etc/security/cacerts/40dc992e.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/87753b0d.0:system/etc/security/cacerts/87753b0d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/35105088.0:system/etc/security/cacerts/35105088.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/27af790d.0:system/etc/security/cacerts/27af790d.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/f58a60fe.0:system/etc/security/cacerts/f58a60fe.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/95aff9e3.0:system/etc/security/cacerts/95aff9e3.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/b3fb433b.0:system/etc/security/cacerts/b3fb433b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/ed39abd0.0:system/etc/security/cacerts/ed39abd0.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1f58a078.0:system/etc/security/cacerts/1f58a078.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9282e51c.0:system/etc/security/cacerts/9282e51c.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/82223c44.0:system/etc/security/cacerts/82223c44.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/3e7271e8.0:system/etc/security/cacerts/3e7271e8.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/00673b5b.0:system/etc/security/cacerts/00673b5b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/56b8a0b6.0:system/etc/security/cacerts/56b8a0b6.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/4be590e0.0:system/etc/security/cacerts/4be590e0.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1dac3003.0:system/etc/security/cacerts/1dac3003.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/455f1b52.0:system/etc/security/cacerts/455f1b52.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/7a819ef2.0:system/etc/security/cacerts/7a819ef2.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/08aef7bb.0:system/etc/security/cacerts/08aef7bb.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/c7e2a638.0:system/etc/security/cacerts/c7e2a638.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/d66b55d9.0:system/etc/security/cacerts/d66b55d9.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/052e396b.0:system/etc/security/cacerts/052e396b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/10531352.0:system/etc/security/cacerts/10531352.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/2d9dafe4.0:system/etc/security/cacerts/2d9dafe4.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/67495436.0:system/etc/security/cacerts/67495436.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/17b51fe6.0:system/etc/security/cacerts/17b51fe6.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9dbefe7b.0:system/etc/security/cacerts/9dbefe7b.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/1df5a75f.0:system/etc/security/cacerts/1df5a75f.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/84cba82f.0:system/etc/security/cacerts/84cba82f.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/e8651083.0:system/etc/security/cacerts/e8651083.0 \
-	$(LOCAL_PATH)/proprietary/system/etc/security/cacerts/9ab62355.0:system/etc/security/cacerts/9ab62355.0 \
 	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_stack_beta.conf:system/etc/bluetooth/bt_stack_beta.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -1358,7 +1196,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/modem_EVA_telecomiot.xml:system/etc/audio/modem/modem_EVA_telecomiot.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/modem_VIENNA_gcf.xml:system/etc/audio/modem/modem_VIENNA_gcf.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/modem_FRD_cmcciot.xml:system/etc/audio/modem/modem_FRD_cmcciot.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/logo/oemlogo.mbn:system/etc/logo/oemlogo.mbn \
 	$(LOCAL_PATH)/proprietary/system/etc/K3V3plus/common/temperaturemonitor_setting.xml:system/etc/K3V3plus/common/temperaturemonitor_setting.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
 	$(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -1384,7 +1221,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/xml/hw_defaults.xml:system/etc/xml/hw_defaults.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/xml/lcd/4.1/LABCConfig.xml:system/etc/xml/lcd/4.1/LABCConfig.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/xml/lcd/4.1/SBLConfig.xml:system/etc/xml/lcd/4.1/SBLConfig.xml \
-	$(LOCAL_PATH)/proprietary/system/etc/media/bootanimation.zip:system/etc/media/bootanimation.zip \
 	$(LOCAL_PATH)/proprietary/system/etc/hsmConfig/hsm_config.conf:system/etc/hsmConfig/hsm_config.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/hsmConfig/hsm.xml:system/etc/hsmConfig/hsm.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/hsmConfig/hsm_config_commercial.conf:system/etc/hsmConfig/hsm_config_commercial.conf \
@@ -1465,7 +1301,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_1.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_1.dat \
 	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_1_old.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_LAB_1_old.dat \
 	$(LOCAL_PATH)/proprietary/system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_Weight_old.dat:system/etc/facerecognition/face_detect_classifiers/CAMERA_HAAR_Weight_old.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
 	$(LOCAL_PATH)/proprietary/system/asr/splitdict/Resource.irf:system/asr/splitdict/Resource.irf \
 	$(LOCAL_PATH)/proprietary/system/asr/splitdict/ListWord_DB.txt:system/asr/splitdict/ListWord_DB.txt \
@@ -1693,6 +1528,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libaes.so:system/lib/libaes.so \
 	$(LOCAL_PATH)/proprietary/system/lib/librpc.so:system/lib/librpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libnvme.so:system/lib/libnvme.so \
+	$(LOCAL_PATH)/proprietary/system/lib/liblowpowerplayer.so:system/lib/liblowpowerplayer.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegaudiodec.so:system/lib/libstagefright_soft_ffmpegaudiodec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/liboeminfo_jni.so:system/lib/liboeminfo_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgoservice.so:system/lib/libhuaweiaudioalgoservice.so \
@@ -1709,13 +1545,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libprojectmenu.so:system/lib/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libwifipro.so:system/lib/libwifipro.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcgroup.so:system/lib/libcgroup.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwuibp.so:system/lib/libhwuibp.so \
 	$(LOCAL_PATH)/proprietary/system/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdmd.so:system/lib/libdmd.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libconn_factory_test.so:system/lib/libconn_factory_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegvideodec.so:system/lib/libstagefright_soft_ffmpegvideodec.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtwcutckr.so:system/lib/libtwcutckr.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libssl2.so:system/lib/libssl2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libBootloaderOeminfo.so:system/lib/libBootloaderOeminfo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_client.so:system/lib/libperfhub_client.so \
@@ -1724,7 +1560,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libpowerprofile.so:system/lib/libpowerprofile.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiotestalgo.so:system/lib/libaudiotestalgo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtrans_depth_code.so:system/lib/libtrans_depth_code.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwsign.so:system/lib/libhwsign.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-2.so:system/lib/libbalong-ril-2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
@@ -1746,7 +1581,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libcrypto2.so:system/lib/libcrypto2.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmax98925.so:system/lib/libmax98925.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtrack.so:system/lib/libtrack.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtpp_tpn_free_arm_android.so:system/lib/libtpp_tpn_free_arm_android.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbastetmanager.so:system/lib/libbastetmanager.so \
@@ -1759,13 +1593,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libmediamonitor_jni.so:system/lib/libmediamonitor_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libwifichrstat.so:system/lib/libwifichrstat.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfaclog.so:system/lib/libfaclog.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegvideodec_hw.so:system/lib/libstagefright_soft_ffmpegvideodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libFingerprintMMITest.so:system/lib/libFingerprintMMITest.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libiplmllite.so:system/lib/libiplmllite.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwChargeMonitor_interface.so:system/lib/lib_hwChargeMonitor_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
@@ -1824,6 +1658,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/fpc_1021_ta.sec:system/bin/fpc_1021_ta.sec \
 	$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/system/bin/exfatfsck:system/bin/exfatfsck \
+	$(LOCAL_PATH)/proprietary/system/bin/fingerprintd:system/bin/fingerprintd \
 	$(LOCAL_PATH)/proprietary/system/bin/pcscd:system/bin/pcscd \
 	$(LOCAL_PATH)/proprietary/system/bin/tlogcat:system/bin/tlogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/wl:system/bin/wl \
@@ -1894,4 +1729,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1878 files added on 2016-12-13T01:04:43.446947 UTC
+# Total 1713 files added on 2016-12-13T21:31:26.375373 UTC
