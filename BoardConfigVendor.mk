@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/displaycaps.default.so:system/lib64/hw/displaycaps.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/audio.primary.hisi.so:system/lib64/hw/audio.primary.hisi.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/gatekeeper.hi3650.so:system/lib64/hw/gatekeeper.hi3650.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/hw/lights.hi3650.so:system/lib64/hw/lights.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/memtrack.hi3650.so:system/lib64/hw/memtrack.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/fm.bcm.hi3650.so:system/lib64/hw/fm.bcm.hi3650.so \
@@ -1789,6 +1790,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/camera.hi3650.so:system/lib/hw/camera.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.hisi.so:system/lib/hw/audio.primary.hisi.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/gatekeeper.hi3650.so:system/lib/hw/gatekeeper.hi3650.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/lights.hi3650.so:system/lib/hw/lights.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3650.so:system/lib/hw/memtrack.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/fm.bcm.hi3650.so:system/lib/hw/fm.bcm.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/power.hi3650.so:system/lib/hw/power.hi3650.so \
@@ -1892,4 +1894,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1876 files added on 2016-12-24T00:13:03.251294 UTC
+# Total 1878 files added on 2016-12-28T09:49:16.693356 UTC

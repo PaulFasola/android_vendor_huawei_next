@@ -369,6 +369,8 @@ echo "===> Extracting system/lib64/hw/audio.primary.hisi.so\n"
 adb pull /system/lib64/hw/audio.primary.hisi.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/gatekeeper.hi3650.so\n"
 adb pull /system/lib64/hw/gatekeeper.hi3650.so ../../../proprietary/system/lib64/hw
+echo "===> Extracting system/lib64/hw/lights.hi3650.so\n"
+adb pull /system/lib64/hw/lights.hi3650.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/memtrack.hi3650.so\n"
 adb pull /system/lib64/hw/memtrack.hi3650.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/activity_recognition.default.so\n"
@@ -3563,6 +3565,8 @@ echo "===> Extracting system/lib/hw/audio.primary.hisi.so\n"
 adb pull /system/lib/hw/audio.primary.hisi.so ../../../proprietary/system/lib/hw
 echo "===> Extracting system/lib/hw/gatekeeper.hi3650.so\n"
 adb pull /system/lib/hw/gatekeeper.hi3650.so ../../../proprietary/system/lib/hw
+echo "===> Extracting system/lib/hw/lights.hi3650.so\n"
+adb pull /system/lib/hw/lights.hi3650.so ../../../proprietary/system/lib/hw
 echo "===> Extracting system/lib/hw/memtrack.hi3650.so\n"
 adb pull /system/lib/hw/memtrack.hi3650.so ../../../proprietary/system/lib/hw
 echo "===> Extracting system/lib/hw/fm.bcm.hi3650.so\n"
@@ -3767,4 +3771,4 @@ echo "===> Extracting system/bin/isplogcat\n"
 adb pull /system/bin/isplogcat ../../../proprietary/system/bin
 
 
-# Total 1876 files added on 2016-12-24T00:13:03.251312 UTC
+# Total 1878 files added on 2016-12-28T09:49:16.693401 UTC
