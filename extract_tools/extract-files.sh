@@ -57,6 +57,8 @@ echo "===> Extracting system/lib64/libvio.so\n"
 adb pull /system/lib64/libvio.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhidisk_security.so\n"
 adb pull /system/lib64/libhidisk_security.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libfido_hal.so\n"
+adb pull /system/lib64/libfido_hal.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libDocBeauty.so\n"
 adb pull /system/lib64/libDocBeauty.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libstagefright.huawei.so\n"
@@ -3231,6 +3233,8 @@ echo "===> Extracting system/lib/libhidisk_security.so\n"
 adb pull /system/lib/libhidisk_security.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libiplpal.so\n"
 adb pull /system/lib/libiplpal.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libfido_hal.so\n"
+adb pull /system/lib/libfido_hal.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libDocBeauty.so\n"
 adb pull /system/lib/libDocBeauty.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libmorpho_memory_allocator.so\n"
@@ -3631,8 +3635,6 @@ echo "===> Extracting system/bin/rild\n"
 adb pull /system/bin/rild ../../../proprietary/system/bin
 echo "===> Extracting system/bin/exfatfsck\n"
 adb pull /system/bin/exfatfsck ../../../proprietary/system/bin
-echo "===> Extracting system/bin/fingerprintd\n"
-adb pull /system/bin/fingerprintd ../../../proprietary/system/bin
 echo "===> Extracting system/bin/pcscd\n"
 adb pull /system/bin/pcscd ../../../proprietary/system/bin
 echo "===> Extracting system/bin/tlogcat\n"
@@ -3771,4 +3773,4 @@ echo "===> Extracting system/bin/isplogcat\n"
 adb pull /system/bin/isplogcat ../../../proprietary/system/bin
 
 
-# Total 1878 files added on 2016-12-28T09:49:16.693401 UTC
+# Total 1879 files added on 2016-12-30T19:18:26.628195 UTC

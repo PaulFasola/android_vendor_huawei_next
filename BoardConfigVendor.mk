@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhisi_efuse.so:system/lib64/libhisi_efuse.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libvio.so:system/lib64/libvio.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhidisk_security.so:system/lib64/libhidisk_security.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libfido_hal.so:system/lib64/libfido_hal.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libDocBeauty.so:system/lib64/libDocBeauty.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright.huawei.so:system/lib64/libstagefright.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudio_custom.so:system/lib64/libaudio_custom.so \
@@ -1623,6 +1624,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhidisk_security.so:system/lib/libhidisk_security.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libiplpal.so:system/lib/libiplpal.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfido_hal.so:system/lib/libfido_hal.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
@@ -1823,7 +1825,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/fpc_1021_ta.sec:system/bin/fpc_1021_ta.sec \
 	$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/system/bin/exfatfsck:system/bin/exfatfsck \
-	$(LOCAL_PATH)/proprietary/system/bin/fingerprintd:system/bin/fingerprintd \
 	$(LOCAL_PATH)/proprietary/system/bin/pcscd:system/bin/pcscd \
 	$(LOCAL_PATH)/proprietary/system/bin/tlogcat:system/bin/tlogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/wl:system/bin/wl \
@@ -1894,4 +1895,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1878 files added on 2016-12-28T09:49:16.693356 UTC
+# Total 1879 files added on 2016-12-30T19:18:26.628179 UTC

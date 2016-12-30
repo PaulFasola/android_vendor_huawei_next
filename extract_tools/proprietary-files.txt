@@ -27,6 +27,7 @@ system/lib64/libnfc-nci.so
 system/lib64/libhisi_efuse.so
 system/lib64/libvio.so
 system/lib64/libhidisk_security.so
+system/lib64/libfido_hal.so
 system/lib64/libDocBeauty.so
 system/lib64/libstagefright.huawei.so
 system/lib64/libaudio_custom.so
@@ -1614,6 +1615,7 @@ system/lib/libhisi_efuse.so
 system/lib/libvio.so
 system/lib/libhidisk_security.so
 system/lib/libiplpal.so
+system/lib/libfido_hal.so
 system/lib/libDocBeauty.so
 system/lib/libmorpho_memory_allocator.so
 system/lib/libstagefright.huawei.so
@@ -1814,7 +1816,6 @@ system/bin/teecd
 system/bin/fpc_1021_ta.sec
 system/bin/rild
 system/bin/exfatfsck
-system/bin/fingerprintd
 system/bin/pcscd
 system/bin/tlogcat
 system/bin/wl
@@ -1885,4 +1886,4 @@ system/bin/lmkd
 system/bin/isplogcat
 
 
-# Total 1878 files added on 2016-12-28T09:49:16.693405 UTC
+# Total 1879 files added on 2016-12-30T19:18:26.628199 UTC
