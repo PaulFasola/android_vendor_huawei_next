@@ -77,8 +77,6 @@ echo "===> Extracting system/lib64/libmrc_cg_postprocess_ivp.so\n"
 adb pull /system/lib64/libmrc_cg_postprocess_ivp.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libwifi_factory_test_hisi.so\n"
 adb pull /system/lib64/libwifi_factory_test_hisi.so ../../../proprietary/system/lib64
-echo "===> Extracting system/lib64/libcamera_ivp.so\n"
-adb pull /system/lib64/libcamera_ivp.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libprojectmenu.so\n"
 adb pull /system/lib64/libprojectmenu.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libwifipro.so\n"
@@ -137,6 +135,8 @@ echo "===> Extracting system/lib64/libaudiotestalgo.so\n"
 adb pull /system/lib64/libaudiotestalgo.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libHwExtendedExtractor.so\n"
 adb pull /system/lib64/libHwExtendedExtractor.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libshim_camera_client.so\n"
+adb pull /system/lib64/libshim_camera_client.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhwsign.so\n"
 adb pull /system/lib64/libhwsign.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhwtheme_jni.so\n"
@@ -263,6 +263,8 @@ echo "===> Extracting system/lib64/libumetrip.so\n"
 adb pull /system/lib64/libumetrip.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libHwManufactureCustEx_jni.so\n"
 adb pull /system/lib64/libHwManufactureCustEx_jni.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libshim_hwui.so\n"
+adb pull /system/lib64/libshim_hwui.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libmedia_jni.huawei.so\n"
 adb pull /system/lib64/libmedia_jni.huawei.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so\n"
@@ -271,6 +273,8 @@ echo "===> Extracting system/lib64/liboeminfo.so\n"
 adb pull /system/lib64/liboeminfo.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libaudioalgoservice_jni.so\n"
 adb pull /system/lib64/libaudioalgoservice_jni.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libshim_media.so\n"
+adb pull /system/lib64/libshim_media.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libsensorservice.so\n"
 adb pull /system/lib64/libsensorservice.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libqrcode.so\n"
@@ -369,6 +373,8 @@ echo "===> Extracting system/lib64/hw/audio.primary.hisi.so\n"
 adb pull /system/lib64/hw/audio.primary.hisi.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/gatekeeper.hi3650.so\n"
 adb pull /system/lib64/hw/gatekeeper.hi3650.so ../../../proprietary/system/lib64/hw
+echo "===> Extracting system/lib64/hw/lights.hi3650.so\n"
+adb pull /system/lib64/hw/lights.hi3650.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/memtrack.hi3650.so\n"
 adb pull /system/lib64/hw/memtrack.hi3650.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/activity_recognition.default.so\n"
@@ -3249,8 +3255,6 @@ echo "===> Extracting system/lib/libhwextdevice.so\n"
 adb pull /system/lib/libhwextdevice.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libmrc_cg_postprocess_ivp.so\n"
 adb pull /system/lib/libmrc_cg_postprocess_ivp.so ../../../proprietary/system/lib
-echo "===> Extracting system/lib/libcamera_ivp.so\n"
-adb pull /system/lib/libcamera_ivp.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libtwcutchr.so\n"
 adb pull /system/lib/libtwcutchr.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libprojectmenu.so\n"
@@ -3319,6 +3323,8 @@ echo "===> Extracting system/lib/libtrans_depth_code.so\n"
 adb pull /system/lib/libtrans_depth_code.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libHwExtendedExtractor.so\n"
 adb pull /system/lib/libHwExtendedExtractor.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libshim_camera_client.so\n"
+adb pull /system/lib/libshim_camera_client.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhwsign.so\n"
 adb pull /system/lib/libhwsign.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhwtheme_jni.so\n"
@@ -3457,6 +3463,8 @@ echo "===> Extracting system/lib/lib_hwChargeMonitor_interface.so\n"
 adb pull /system/lib/lib_hwChargeMonitor_interface.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhwpwmanager_jni.so\n"
 adb pull /system/lib/libhwpwmanager_jni.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libshim_hwui.so\n"
+adb pull /system/lib/libshim_hwui.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libmedia_jni.huawei.so\n"
 adb pull /system/lib/libmedia_jni.huawei.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libstagefright_soft_ffmpegaudiodec_hw.so\n"
@@ -3465,6 +3473,8 @@ echo "===> Extracting system/lib/liboeminfo.so\n"
 adb pull /system/lib/liboeminfo.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libaudioalgoservice_jni.so\n"
 adb pull /system/lib/libaudioalgoservice_jni.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libshim_media.so\n"
+adb pull /system/lib/libshim_media.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libsensorservice.so\n"
 adb pull /system/lib/libsensorservice.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libmrc_cg_sz.so\n"
@@ -3563,6 +3573,8 @@ echo "===> Extracting system/lib/hw/audio.primary.hisi.so\n"
 adb pull /system/lib/hw/audio.primary.hisi.so ../../../proprietary/system/lib/hw
 echo "===> Extracting system/lib/hw/gatekeeper.hi3650.so\n"
 adb pull /system/lib/hw/gatekeeper.hi3650.so ../../../proprietary/system/lib/hw
+echo "===> Extracting system/lib/hw/lights.hi3650.so\n"
+adb pull /system/lib/hw/lights.hi3650.so ../../../proprietary/system/lib/hw
 echo "===> Extracting system/lib/hw/memtrack.hi3650.so\n"
 adb pull /system/lib/hw/memtrack.hi3650.so ../../../proprietary/system/lib/hw
 echo "===> Extracting system/lib/hw/fm.bcm.hi3650.so\n"
@@ -3613,6 +3625,8 @@ echo "===> Extracting system/bin/glgps47531\n"
 adb pull /system/bin/glgps47531 ../../../proprietary/system/bin
 echo "===> Extracting system/bin/wpa_cli_hisi\n"
 adb pull /system/bin/wpa_cli_hisi ../../../proprietary/system/bin
+echo "===> Extracting system/bin/logctl_service\n"
+adb pull /system/bin/logctl_service ../../../proprietary/system/bin
 echo "===> Extracting system/bin/perfhub\n"
 adb pull /system/bin/perfhub ../../../proprietary/system/bin
 echo "===> Extracting system/bin/HwCamCfgSvr\n"
@@ -3635,6 +3649,8 @@ echo "===> Extracting system/bin/tlogcat\n"
 adb pull /system/bin/tlogcat ../../../proprietary/system/bin
 echo "===> Extracting system/bin/wl\n"
 adb pull /system/bin/wl ../../../proprietary/system/bin
+echo "===> Extracting system/bin/check_root\n"
+adb pull /system/bin/check_root ../../../proprietary/system/bin
 echo "===> Extracting system/bin/mkntfs\n"
 adb pull /system/bin/mkntfs ../../../proprietary/system/bin
 echo "===> Extracting system/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec\n"
@@ -3681,6 +3697,10 @@ echo "===> Extracting system/bin/hwnffserver\n"
 adb pull /system/bin/hwnffserver ../../../proprietary/system/bin
 echo "===> Extracting system/bin/hwpged\n"
 adb pull /system/bin/hwpged ../../../proprietary/system/bin
+echo "===> Extracting system/bin/hw_ueventd\n"
+adb pull /system/bin/hw_ueventd ../../../proprietary/system/bin
+echo "===> Extracting system/bin/ntfs-3gd\n"
+adb pull /system/bin/ntfs-3gd ../../../proprietary/system/bin
 echo "===> Extracting system/bin/mkexfatfs\n"
 adb pull /system/bin/mkexfatfs ../../../proprietary/system/bin
 echo "===> Extracting system/bin/syna_109A0_ta.sec\n"
@@ -3767,4 +3787,4 @@ echo "===> Extracting system/bin/isplogcat\n"
 adb pull /system/bin/isplogcat ../../../proprietary/system/bin
 
 
-# Total 1876 files added on 2017-01-26T01:01:10.897402 UTC
+# Total 1886 files added on 2017-03-02T14:49:11.586651 UTC

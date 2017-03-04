@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwextdevice.so:system/lib64/libhwextdevice.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libmrc_cg_postprocess_ivp.so:system/lib64/libmrc_cg_postprocess_ivp.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifi_factory_test_hisi.so:system/lib64/libwifi_factory_test_hisi.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libcamera_ivp.so:system/lib64/libcamera_ivp.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libprojectmenu.so:system/lib64/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifipro.so:system/lib64/libwifipro.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwuibp.so:system/lib64/libhwuibp.so \
@@ -76,6 +75,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libpowerprofile.so:system/lib64/libpowerprofile.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudiotestalgo.so:system/lib64/libaudiotestalgo.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libHwExtendedExtractor.so:system/lib64/libHwExtendedExtractor.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwsign.so:system/lib64/libhwsign.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwtheme_jni.so:system/lib64/libhwtheme_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
@@ -139,10 +139,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_hdlc.so:system/lib64/libhsa_hdlc.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libumetrip.so:system/lib64/libumetrip.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libHwManufactureCustEx_jni.so:system/lib64/libHwManufactureCustEx_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libmedia_jni.huawei.so:system/lib64/libmedia_jni.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so:system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudioalgoservice_jni.so:system/lib64/libaudioalgoservice_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libshim_media.so:system/lib64/libshim_media.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libqrcode.so:system/lib64/libqrcode.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libmrc_cg_sz.so:system/lib64/libmrc_cg_sz.so \
@@ -192,6 +194,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/displaycaps.default.so:system/lib64/hw/displaycaps.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/audio.primary.hisi.so:system/lib64/hw/audio.primary.hisi.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/gatekeeper.hi3650.so:system/lib64/hw/gatekeeper.hi3650.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/hw/lights.hi3650.so:system/lib64/hw/lights.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/memtrack.hi3650.so:system/lib64/hw/memtrack.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/fm.bcm.hi3650.so:system/lib64/hw/fm.bcm.hi3650.so \
@@ -1632,7 +1635,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libhw_display_effect.so:system/lib/libhw_display_effect.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwextdevice.so:system/lib/libhwextdevice.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_postprocess_ivp.so:system/lib/libmrc_cg_postprocess_ivp.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libcamera_ivp.so:system/lib/libcamera_ivp.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtwcutchr.so:system/lib/libtwcutchr.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libprojectmenu.so:system/lib/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/camera.hi3650.so:system/lib/camera.hi3650.so \
@@ -1667,6 +1669,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiotestalgo.so:system/lib/libaudiotestalgo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libtrans_depth_code.so:system/lib/libtrans_depth_code.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwExtendedExtractor.so:system/lib/libHwExtendedExtractor.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwsign.so:system/lib/libhwsign.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwtheme_jni.so:system/lib/libhwtheme_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
@@ -1736,10 +1739,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libiplmllite.so:system/lib/libiplmllite.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwChargeMonitor_interface.so:system/lib/lib_hwChargeMonitor_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwpwmanager_jni.so:system/lib/libhwpwmanager_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegaudiodec_hw.so:system/lib/libstagefright_soft_ffmpegaudiodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioalgoservice_jni.so:system/lib/libaudioalgoservice_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libshim_media.so:system/lib/libshim_media.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libsensorservice.so:system/lib/libsensorservice.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmrc_cg_sz.so:system/lib/libmrc_cg_sz.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
@@ -1789,6 +1794,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/camera.hi3650.so:system/lib/hw/camera.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.hisi.so:system/lib/hw/audio.primary.hisi.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/gatekeeper.hi3650.so:system/lib/hw/gatekeeper.hi3650.so \
+	$(LOCAL_PATH)/proprietary/system/lib/hw/lights.hi3650.so:system/lib/hw/lights.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3650.so:system/lib/hw/memtrack.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/fm.bcm.hi3650.so:system/lib/hw/fm.bcm.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/hw/power.hi3650.so:system/lib/hw/power.hi3650.so \
@@ -1814,6 +1820,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/gps4752logd:system/bin/gps4752logd \
 	$(LOCAL_PATH)/proprietary/system/bin/glgps47531:system/bin/glgps47531 \
 	$(LOCAL_PATH)/proprietary/system/bin/wpa_cli_hisi:system/bin/wpa_cli_hisi \
+	$(LOCAL_PATH)/proprietary/system/bin/logctl_service:system/bin/logctl_service \
 	$(LOCAL_PATH)/proprietary/system/bin/perfhub:system/bin/perfhub \
 	$(LOCAL_PATH)/proprietary/system/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
 	$(LOCAL_PATH)/proprietary/system/bin/dumptool:system/bin/dumptool \
@@ -1825,6 +1832,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/pcscd:system/bin/pcscd \
 	$(LOCAL_PATH)/proprietary/system/bin/tlogcat:system/bin/tlogcat \
 	$(LOCAL_PATH)/proprietary/system/bin/wl:system/bin/wl \
+	$(LOCAL_PATH)/proprietary/system/bin/check_root:system/bin/check_root \
 	$(LOCAL_PATH)/proprietary/system/bin/mkntfs:system/bin/mkntfs \
 	$(LOCAL_PATH)/proprietary/system/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec:system/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec \
 	$(LOCAL_PATH)/proprietary/system/bin/bastetd:system/bin/bastetd \
@@ -1848,6 +1856,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/hiscoutmanager:system/bin/hiscoutmanager \
 	$(LOCAL_PATH)/proprietary/system/bin/hwnffserver:system/bin/hwnffserver \
 	$(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
+	$(LOCAL_PATH)/proprietary/system/bin/hw_ueventd:system/bin/hw_ueventd \
+	$(LOCAL_PATH)/proprietary/system/bin/ntfs-3gd:system/bin/ntfs-3gd \
 	$(LOCAL_PATH)/proprietary/system/bin/mkexfatfs:system/bin/mkexfatfs \
 	$(LOCAL_PATH)/proprietary/system/bin/syna_109A0_ta.sec:system/bin/syna_109A0_ta.sec \
 	$(LOCAL_PATH)/proprietary/system/bin/wifichrdump:system/bin/wifichrdump \
@@ -1892,4 +1902,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1876 files added on 2017-01-26T01:01:10.897350 UTC
+# Total 1886 files added on 2017-03-02T14:49:11.586632 UTC

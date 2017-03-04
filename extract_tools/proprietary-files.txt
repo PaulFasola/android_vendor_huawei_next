@@ -37,7 +37,6 @@ system/lib64/libhw_display_effect.so
 system/lib64/libhwextdevice.so
 system/lib64/libmrc_cg_postprocess_ivp.so
 system/lib64/libwifi_factory_test_hisi.so
-system/lib64/libcamera_ivp.so
 system/lib64/libprojectmenu.so
 system/lib64/libwifipro.so
 system/lib64/libhwuibp.so
@@ -67,6 +66,7 @@ system/lib64/libcutils.so
 system/lib64/libpowerprofile.so
 system/lib64/libaudiotestalgo.so
 system/lib64/libHwExtendedExtractor.so
+system/lib64/libshim_camera_client.so
 system/lib64/libhwsign.so
 system/lib64/libhwtheme_jni.so
 system/lib64/libviagpsrpc.so
@@ -130,10 +130,12 @@ system/lib64/libFingerprintMMITest.so
 system/lib64/libhsa_hdlc.so
 system/lib64/libumetrip.so
 system/lib64/libHwManufactureCustEx_jni.so
+system/lib64/libshim_hwui.so
 system/lib64/libmedia_jni.huawei.so
 system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so
 system/lib64/liboeminfo.so
 system/lib64/libaudioalgoservice_jni.so
+system/lib64/libshim_media.so
 system/lib64/libsensorservice.so
 system/lib64/libqrcode.so
 system/lib64/libmrc_cg_sz.so
@@ -183,6 +185,7 @@ system/lib64/hw/flp.default.so
 system/lib64/hw/displaycaps.default.so
 system/lib64/hw/audio.primary.hisi.so
 system/lib64/hw/gatekeeper.hi3650.so
+system/lib64/hw/lights.hi3650.so
 system/lib64/hw/memtrack.hi3650.so
 system/lib64/hw/activity_recognition.default.so
 system/lib64/hw/fm.bcm.hi3650.so
@@ -1623,7 +1626,6 @@ system/lib/libmrc_cg_ldc.so
 system/lib/libhw_display_effect.so
 system/lib/libhwextdevice.so
 system/lib/libmrc_cg_postprocess_ivp.so
-system/lib/libcamera_ivp.so
 system/lib/libtwcutchr.so
 system/lib/libprojectmenu.so
 system/lib/camera.hi3650.so
@@ -1658,6 +1660,7 @@ system/lib/libpowerprofile.so
 system/lib/libaudiotestalgo.so
 system/lib/libtrans_depth_code.so
 system/lib/libHwExtendedExtractor.so
+system/lib/libshim_camera_client.so
 system/lib/libhwsign.so
 system/lib/libhwtheme_jni.so
 system/lib/libviagpsrpc.so
@@ -1727,10 +1730,12 @@ system/lib/libHwManufactureCustEx_jni.so
 system/lib/libiplmllite.so
 system/lib/lib_hwChargeMonitor_interface.so
 system/lib/libhwpwmanager_jni.so
+system/lib/libshim_hwui.so
 system/lib/libmedia_jni.huawei.so
 system/lib/libstagefright_soft_ffmpegaudiodec_hw.so
 system/lib/liboeminfo.so
 system/lib/libaudioalgoservice_jni.so
+system/lib/libshim_media.so
 system/lib/libsensorservice.so
 system/lib/libmrc_cg_sz.so
 system/lib/libaudioflinger.huawei.so
@@ -1780,6 +1785,7 @@ system/lib/hw/sensorhub.default.so
 system/lib/hw/camera.hi3650.so
 system/lib/hw/audio.primary.hisi.so
 system/lib/hw/gatekeeper.hi3650.so
+system/lib/hw/lights.hi3650.so
 system/lib/hw/memtrack.hi3650.so
 system/lib/hw/fm.bcm.hi3650.so
 system/lib/hw/power.hi3650.so
@@ -1805,6 +1811,7 @@ system/bin/vr_daemon
 system/bin/gps4752logd
 system/bin/glgps47531
 system/bin/wpa_cli_hisi
+system/bin/logctl_service
 system/bin/perfhub
 system/bin/HwCamCfgSvr
 system/bin/dumptool
@@ -1816,6 +1823,7 @@ system/bin/fingerprintd
 system/bin/pcscd
 system/bin/tlogcat
 system/bin/wl
+system/bin/check_root
 system/bin/mkntfs
 system/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec
 system/bin/bastetd
@@ -1839,6 +1847,8 @@ system/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec
 system/bin/hiscoutmanager
 system/bin/hwnffserver
 system/bin/hwpged
+system/bin/hw_ueventd
+system/bin/ntfs-3gd
 system/bin/mkexfatfs
 system/bin/syna_109A0_ta.sec
 system/bin/wifichrdump
@@ -1883,4 +1893,4 @@ system/bin/lmkd
 system/bin/isplogcat
 
 
-# Total 1876 files added on 2017-01-26T01:01:10.897410 UTC
+# Total 1886 files added on 2017-03-02T14:49:11.586655 UTC
