@@ -14,6 +14,7 @@ LOCAL_PATH := vendor/huawei/next
 
 
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/system/.phone.prop.swp:system/.phone.prop.swp \
 	$(LOCAL_PATH)/proprietary/system/phone.prop:system/phone.prop \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwlog_jni.so:system/lib64/libhwlog_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libdrmbitmap.huawei.so:system/lib64/libdrmbitmap.huawei.so \
@@ -32,6 +33,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libomx_vxd.so:system/lib64/libomx_vxd.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub_service.so:system/lib64/libperfhub_service.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libSmartAE.so:system/lib64/libSmartAE.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhisi_efuse.so:system/lib64/libhisi_efuse.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libvio.so:system/lib64/libvio.so \
@@ -197,7 +199,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/lights.hi3650.so:system/lib64/hw/lights.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/memtrack.hi3650.so:system/lib64/hw/memtrack.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/hw/gps.hi3650.so:system/lib64/hw/gps.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/fm.bcm.hi3650.so:system/lib64/hw/fm.bcm.hi3650.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/hw/gps47531.default.so:system/lib64/hw/gps47531.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/power.hi3650.so:system/lib64/hw/power.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/hw/keystore.hi3650.so:system/lib64/hw/keystore.hi3650.so \
@@ -1620,6 +1624,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libomx_vxd.so:system/lib/libomx_vxd.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_service.so:system/lib/libperfhub_service.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioroute.so:system/lib/libaudioroute.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libSmartAE.so:system/lib/libSmartAE.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhisi_efuse.so:system/lib/libhisi_efuse.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
@@ -1902,4 +1907,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
 
 
-# Total 1886 files added on 2017-03-02T14:49:11.586632 UTC
+# Total 1891 files added on 2017-03-24T08:44:23.106540 UTC

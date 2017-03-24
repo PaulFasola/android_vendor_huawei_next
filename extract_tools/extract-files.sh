@@ -13,6 +13,8 @@ echo "==> Copying BoardConfigVendor.."
 cp BoardConfigVendor.mk.disabled ../../../vendor/huawei/next/proprietary/BoardConfigVendor.mk
 
 echo "==> Starting extracting files, device must be connected and rooted!"
+echo "===> Extracting system/.phone.prop.swp\n"
+adb pull /system/.phone.prop.swp ../../../proprietary/system
 echo "===> Extracting system/phone.prop\n"
 adb pull /system/phone.prop ../../../proprietary/system
 echo "===> Extracting system/lib64/libhwlog_jni.so\n"
@@ -49,6 +51,8 @@ echo "===> Extracting system/lib64/libperfhub_service.so\n"
 adb pull /system/lib64/libperfhub_service.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libaudioroute.so\n"
 adb pull /system/lib64/libaudioroute.so ../../../proprietary/system/lib64
+echo "===> Extracting system/lib64/libSmartAE.so\n"
+adb pull /system/lib64/libSmartAE.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libnfc-nci.so\n"
 adb pull /system/lib64/libnfc-nci.so ../../../proprietary/system/lib64
 echo "===> Extracting system/lib64/libhisi_efuse.so\n"
@@ -379,8 +383,12 @@ echo "===> Extracting system/lib64/hw/memtrack.hi3650.so\n"
 adb pull /system/lib64/hw/memtrack.hi3650.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/activity_recognition.default.so\n"
 adb pull /system/lib64/hw/activity_recognition.default.so ../../../proprietary/system/lib64/hw
+echo "===> Extracting system/lib64/hw/gps.hi3650.so\n"
+adb pull /system/lib64/hw/gps.hi3650.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/fm.bcm.hi3650.so\n"
 adb pull /system/lib64/hw/fm.bcm.hi3650.so ../../../proprietary/system/lib64/hw
+echo "===> Extracting system/lib64/hw/gps47531.default.so\n"
+adb pull /system/lib64/hw/gps47531.default.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/nfc_nci.pn54x.default.so\n"
 adb pull /system/lib64/hw/nfc_nci.pn54x.default.so ../../../proprietary/system/lib64/hw
 echo "===> Extracting system/lib64/hw/power.hi3650.so\n"
@@ -3225,6 +3233,8 @@ echo "===> Extracting system/lib/libperfhub_service.so\n"
 adb pull /system/lib/libperfhub_service.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libaudioroute.so\n"
 adb pull /system/lib/libaudioroute.so ../../../proprietary/system/lib
+echo "===> Extracting system/lib/libSmartAE.so\n"
+adb pull /system/lib/libSmartAE.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libnfc-nci.so\n"
 adb pull /system/lib/libnfc-nci.so ../../../proprietary/system/lib
 echo "===> Extracting system/lib/libhisi_efuse.so\n"
@@ -3787,4 +3797,4 @@ echo "===> Extracting system/bin/isplogcat\n"
 adb pull /system/bin/isplogcat ../../../proprietary/system/bin
 
 
-# Total 1886 files added on 2017-03-02T14:49:11.586651 UTC
+# Total 1891 files added on 2017-03-24T08:44:23.106559 UTC
