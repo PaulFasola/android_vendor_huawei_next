@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub_service.so:system/lib64/libperfhub_service.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libSmartAE.so:system/lib64/libSmartAE.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhisi_efuse.so:system/lib64/libhisi_efuse.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libvio.so:system/lib64/libvio.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhidisk_security.so:system/lib64/libhidisk_security.so \
@@ -50,6 +49,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifi_factory_test_hisi.so:system/lib64/libwifi_factory_test_hisi.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libprojectmenu.so:system/lib64/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libwifipro.so:system/lib64/libwifipro.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libfm_jni.so:system/lib64/libfm_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwuibp.so:system/lib64/libhwuibp.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/librilutils.so:system/lib64/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libimedia_filters.so:system/lib64/libimedia_filters.so \
@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_msgprocess.so:system/lib64/libhsa_msgprocess.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libfidoca.so:system/lib64/libfidoca.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_configprocess.so:system/lib64/libhsa_configprocess.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libnfc_nci_jni.so:system/lib64/libnfc_nci_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libdmd.so:system/lib64/libdmd.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudiopolicyenginedefault.so:system/lib64/libaudiopolicyenginedefault.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libconn_factory_test.so:system/lib64/libconn_factory_test.so \
@@ -96,7 +95,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/lib_atprotocolsw.so:system/lib64/lib_atprotocolsw.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libperfhub.so:system/lib64/libperfhub.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libFaceBeautyMeiwo.so:system/lib64/libFaceBeautyMeiwo.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libsoftkeymasterdevice.so:system/lib64/libsoftkeymasterdevice.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/liblumCal.so:system/lib64/liblumCal.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libomx_vxe.so:system/lib64/libomx_vxe.so \
@@ -141,8 +139,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhsa_hdlc.so:system/lib64/libhsa_hdlc.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libumetrip.so:system/lib64/libumetrip.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libHwManufactureCustEx_jni.so:system/lib64/libHwManufactureCustEx_jni.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libfm_interface.so:system/lib64/libfm_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libmedia_jni.huawei.so:system/lib64/libmedia_jni.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libfm_volume.so:system/lib64/libfm_volume.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so:system/lib64/libstagefright_soft_ffmpegaudiodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libaudioalgoservice_jni.so:system/lib64/libaudioalgoservice_jni.so \
@@ -154,6 +154,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib64/libmrc_cg_postprocess.so:system/lib64/libmrc_cg_postprocess.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhw_display_test.so:system/lib64/libhw_display_test.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/lib_vibrator.so:system/lib64/lib_vibrator.so \
+	$(LOCAL_PATH)/proprietary/system/lib64/libAntiTheftService.so:system/lib64/libAntiTheftService.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libcustpwmanager_jni.so:system/lib64/libcustpwmanager_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libcontrastCal.so:system/lib64/libcontrastCal.so \
 	$(LOCAL_PATH)/proprietary/system/lib64/libhwouc_jni.so:system/lib64/libhwouc_jni.so \
@@ -223,7 +224,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/framework/HWJNIFLPLocation.jar:system/framework/HWJNIFLPLocation.jar \
 	$(LOCAL_PATH)/proprietary/system/framework/hwpostcamera.jar:system/framework/hwpostcamera.jar \
 	$(LOCAL_PATH)/proprietary/system/delapp/HwCompass/HwCompass.apk:system/delapp/HwCompass/HwCompass.apk \
-	$(LOCAL_PATH)/proprietary/system/etc/criticalpro.xml:system/etc/criticalpro.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/gps.conf:system/etc/gps.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/mkshrc:system/etc/mkshrc \
@@ -262,7 +262,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/etc/jankbdcfg.json:system/etc/jankbdcfg.json \
 	$(LOCAL_PATH)/proprietary/system/etc/libnfc_nxp_next.conf:system/etc/libnfc_nxp_next.conf \
 	$(LOCAL_PATH)/proprietary/system/etc/recovery-resource.dat:system/etc/recovery-resource.dat \
-	$(LOCAL_PATH)/proprietary/system/etc/kmemleak.debug.sh:system/etc/kmemleak.debug.sh \
 	$(LOCAL_PATH)/proprietary/system/etc/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/thermald_performance.xml:system/etc/thermald_performance.xml \
 	$(LOCAL_PATH)/proprietary/system/etc/inv_ipld.prop:system/etc/inv_ipld.prop \
@@ -1625,7 +1624,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub_service.so:system/lib/libperfhub_service.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libSmartAE.so:system/lib/libSmartAE.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhisi_efuse.so:system/lib/libhisi_efuse.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libvio.so:system/lib/libvio.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhidisk_security.so:system/lib/libhidisk_security.so \
@@ -1644,13 +1642,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libprojectmenu.so:system/lib/libprojectmenu.so \
 	$(LOCAL_PATH)/proprietary/system/lib/camera.hi3650.so:system/lib/camera.hi3650.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libwifipro.so:system/lib/libwifipro.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfm_jni.so:system/lib/libfm_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libcgroup.so:system/lib/libcgroup.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwuibp.so:system/lib/libhwuibp.so \
 	$(LOCAL_PATH)/proprietary/system/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libimedia_filters.so:system/lib/libimedia_filters.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libsecurewatermark.so:system/lib/libsecurewatermark.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libfidoca.so:system/lib/libfidoca.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libnfc_nci_jni.so:system/lib/libnfc_nci_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libdmd.so:system/lib/libdmd.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libconn_factory_test.so:system/lib/libconn_factory_test.so \
@@ -1692,7 +1690,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libperfhub.so:system/lib/libperfhub.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libiplmplmpu.so:system/lib/libiplmplmpu.so \
-	$(LOCAL_PATH)/proprietary/system/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
 	$(LOCAL_PATH)/proprietary/system/lib/liblumCal.so:system/lib/liblumCal.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libomx_vxe.so:system/lib/libomx_vxe.so \
@@ -1743,9 +1740,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/lib/libHwManufactureCustEx_jni.so:system/lib/libHwManufactureCustEx_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libiplmllite.so:system/lib/libiplmllite.so \
 	$(LOCAL_PATH)/proprietary/system/lib/lib_hwChargeMonitor_interface.so:system/lib/lib_hwChargeMonitor_interface.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfm_interface.so:system/lib/libfm_interface.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libhwpwmanager_jni.so:system/lib/libhwpwmanager_jni.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
+	$(LOCAL_PATH)/proprietary/system/lib/libfm_volume.so:system/lib/libfm_volume.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libstagefright_soft_ffmpegaudiodec_hw.so:system/lib/libstagefright_soft_ffmpegaudiodec_hw.so \
 	$(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
 	$(LOCAL_PATH)/proprietary/system/lib/libaudioalgoservice_jni.so:system/lib/libaudioalgoservice_jni.so \
@@ -1904,7 +1903,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	$(LOCAL_PATH)/proprietary/system/bin/radvd:system/bin/radvd \
 	$(LOCAL_PATH)/proprietary/system/bin/lmkd:system/bin/lmkd \
-	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
+	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat \
+	$(LOCAL_PATH)/proprietary/system/usr/idc/cyttsp4_mt.idc:system/usr/idc/cyttsp4_mt.idc \
+	$(LOCAL_PATH)/proprietary/system/usr/idc/HUAWEI_HUAWEI_GLASS.idc:system/usr/idc/HUAWEI_HUAWEI_GLASS.idc \
+	$(LOCAL_PATH)/proprietary/system/usr/idc/fingerprint.idc:system/usr/idc/fingerprint.idc \
+	$(LOCAL_PATH)/proprietary/system/usr/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl \
+	$(LOCAL_PATH)/proprietary/system/usr/keylayout/usbaudio.kl:system/usr/keylayout/usbaudio.kl
 
 
-# Total 1891 files added on 2017-03-24T08:44:23.106540 UTC
+# Total 1895 files added on 2017-04-12T15:32:44.790266 UTC
