@@ -1829,7 +1829,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/perfhub:system/bin/perfhub \
 	$(LOCAL_PATH)/proprietary/system/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
 	$(LOCAL_PATH)/proprietary/system/bin/dumptool:system/bin/dumptool \
-	$(LOCAL_PATH)/proprietary/system/bin/teecd:system/bin/teecd \
 	$(LOCAL_PATH)/proprietary/system/bin/fpc_1021_ta.sec:system/bin/fpc_1021_ta.sec \
 	$(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/system/bin/exfatfsck:system/bin/exfatfsck \
@@ -1904,7 +1903,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	$(LOCAL_PATH)/proprietary/system/bin/radvd:system/bin/radvd \
 	$(LOCAL_PATH)/proprietary/system/bin/lmkd:system/bin/lmkd \
-	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat
+	$(LOCAL_PATH)/proprietary/system/bin/isplogcat:system/bin/isplogcat \
+	$(LOCAL_PATH)/proprietary/system/usr/keylayouts/fingerprint.kl:system/usr/keylayouts/fingerprint.kl \
+	$(LOCAL_PATH)/proprietary/system/usr/keylayouts/usbaudio.kl:system/usr/keylayouts/usbaudio.kl
 
 
-# Total 1891 files added on 2017-03-24T08:44:23.106540 UTC
+# Total 1892 files added on 2017-05-12T12:09:18.146447 UTC

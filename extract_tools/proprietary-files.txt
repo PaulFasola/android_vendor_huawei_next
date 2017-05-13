@@ -1820,7 +1820,6 @@ system/bin/logctl_service
 system/bin/perfhub
 system/bin/HwCamCfgSvr
 system/bin/dumptool
-system/bin/teecd
 system/bin/fpc_1021_ta.sec
 system/bin/rild
 system/bin/exfatfsck
@@ -1896,6 +1895,8 @@ system/bin/wpa_supplicant
 system/bin/radvd
 system/bin/lmkd
 system/bin/isplogcat
+system/usr/keylayouts/fingerprint.kl
+system/usr/keylayouts/usbaudio.kl
 
 
-# Total 1891 files added on 2017-03-24T08:44:23.106563 UTC
+# Total 1892 files added on 2017-05-12T12:09:18.146468 UTC

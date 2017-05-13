@@ -3643,8 +3643,6 @@ echo "===> Extracting system/bin/HwCamCfgSvr\n"
 adb pull /system/bin/HwCamCfgSvr ../../../proprietary/system/bin
 echo "===> Extracting system/bin/dumptool\n"
 adb pull /system/bin/dumptool ../../../proprietary/system/bin
-echo "===> Extracting system/bin/teecd\n"
-adb pull /system/bin/teecd ../../../proprietary/system/bin
 echo "===> Extracting system/bin/fpc_1021_ta.sec\n"
 adb pull /system/bin/fpc_1021_ta.sec ../../../proprietary/system/bin
 echo "===> Extracting system/bin/rild\n"
@@ -3795,6 +3793,10 @@ echo "===> Extracting system/bin/lmkd\n"
 adb pull /system/bin/lmkd ../../../proprietary/system/bin
 echo "===> Extracting system/bin/isplogcat\n"
 adb pull /system/bin/isplogcat ../../../proprietary/system/bin
+echo "===> Extracting system/usr/keylayouts/fingerprint.kl\n"
+adb pull /system/usr/keylayouts/fingerprint.kl ../../../proprietary/system/usr/keylayouts
+echo "===> Extracting system/usr/keylayouts/usbaudio.kl\n"
+adb pull /system/usr/keylayouts/usbaudio.kl ../../../proprietary/system/usr/keylayouts
 
 
-# Total 1891 files added on 2017-03-24T08:44:23.106559 UTC
+# Total 1892 files added on 2017-05-12T12:09:18.146464 UTC
